@@ -1,0 +1,49 @@
+
+	<div class="container-fluid" style="padding:15px;">
+		<div class="panel panel-danger">
+			<div class="panel-heading clearfix">
+				{if condition="input('?spec_id')"}编辑{else /}添加{/if}商品规格
+				<a href="javascript:;" onclick="window.history.go(-1)" class="btn btn-default pull-right"><span class="glyphicon glyphicon-repeat"></span> 返回</a>
+			</div>
+			<div class="panel-body">
+				<form class="form-horizontal" role="form" action="" method="post">
+					<table class="table table-bordered">
+						<tbody>
+						<tr>
+							<td>规格名称：</td>
+							<td>
+								<input type="text" name="spec_name" value="{$specData.spec_name|default=''}">             
+							</td>
+						</tr>  
+						<tr>
+							<td>所属商品类型：</td>
+							<td>
+								<select name="type_id" id="type_id">
+									 <option value="">请选择</option>
+									 {foreach name="typeData" item="value"}
+									<option value="{$value.type_id}" {if condition="! empty($specData) && $specData.type_id == $value.type_id"} selected='selected' {/if} >{$value.type_name}</option>
+									{/foreach} 
+									</select>
+								<span id="err_type_id" style="color:#F00; display:none;"></span>                                        
+							</td>
+						</tr> 
+						<tr>
+							<td>可选值列表：</td> 
+							<td>
+							<textarea rows="5" cols="30" name="spec_values">{$specData.spec_items|default=''}</textarea>
+							一行文字为一个选项值
+							<span id="err_attr_values" style="color:#F00; display:none;"></span>
+							</td>
+						</tr>                                
+						</tbody>                                
+					</table>
+					<div class="form-group">
+						<div class="col-sm-12">
+							<button type="submit" class="btn btn-default pull-right">保存</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+

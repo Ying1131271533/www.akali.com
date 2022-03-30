@@ -1,0 +1,57 @@
+
+		<div class="cart_text">
+			<div class="row">
+				<form class="form-horizontal" role="form">
+					<div class="col-sm-12">
+						<h4>我的购物车</h4>
+					</div>
+					<div class="text_list col-sm-12">
+						<div class="col-sm-3">							<span>全部商品 </span>												</div>
+						<div class="col-sm-2">
+							<p>数量</p>
+						</div>
+						<div class="col-sm-2">
+							<p>单价</p>
+						</div>
+						<div class="col-sm-2">
+							<p>折扣</p>
+						</div>
+						<div class="col-sm-3">
+							<p>总价</p>
+						</div>
+					</div>
+					<ul class="lg_cart">
+						{foreach name="data" item="value"}												{eq name="$value.selected" value="1"}												<li>
+							<div class="text_product col-sm-12">
+								<div class="col-sm-3">								
+									<div class="image">
+										<a href="{:url('wed/goods/product_center', ['id' => $value.goods_id])}">											<img class="img-responsive" src="/{$value.image}" alt="shopping_pic01" />										</a>
+									</div>
+								</div>
+								<div class="col-sm-2">								
+									<p style="padding-left:30px">{$value.number}</p>																	</div>
+								<div class="col-sm-2">
+									<p>
+										<span>¥</span>&nbsp;
+										<i class="singleprice">{$value.price}</i>
+									</p>
+								</div>
+								<div class="col-sm-2">
+									<p class="discount">8<!-- {$value.price / $value.market_price * 10} --></p>
+								</div>
+								<div class="text_price col-sm-3">
+									<p>
+										<span>¥</span>&nbsp;
+										<i class="totalprice">{$value.price * $value.number}</i>
+									</p>
+								</div>
+							</div>
+						</li>												{/eq}												{/foreach}											</ul>
+				</form>
+			</div>
+		</div>
+		<div class="checkout">					<div class="checkbox-inline" style="margin-bottom: 50px;">							</div>			<button class="pull-right" id="akali" type="button" >确认商品</button>			<span class="pull-right">¥<i class="AllPrice">{$total['price']}</i></span>			<p class="pull-right">商品总金额（不含运费）：</p>						<style>				.akali{					display:none;				}			</style>						<span class="pull-right total">{$total['number']}<i class="AllPrice akali"></i></span>			<p class="pull-right">商品总件数：</p>		</div>		
+	</div>
+</div>
+<!--content end--><script>		$(function(){				$('#akali').click(function(){						window.location.href = "{:url('wed/cart/index', ['step' => 3])}";					});			});	</script>
+

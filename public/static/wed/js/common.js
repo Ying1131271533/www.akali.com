@@ -1,0 +1,1 @@
+$(window).ready(function(){		$('.dropdown > ul').addClass('dropdown-menu');		$('.dropdown li').hover(function(){				$(this).children('ul').css({display:'block'});			}, function(){				$(this).children('ul').css({display:'none'});			});});

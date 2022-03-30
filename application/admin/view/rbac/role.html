@@ -1,0 +1,44 @@
+
+ <body class="mainbody">
+	<div class="container-fluid" style="padding:15px;">
+		<div class="panel panel-danger">
+			<div class="panel-heading">角色列表</div>
+			<div class="panel-body">
+				<table class="table table-bordered table-hover">
+					<tr class="danger">
+						<td><input type="checkbox" name="id" value="option"></td>
+						<td>ID</td>
+						<td>角色名称</td>
+						<td>用户名列表</td>
+						<td>描述</td>
+						<td>操作</td>
+					</tr>
+					{foreach $role as $key => $value}
+					<tr>
+						<td><input type="checkbox" name="id" value="option{$key}"></td>
+						<td>{$value.id}</td>
+						<td>{$value.name}</td>
+						<td>阿卡丽</td>
+						<td>{$value.explain}</td>
+						<td>
+							<a class="glyphicon glyphicon-pencil" href="{:url('role_edit', ['id' => $value.id])}" ></a>&nbsp;&nbsp;
+							<a class="glyphicon glyphicon-trash" href="javascript:del({$value.id})" ></a>
+						</td>
+					</tr>
+					{/foreach}
+				</table>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		function del(id)
+		{
+			if(confirm('确定要删除吗?'))
+			{
+				var url = "{:url('admin/rbac/role_del', ['id' => 'str_replace'])}";
+				
+				window.location.href = url.replace('str_replace', id);
+			}
+		}
+	</script>
+

@@ -1,0 +1,348 @@
+[ 2019-06-28T11:19:51+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=count&kdid=17?key=c4ca4238a0b923820dcc509a6f75849b&action=count&kdid=17
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=count&kdid=17?key=c4ca4238a0b923820dcc509a6f75849b&action=count&kdid=17 [运行时间：0.099627s][吞吐率：10.04req/s] [内存消耗：574.79kb] [文件加载：53]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'count',
+  'kdid' => '17',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000894s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jm_user` [ RunTime:0.000878s ]
+[ sql ] [ SQL ] SELECT * FROM `jm_user` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.029437s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.000902s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `number` WHERE  `kdid` = 17  AND `type` = 1 LIMIT 1 [ RunTime:0.025892s ]
+
+---------------------------------------------------------------
+[ 2019-06-28T11:19:51+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=number&kdid=17?key=c4ca4238a0b923820dcc509a6f75849b&action=number&kdid=17
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=number&kdid=17?key=c4ca4238a0b923820dcc509a6f75849b&action=number&kdid=17 [运行时间：0.030106s][吞吐率：33.22req/s] [内存消耗：545.02kb] [文件加载：53]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'number',
+  'kdid' => '17',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000800s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jm_user` [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SELECT * FROM `jm_user` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.000445s ]
+[ sql ] [ SQL ] SELECT `number` FROM `number` WHERE  `kdid` = 17  AND `type` = 1 LIMIT 1 [ RunTime:0.001210s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jm_kd` [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SELECT `price` FROM `jm_kd` WHERE  `kdid` = 17 LIMIT 1 [ RunTime:0.000223s ]
+[ sql ] [ SQL ] UPDATE `number`  SET `type`=2  WHERE  `number` = '225011368960' [ RunTime:0.002547s ]
+[ sql ] [ SQL ] UPDATE `jm_user`  SET `money`=money-1.7  WHERE  `id` = 2 [ RunTime:0.019231s ]
+
+---------------------------------------------------------------
+[ 2019-06-28T11:22:16+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=count&kdid=17?key=c4ca4238a0b923820dcc509a6f75849b&action=count&kdid=17
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=count&kdid=17?key=c4ca4238a0b923820dcc509a6f75849b&action=count&kdid=17 [运行时间：0.021885s][吞吐率：45.69req/s] [内存消耗：574.80kb] [文件加载：53]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'count',
+  'kdid' => '17',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000847s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jm_user` [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SELECT * FROM `jm_user` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `number` WHERE  `kdid` = 17  AND `type` = 1 LIMIT 1 [ RunTime:0.002016s ]
+
+---------------------------------------------------------------
+[ 2019-06-28T11:22:17+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=number&kdid=17?key=c4ca4238a0b923820dcc509a6f75849b&action=number&kdid=17
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=number&kdid=17?key=c4ca4238a0b923820dcc509a6f75849b&action=number&kdid=17 [运行时间：0.011145s][吞吐率：89.73req/s] [内存消耗：545.02kb] [文件加载：53]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'number',
+  'kdid' => '17',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000783s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jm_user` [ RunTime:0.000786s ]
+[ sql ] [ SQL ] SELECT * FROM `jm_user` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.000562s ]
+[ sql ] [ SQL ] SELECT `number` FROM `number` WHERE  `kdid` = 17  AND `type` = 1 LIMIT 1 [ RunTime:0.001182s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jm_kd` [ RunTime:0.000692s ]
+[ sql ] [ SQL ] SELECT `price` FROM `jm_kd` WHERE  `kdid` = 17 LIMIT 1 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] UPDATE `number`  SET `type`=2  WHERE  `number` = '225011368961' [ RunTime:0.002477s ]
+[ sql ] [ SQL ] UPDATE `jm_user`  SET `money`=money-1.7  WHERE  `id` = 2 [ RunTime:0.000215s ]
+
+---------------------------------------------------------------
+[ 2019-06-28T11:22:17+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=number&kdid=17?key=c4ca4238a0b923820dcc509a6f75849b&action=number&kdid=17
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=number&kdid=17?key=c4ca4238a0b923820dcc509a6f75849b&action=number&kdid=17 [运行时间：0.071100s][吞吐率：14.06req/s] [内存消耗：545.02kb] [文件加载：53]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'number',
+  'kdid' => '17',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000712s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jm_user` [ RunTime:0.054490s ]
+[ sql ] [ SQL ] SELECT * FROM `jm_user` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.004229s ]
+[ sql ] [ SQL ] SELECT `number` FROM `number` WHERE  `kdid` = 17  AND `type` = 1 LIMIT 1 [ RunTime:0.001143s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jm_kd` [ RunTime:0.003559s ]
+[ sql ] [ SQL ] SELECT `price` FROM `jm_kd` WHERE  `kdid` = 17 LIMIT 1 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] UPDATE `number`  SET `type`=2  WHERE  `number` = '225011368962' [ RunTime:0.002311s ]
+[ sql ] [ SQL ] UPDATE `jm_user`  SET `money`=money-1.7  WHERE  `id` = 2 [ RunTime:0.000165s ]
+
+---------------------------------------------------------------
+[ 2019-06-28T11:22:17+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=number&kdid=17?key=c4ca4238a0b923820dcc509a6f75849b&action=number&kdid=17
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=number&kdid=17?key=c4ca4238a0b923820dcc509a6f75849b&action=number&kdid=17 [运行时间：0.011929s][吞吐率：83.83req/s] [内存消耗：545.02kb] [文件加载：53]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'number',
+  'kdid' => '17',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000772s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jm_user` [ RunTime:0.000832s ]
+[ sql ] [ SQL ] SELECT * FROM `jm_user` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SELECT `number` FROM `number` WHERE  `kdid` = 17  AND `type` = 1 LIMIT 1 [ RunTime:0.001414s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jm_kd` [ RunTime:0.000708s ]
+[ sql ] [ SQL ] SELECT `price` FROM `jm_kd` WHERE  `kdid` = 17 LIMIT 1 [ RunTime:0.000178s ]
+[ sql ] [ SQL ] UPDATE `number`  SET `type`=2  WHERE  `number` = '225011368963' [ RunTime:0.003346s ]
+[ sql ] [ SQL ] UPDATE `jm_user`  SET `money`=money-1.7  WHERE  `id` = 2 [ RunTime:0.000236s ]
+
+---------------------------------------------------------------
+[ 2019-06-28T11:24:39+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=count&kdid=17?key=c4ca4238a0b923820dcc509a6f75849b&action=count&kdid=17
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=count&kdid=17?key=c4ca4238a0b923820dcc509a6f75849b&action=count&kdid=17 [运行时间：0.016658s][吞吐率：60.03req/s] [内存消耗：574.80kb] [文件加载：53]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'count',
+  'kdid' => '17',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000750s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jm_user` [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SELECT * FROM `jm_user` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `number` WHERE  `kdid` = 17  AND `type` = 1 LIMIT 1 [ RunTime:0.001973s ]
+
+---------------------------------------------------------------
+[ 2019-06-28T11:24:39+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=number&kdid=17?key=c4ca4238a0b923820dcc509a6f75849b&action=number&kdid=17
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=number&kdid=17?key=c4ca4238a0b923820dcc509a6f75849b&action=number&kdid=17 [运行时间：0.010056s][吞吐率：99.44req/s] [内存消耗：545.02kb] [文件加载：53]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'number',
+  'kdid' => '17',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000726s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jm_user` [ RunTime:0.000699s ]
+[ sql ] [ SQL ] SELECT * FROM `jm_user` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SELECT `number` FROM `number` WHERE  `kdid` = 17  AND `type` = 1 LIMIT 1 [ RunTime:0.001154s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jm_kd` [ RunTime:0.000510s ]
+[ sql ] [ SQL ] SELECT `price` FROM `jm_kd` WHERE  `kdid` = 17 LIMIT 1 [ RunTime:0.000146s ]
+[ sql ] [ SQL ] UPDATE `number`  SET `type`=2  WHERE  `number` = '225011368964' [ RunTime:0.002233s ]
+[ sql ] [ SQL ] UPDATE `jm_user`  SET `money`=money-1.7  WHERE  `id` = 2 [ RunTime:0.000171s ]
+
+---------------------------------------------------------------
+[ 2019-06-28T11:24:39+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=number&kdid=17?key=c4ca4238a0b923820dcc509a6f75849b&action=number&kdid=17
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=number&kdid=17?key=c4ca4238a0b923820dcc509a6f75849b&action=number&kdid=17 [运行时间：0.045178s][吞吐率：22.13req/s] [内存消耗：545.02kb] [文件加载：53]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'number',
+  'kdid' => '17',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000696s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jm_user` [ RunTime:0.035909s ]
+[ sql ] [ SQL ] SELECT * FROM `jm_user` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SELECT `number` FROM `number` WHERE  `kdid` = 17  AND `type` = 1 LIMIT 1 [ RunTime:0.001122s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jm_kd` [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SELECT `price` FROM `jm_kd` WHERE  `kdid` = 17 LIMIT 1 [ RunTime:0.000146s ]
+[ sql ] [ SQL ] UPDATE `number`  SET `type`=2  WHERE  `number` = '225011368965' [ RunTime:0.002290s ]
+[ sql ] [ SQL ] UPDATE `jm_user`  SET `money`=money-1.7  WHERE  `id` = 2 [ RunTime:0.000169s ]
+
+---------------------------------------------------------------
+[ 2019-06-28T11:24:39+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=number&kdid=17?key=c4ca4238a0b923820dcc509a6f75849b&action=number&kdid=17
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=number&kdid=17?key=c4ca4238a0b923820dcc509a6f75849b&action=number&kdid=17 [运行时间：0.016305s][吞吐率：61.33req/s] [内存消耗：545.02kb] [文件加载：53]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'number',
+  'kdid' => '17',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000720s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jm_user` [ RunTime:0.003711s ]
+[ sql ] [ SQL ] SELECT * FROM `jm_user` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.003158s ]
+[ sql ] [ SQL ] SELECT `number` FROM `number` WHERE  `kdid` = 17  AND `type` = 1 LIMIT 1 [ RunTime:0.001232s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jm_kd` [ RunTime:0.000713s ]
+[ sql ] [ SQL ] SELECT `price` FROM `jm_kd` WHERE  `kdid` = 17 LIMIT 1 [ RunTime:0.000145s ]
+[ sql ] [ SQL ] UPDATE `number`  SET `type`=2  WHERE  `number` = '225011368966' [ RunTime:0.002392s ]
+[ sql ] [ SQL ] UPDATE `jm_user`  SET `money`=money-1.7  WHERE  `id` = 2 [ RunTime:0.000204s ]
+
+---------------------------------------------------------------

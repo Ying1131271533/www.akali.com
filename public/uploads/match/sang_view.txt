@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<title>丧女 第99话 - 丧女漫画在线看 - 非常爱漫</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="canonical" href="" /> 
+    <meta name="keywords" content="丧女 第99话，丧女">
+    <meta name="description" content="您正在浏览漫画丧女第99话，非常爱漫在线漫画网">
+	<meta http-equiv="Cache-Control" content="no-transform" />
+	<link rel='stylesheet'  href='/static/vim/css/view.css' type='text/css' media='all' />
+	<script type="text/javascript">
+		eval(function(p,a,c,k,e,d){while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+c.toString(a)+'\\b','g'),k[c])}}return p}('9 e=\'h\';9 g=\'["2:\\/\\/5.1.0:4\\/\\/6\\/7\\/8\\/d.3","2:\\/\\/5.1.0:4\\/\\/6\\/7\\/8\\/a.3","2:\\/\\/5.1.0:4\\/\\/6\\/7\\/8\\/b.3","2:\\/\\/5.1.0:4\\/\\/6\\/7\\/8\\/c.3","2:\\/\\/5.1.0:4\\/\\/6\\/7\\/8\\/f.3","2:\\/\\/5.1.0:4\\/\\/6\\/7\\/8\\/q.3","2:\\/\\/5.1.0:4\\/\\/6\\/7\\/8\\/o.3","2:\\/\\/5.1.0:4\\/\\/6\\/7\\/8\\/p.3","2:\\/\\/5.1.0:4\\/\\/6\\/7\\/8\\/n.3","2:\\/\\/5.1.0:4\\/\\/6\\/7\\/8\\/i.3","2:\\/\\/5.1.0:4\\/\\/6\\/7\\/8\\/m.3","2:\\/\\/5.1.0:4\\/\\/6\\/7\\/8\\/j.3","2:\\/\\/5.1.0:4\\/\\/6\\/7\\/8\\/k.3","2:\\/\\/5.1.0:4\\/\\/6\\/7\\/8\\/l.3"]\';',27,27,'com|magentozh|http|jpg|8090|imgn1|s|soagn|ch_99|var|002|003|004|001|total|005|imageData|14|010|012|013|014|011|009|007|008|006'.split('|')))
+	</script>
+</head>
+<body>
+	<div class="header">
+		<div class="nav-bg">
+			<div class="nav">
+				<ul>
+					<li><a href="http://www.verydm.com/">首页</a></li>
+					<li><a href="http://www.verydm.com/manhua/yizhougengxin">一周更新</a></li>
+					<li><a href="/index.php?r=comic/list&status=1">经典完结</a></li>
+					<li><a href="/index.php?r=comic/list&status=0">热门连载</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="head">
+			<div class="title"></div>
+			<div class="colors"></div>
+		</div>
+	</div>
+	<div class="breadcrumbs">
+		您现在的位置：<a href="http://www.verydm.com/">首页</a> &gt; <a href="http://www.verydm.com/manhua/sangnv">丧女</a> &gt; <span>第99话</span>
+	</div>
+	
+	<div class="top">
+		<a href="/chapter.php?id=73018&p=1">首页</a>
+					<a href="javascript:alert('没有上一页啦！')">上一页</a>
+				<select onchange="changePage(this.value)">
+							<option value="1" selected>第1页</option>
+							<option value="2" >第2页</option>
+							<option value="3" >第3页</option>
+							<option value="4" >第4页</option>
+							<option value="5" >第5页</option>
+							<option value="6" >第6页</option>
+							<option value="7" >第7页</option>
+							<option value="8" >第8页</option>
+							<option value="9" >第9页</option>
+							<option value="10" >第10页</option>
+							<option value="11" >第11页</option>
+							<option value="12" >第12页</option>
+							<option value="13" >第13页</option>
+							<option value="14" >第14页</option>
+					</select>
+					<a href="/chapter.php?id=73018&p=2">下一页</a>
+				<a href="/chapter.php?id=73018&p=14">尾页</a>
+	</div>
+	
+	<div class="main" style="display:none">
+		<img src="http://imgn1.veryim.net:8090//1/1agl/1/12.jpg" id="mainImage" draggable="false" data-page="1"/>
+	</div>
+	<div class="main"  style="display:block">
+		<img src="http://imgn1.magentozh.com:8090//s/soagn/ch_99/001.jpg" id="mainImage2" draggable="false" data-page="1"/>
+	</div>
+	<div class="bottom clearfix">
+		<!-- /function makgePagination($curPage, $totalPage, $path, $params=array(), $self=null) -->
+		<ul class='pagination'><li class='active'><a href='/chapter.php?id=73018&p=1'>1</a></li><li ><a href='/chapter.php?id=73018&p=2'>2</a></li><li ><a href='/chapter.php?id=73018&p=3'>3</a></li><li ><a href='/chapter.php?id=73018&p=4'>4</a></li><li ><a href='/chapter.php?id=73018&p=5'>5</a></li><li ><a href='/chapter.php?id=73018&p=6'>6</a></li><li ><a href='/chapter.php?id=73018&p=7'>7</a></li><li ><a href='/chapter.php?id=73018&p=8'>8</a></li><li><a href='/chapter.php?id=73018&p=14'>...14</a></li><li><a href='/chapter.php?id=73018&p=2'>下一页</a></li></ul>	</div>
+	
+	<div style="text-align:center;margin-top:12px">	
+		
+
+		
+	</div>
+	
+	
+	<div class="footer">
+		<div class="foot">
+			<p><a href="javascript:AddFavorite('非常爱漫','http://www.verydm.com')">加入收藏</a>&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="http://www.verydm.com/sitemap">漫画大全</a>&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="http://www.verydm.com">返回首页</a>
+			</p>
+			<p> 来自网友分享和上传，以便漫画爱好者研究漫画技巧和构图方式，禁止任何形式的下载！若喜欢，请支持购买正版！</p>
+		</div>
+	</div>
+	<div id="nextImage" style="display:none"></div>
+	<script type="text/javascript">
+		var curPage = 1;
+		var totalPage = 14;
+		var image = document.getElementById('mainImage2');
+		var clicked = false;
+		var startY = 0;
+		// mainImage.onload = function()
+		// {
+		// 	console.log('load complete');
+		// 	img = new Image();
+		// 	img.src = 'http://imgn1.magentozh.com:8090//s/soagn/ch_99/002.jpg';
+		// 	document.getElementById('nextImage').appendChild(img);
+		// }
+		//预加载
+		function loadNext(current,callback)
+		{
+			var timer = setInterval(function() {
+				//console.log('check load status');
+                if (current.complete) {
+                    callback();
+                    clearInterval(timer)
+                }
+            }, 500)
+		}
+
+		loadNext(mainImage,function(){
+			img = new Image();
+			img.src = 'http://imgn1.magentozh.com:8090//s/soagn/ch_99/002.jpg';
+			document.getElementById('nextImage').appendChild(img);
+		});
+
+
+		image.onclick = function(){
+			//window.scrollTo(0,100);
+			console.log(document.body.scrollTop);
+		}
+		image.onmousedown = function(){
+			clicked = true;
+			image.style.cursor = 'move';
+		}
+		image.onmouseup = function(){
+			clicked = false;
+			startY = 0;
+			image.style.cursor = 'default';
+		}
+		image.onmousemove = function(){
+			if(clicked)
+			{
+				if(startY == 0)
+				{
+					startY = event.y;
+					return true;
+				}
+				//console.log(event.x +'-'+ event.y);
+				var scrollTop = document.documentElement.scrollTop+document.body.scrollTop;
+				console.log("document.body.scrollTop:"+scrollTop);
+				console.log("event.y:"+event.y);
+				console.log("clickedY:"+startY);
+				var to = scrollTop - (event.y - startY)
+				console.log('to:'+to);
+				window.scrollTo(0, to);
+				startY = event.y;
+			}
+		}
+
+		document.oncontextmenu=function(e){
+			changePage(curPage+1);
+			return false;
+		}
+
+		function changePage(p)
+		{
+			if(p>totalPage)
+			{
+				alert("已经是最后一页了！");
+				return;
+			}
+			window.location = '/chapter.php?id=73018&p='+p;
+		}
+		//收藏本站
+		function AddFavorite(title, url) {
+		    try {
+		        window.external.addFavorite(url, title);
+		    }
+		    catch (e) {
+		        try {
+		            window.sidebar.addPanel(title, url, "");
+		        }
+		        catch (e) {
+		            alert("抱歉，您所使用的浏览器无法完成此操作。\n\n加入收藏失败，请使用Ctrl+D进行添加");
+		        }
+		    }
+		}
+	</script>
+	
+	<!-- 淘点金 -->
+
+	<div style="display:none">
+		<script src="http://s11.cnzz.com/z_stat.php?id=1255345200&web_id=1255345200" language="JavaScript"></script>
+	</div>
+	
+	<script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "https://hm.baidu.com/hm.js?c068a9e5ce9cfaf3ba4767b16c22dc33";
+	  var s = document.getElementsByTagName("script")[0]; 
+	  s.parentNode.insertBefore(hm, s);
+	})();
+	</script>
+		</body>
+</html>

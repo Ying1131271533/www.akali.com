@@ -1,0 +1,174 @@
+[ 2019-05-16T09:22:01+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] admin.akali.com/ [运行时间：1.240884s][吞吐率：0.81req/s] [内存消耗：483.96kb] [文件加载：53]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'home',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'admin=think%3A%7B%22username%22%3A%2216B64SDS781tcYdnFw%22%2C%22password%22%3A%223qF3tyDX788%252BKtRoHFLr0kf5lbxdqXy9nInmmMp8ZbowtI4Bq%252BJSCg%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\Web\www.akali.com\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-16T09:22:05+08:00 ] 127.0.0.1 127.0.0.1 GET /login/index.html
+[ log ] admin.akali.com/login/index.html [运行时间：0.491484s][吞吐率：2.03req/s] [内存消耗：586.68kb] [文件加载：56]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'admin=think%3A%7B%22username%22%3A%2216B64SDS781tcYdnFw%22%2C%22password%22%3A%223qF3tyDX788%252BKtRoHFLr0kf5lbxdqXy9nInmmMp8ZbowtI4Bq%252BJSCg%22%7D; PHPSESSID=f44dmf44t8t8p4homgdgaa4sfn; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.054502s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.161601s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'akali'  AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1 [ RunTime:0.018264s ]
+
+---------------------------------------------------------------
+[ 2019-05-16T09:22:05+08:00 ] 127.0.0.1 127.0.0.1 GET /home/index.html
+[ log ] admin.akali.com/home/index.html [运行时间：0.133264s][吞吐率：7.50req/s] [内存消耗：302.01kb] [文件加载：44]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-16T09:22:10+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] admin.akali.com/ [运行时间：0.158233s][吞吐率：6.32req/s] [内存消耗：673.25kb] [文件加载：58]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'home',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'admin=think%3A%7B%22username%22%3A%2216B64SDS781tcYdnFw%22%2C%22password%22%3A%223qF3tyDX788%252BKtRoHFLr0kf5lbxdqXy9nInmmMp8ZbowtI4Bq%252BJSCg%22%7D; PHPSESSID=f44dmf44t8t8p4homgdgaa4sfn; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Home->index[ D:\Web\www.akali.com\application\admin\controller\Home.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\home\index_auth.html [ array (
+  0 => 'showNode',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001375s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `node` [ RunTime:0.035594s ]
+[ sql ] [ SQL ] SELECT * FROM `node` WHERE  `show` = 1 ORDER BY `local` [ RunTime:0.012445s ]
+
+---------------------------------------------------------------
+[ 2019-05-16T09:22:11+08:00 ] 127.0.0.1 127.0.0.1 GET /home/welcome.html
+[ log ] admin.akali.com/home/welcome.html [运行时间：0.035778s][吞吐率：27.95req/s] [内存消耗：373.29kb] [文件加载：52]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; admin=think%3A%7B%22username%22%3A%2216B64SDS781tcYdnFw%22%2C%22password%22%3A%223qF3tyDX788%252BKtRoHFLr0kf5lbxdqXy9nInmmMp8ZbowtI4Bq%252BJSCg%22%7D; PHPSESSID=f44dmf44t8t8p4homgdgaa4sfn; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Home->welcome[ D:\Web\www.akali.com\application\admin\controller\Home.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\home\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

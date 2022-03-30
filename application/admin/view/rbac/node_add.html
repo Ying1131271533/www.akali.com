@@ -1,0 +1,46 @@
+
+ <body class="mainbody">
+	<div class="container-fluid" style="padding:15px;">
+		<div class="panel panel-danger">
+			<div class="panel-heading">节点添加</div>
+			<div class="panel-body">
+				<form class="form-horizontal" action="" method="post">
+					<div class="form-group">
+						<label for="name" class="col-sm-2 control-label">节点名称</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" name="name" id="name" placeholder="节点名称">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="title" class="col-sm-2 control-label">备注</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" name="title" id="title" placeholder="备注">
+						</div>
+					</div>
+					<div class="form-group" id="roles">
+						<label for="show" class="col-sm-2 control-label">是否显示</label>
+						<div class="col-sm-2" id="jinx">
+							<select class="form-control" name="show" id="show">
+								<option value="1">显示</option>
+								<option value="2">不显示</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="local" class="col-sm-2 control-label">位置</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" name="local" value="0" id="local" placeholder="位置">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-offset-2 col-sm-10">
+							<input type="hidden" name="pid" value="{$Request.param.pid|default=0}" />
+							<input type="hidden" name="level" value="{$Request.param.pid ? 2 : 1}" />
+							<button type="submit" class="btn btn-default">添加</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+

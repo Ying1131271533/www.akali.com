@@ -1,0 +1,428 @@
+
+
+<div class="responsive_cart">
+
+	<div class="cart_text">
+
+		<div class="row">
+
+			<form class="form-horizontal" role="form">
+
+				<div class="col-sm-12">
+
+					<h4>我的购物车</h4>
+
+					<span>全部商品 </span>
+
+				</div>
+
+				<div class="text_list col-sm-12">
+
+					<div class="col-sm-3">
+
+						<label class="checkbox-inline jianji">
+
+							<input type="checkbox" />全选
+
+						</label>
+
+					</div>
+
+					<div class="col-sm-2">
+
+						<p>数量</p>
+
+					</div>
+
+					<div class="col-sm-2">
+
+						<p>单价</p>
+
+					</div>
+
+					<div class="col-sm-2">
+
+						<p>折扣</p>
+
+					</div>
+
+					<div class="col-sm-3">
+
+						<p>总价</p>
+
+					</div>
+
+				</div>
+
+				<ul>
+
+					{foreach name="data" item="value"}
+					
+					<li>
+					
+						<div class="text_product col-sm-12">
+						
+							<div class="col-sm-3">
+								
+								<style>
+								
+									.ruiwen{
+										padding-top: 22px;
+									}
+									
+								</style>
+								<label class="checkbox-inline ruiwen">
+									<input type="checkbox" id="check"  name="goods[]" value="{$value.goods_id}{$value.spec_key ? '_' . $value.spec_key : ''}" {eq name="$value.selected" value="1"} checked="checked" {/eq} />
+								</label>
+								<div class="image">
+									
+									<a href="{:url('wed/goods/product_center', ['id' => $value.goods_id])}"><img class="img-responsive" class="img-responsive" src="/{$value.image}" alt="shopping_pic01" /></a>
+
+								</div>
+
+							</div>
+
+							<div class="col-sm-2">
+
+								<button type="button" class="sub pull-left" onclick="reduce({$value.goods_id}, '{$value.spec_key}', this)">-</button>
+
+								<input type="text" class="num pull-left" value="{$value.number}" />
+
+								<button type="button" class="add pull-left" onclick="plus({$value.goods_id}, '{$value.spec_key}', this)">+</button>
+
+							</div>
+
+							<div class="col-sm-2">
+
+								<p>
+
+									<span>¥</span>&nbsp;
+
+									<i class="singleprice">{$value.price}</i>
+
+								</p>
+
+							</div>
+
+							<div class="col-sm-2">
+
+								<p class="discount">{:round($value.price / $value.market_price * 10, 1)}</p>
+
+							</div>
+
+							<div class="text_price col-sm-3">
+
+								<p>
+
+									<span>¥</span>&nbsp;
+
+									<i class="totalprice">{$value.price * $value.number}</i>
+
+								</p>
+
+								<button type="button" id="delete" onclick="del(this)">删除</button>
+
+							</div>
+
+						</div>
+
+					</li>
+					
+					{/foreach}
+				
+				</ul>
+
+			</form>
+
+		</div>
+
+	</div>
+	
+</div>
+
+<div class="checkout">
+
+	<label class="checkbox-inline jianji">
+
+		<input type="checkbox"  />全选
+
+	</label>
+
+	<button class="pull-right" type="button" onclick="settleAccounts()">立即结账</button>
+
+	<span class="pull-right">¥<i class="AllPrice">{$total['price']}</i></span>
+
+	<p class="pull-right">商品总金额（不含运费）：</p>
+	
+	<style>
+		.akali{
+			display:none;
+		}
+	</style>
+	
+	<span class="pull-right total">{$total['number']}<i class="AllPrice akali"></i></span>
+
+	<p class="pull-right">商品总件数：</p>
+
+</div>
+
+</div>
+</div>
+
+<!--content end-->
+
+
+
+<script>
+
+	// 结算购物车
+	function settleAccounts()
+	{
+		var check_length = $('.text_product input[type="checkbox"]:checked').length;
+		if(check_length < 1)
+		{
+			layer.alert('请选择商品', {icon:2});
+			return false;
+		}
+		
+		// 判断用户是否登录
+		$.post("{:url('wed/logins/islogin')}", {}, function(data){
+			
+			if(data == 0)
+			{
+				//layer.msg( ,{icon:2});
+				layer.confirm('请登录后再提交订单,是否登录', function(){
+				
+					window.location.href = "{:url('wed/logins/index')}";
+				
+				});
+				return false;
+			}
+
+			window.location.href = ("{:url('wed/cart/index', ['step' => 2])}");
+			
+		}, 'text');
+		
+	}
+	
+	// 单个的 checkbox
+	$('.text_product input[type="checkbox"]').click(function(){
+		var check = $(this).prop('checked');
+		var length = $('.text_product input[type="checkbox"]').length;
+		var check_length = $('.text_product input[type="checkbox"]:checked').length;
+		var cart_id = $(this).val();
+		
+		$.post("{:url('wed/cart/ajaxchangestatus')}", {cart_id : cart_id}, function(data){
+			
+			if(data.code == 0)
+			{
+				layer.alert(data.msg, {icon:2});
+			}
+			
+			$('.total').html(data.number);
+			$('.AllPrice').html(data.price);
+			$('.ali span').html(data.count);
+			
+		}, 'json');
+		
+		
+		if(! check)
+		{
+			$(this).parents('label').css({"background":"url(/static/wed/img/checkbox.jpg) no-repeat 0 center"});
+			
+		}else
+		{
+			$(this).parents('label').css({"background":"url(/static/wed/img/checked.jpg) no-repeat 0 center"});
+		}
+		
+		if(length > check_length)
+		{
+			$('.text_list input[type="checkbox"]').prop("checked", false);
+			$('.text_list label').css({"background":"url(/static/wed/img/checkbox.jpg) no-repeat 0 center"});
+			
+			$('.checkout label').css({"background":"url(/static/wed/img/checkbox.jpg) no-repeat 0 center"});
+		}
+		
+		if(length == check_length)
+		{
+			$('.text_list input[type="checkbox"]').prop("checked", false);
+			$('.text_list label').css({"background":"url(/static/wed/img/checked.jpg) no-repeat 0 center"});
+			
+			$('.checkout label').css({"background":"url(/static/wed/img/checked.jpg) no-repeat 0 center"});
+		}
+		
+	});
+	
+	
+	// 删除商品
+	function del(obj)
+	{
+		layer.confirm('是否确认移除商品', function(){
+		
+			var cart_id = $(obj).parents('li').find('input[name="goods[]"]').val();
+		
+			$.post("{:url('wed/cart/del')}", {cart_id : cart_id}, function(data){
+				
+				if(data.code == 0)
+				{
+					layer.alert(data.msg, {icon:2});
+				}
+				
+				layer.alert('商品已从购物车中移除', {icon:1});
+				$(obj).parents('li').remove();
+				$('.total').html(data.number);
+				$('.AllPrice').html(data.price);
+				$('.ali span').html(data.count);
+				
+			}, 'json');
+			
+		});
+	}
+	
+	// 上全选
+	$('.jianji input[type="checkbox"]').click(function(){
+		
+		allChecked(this);
+		
+	});
+	
+	
+	// 全选函数
+	function allChecked(obj)
+	{
+		var check = $(obj).prop('checked');
+		
+		if(check == true)
+		{
+			$(obj).parents('label').css({"background":"url(/static/wed/img/checkbox.jpg) no-repeat 0 center"});
+			
+			$('input[type="checkbox"]').prop("checked", true);
+			$('label').css({"background":"url(/static/wed/img/checked.jpg) no-repeat 0 center"});
+			
+			$('.jianji input[type="checkbox"]').prop("checked", true);
+			
+			check = true;
+			
+		}
+		
+		if(check == false)
+		{
+			$(obj).parents('label').css({"background":"url(/static/wed/img/checked.jpg) no-repeat 0 center"});
+			
+			$('input[type="checkbox"]').prop("checked", false);
+			$('label').css({"background":"url(/static/wed/img/checkbox.jpg) no-repeat 0 center"});
+			
+			$('.jianji input[type="checkbox"]').prop("checked", false);
+			
+			check = false;
+		}
+		
+		
+		$.post("{:url('wed/cart/ajaxAllStatus')}" , {check : check}, function(data){
+		
+			$('.total').html(data.number);
+			$('.AllPrice').html(data.price);
+			$('.ali span').html(data.count);
+		
+		});
+		
+	}
+	
+	// 选中状态初始化	
+	$(function(){
+		
+		$('input[name="goods[]"]:checked').parents('label').css({"background":"url(/static/wed/img/checked.jpg) no-repeat 0 center"});
+		
+		var length = $('.text_product input[type="checkbox"]').length;
+		var check_length = $('.text_product input[type="checkbox"]:checked').length;
+		
+		if(length > check_length)
+		{
+			$('.text_list input[type="checkbox"]').prop("checked", false);
+			$('.text_list label').css({"background":"url(/static/wed/img/checkbox.jpg) no-repeat 0 center"});
+			
+			$('.checkout label').css({"background":"url(/static/wed/img/checkbox.jpg) no-repeat 0 center"});
+			
+			$('.ruiwen input[type="checkbox"]').prop("checked", false);
+		}
+		
+		if(length == check_length)
+		{
+			$('.text_list input[type="checkbox"]').prop("checked", true);
+			$('.text_list label').css({"background":"url(/static/wed/img/checked.jpg) no-repeat 0 center"});
+			
+			$('.checkout label').css({"background":"url(/static/wed/img/checked.jpg) no-repeat 0 center"});
+			
+			$('.ruiwen input[type="checkbox"]').prop("checked", true);
+		}
+		
+	});
+
+	function reduce(goods_id, spec_key, obj)
+	{
+		var number = $(obj).siblings('input').val();
+		if(number > 1)
+		{
+			number--;
+			$(obj).siblings('input').val(number);
+		
+			edit_cart(goods_id, spec_key, number, obj)
+		}
+	}
+	
+	function plus(goods_id, spec_key, obj)
+	{
+		var number = $(obj).siblings('input').val();
+		number++;
+		$(obj).siblings('input').val(number);
+		
+		edit_cart(goods_id, spec_key, number, obj)
+	}
+	
+	function edit_cart(goods_id, spec_key, number, obj)
+	{
+		$.post("{:url('wed/cart/ajaxEditCart')}", {goods_id : goods_id, key : spec_key, number : number}, function(data){
+		
+			var price = $(obj).parents('li').find('.singleprice').html();
+			/*var price = $(obj).parents('li').find('.singleprice').html().replace('¥', '');*///这种情况 可以用替换
+			$(obj).parents('li').find('.totalprice').html(price * number);
+			
+			$('.total').html(data.number);
+			$('.AllPrice').html(data.price);
+			$('.ali span').html(data.count);
+			
+		}, 'json');
+	}
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

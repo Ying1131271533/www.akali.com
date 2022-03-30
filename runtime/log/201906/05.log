@@ -1,0 +1,4131 @@
+[ 2019-06-05T09:56:01+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.akali.com/ [运行时间：0.858723s][吞吐率：1.16req/s] [内存消耗：778.73kb] [文件加载：61]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'home',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Home->index[ D:\Web\www.akali.com\application\wed\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T09:56:01+08:00 ] 127.0.0.1 127.0.0.1 POST /wed/cart/ajaxgetcount.html
+[ log ] www.akali.com/wed/cart/ajaxgetcount.html [运行时间：0.062212s][吞吐率：16.07req/s] [内存消耗：458.40kb] [文件加载：62]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'cart',
+    2 => 'ajaxgetcount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.akali.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'referer' => 'http://www.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; cart=think%3A%5B%5D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Cart->ajaxGetCount[ D:\Web\www.akali.com\application\wed\controller\Cart.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T09:56:04+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/message/index.html
+[ log ] www.akali.com/wed/message/index.html [运行时间：0.754358s][吞吐率：1.33req/s] [内存消耗：921.95kb] [文件加载：63]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'message',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Message->index[ D:\Web\www.akali.com\application\wed\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/wed\view\message\index.html [ array (
+  0 => 'companyData',
+  1 => 'company',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.252361s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.189802s ]
+[ sql ] [ SQL ] SELECT * FROM `company` ORDER BY `id`  desc LIMIT 1 [ RunTime:0.004251s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T09:56:04+08:00 ] 127.0.0.1 127.0.0.1 POST /wed/cart/ajaxgetcount.html
+[ log ] www.akali.com/wed/cart/ajaxgetcount.html [运行时间：0.003876s][吞吐率：258.00req/s] [内存消耗：457.09kb] [文件加载：62]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'cart',
+    2 => 'ajaxgetcount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.akali.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'referer' => 'http://www.akali.com/wed/message/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Cart->ajaxGetCount[ D:\Web\www.akali.com\application\wed\controller\Cart.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T14:33:17+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.akali.com/ [运行时间：0.021913s][吞吐率：45.63req/s] [内存消耗：579.99kb] [文件加载：61]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'home',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Home->index[ D:\Web\www.akali.com\application\wed\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T14:33:17+08:00 ] 127.0.0.1 127.0.0.1 POST /wed/cart/ajaxgetcount.html
+[ log ] www.akali.com/wed/cart/ajaxgetcount.html [运行时间：0.006686s][吞吐率：149.57req/s] [内存消耗：457.05kb] [文件加载：62]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'cart',
+    2 => 'ajaxgetcount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.akali.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'referer' => 'http://www.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; cart=think%3A%5B%5D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Cart->ajaxGetCount[ D:\Web\www.akali.com\application\wed\controller\Cart.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T14:33:20+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/logins/index.html
+[ log ] www.akali.com/wed/logins/index.html [运行时间：0.067184s][吞吐率：14.88req/s] [内存消耗：485.26kb] [文件加载：64]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'logins',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Logins->index[ D:\Web\www.akali.com\application\wed\controller\Logins.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/wed\view\logins\index.html [ array (
+  0 => 'companyData',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T14:33:23+08:00 ] 127.0.0.1 127.0.0.1 POST /wed/logins/index.html
+[ log ] www.akali.com/wed/logins/index.html [运行时间：0.136741s][吞吐率：7.31req/s] [内存消耗：560.33kb] [文件加载：62]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'logins',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'content-length' => '34',
+  'accept' => '*/*',
+  'origin' => 'http://www.akali.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.akali.com/wed/logins/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'akali',
+  'password' => '123',
+  'auto' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Logins->index[ D:\Web\www.akali.com\application\wed\controller\Logins.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001372s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.080945s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = 'akali' LIMIT 1 [ RunTime:0.037164s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T14:33:24+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/user/index.html
+[ log ] www.akali.com/wed/user/index.html [运行时间：0.272032s][吞吐率：3.68req/s] [内存消耗：1,040.97kb] [文件加载：67]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.akali.com/wed/logins/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D; PHPSESSID=usumdaoseuhd6floglrg84icp3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\User->index[ D:\Web\www.akali.com\application\wed\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/wed\view\user\index.html [ array (
+  0 => 'companyData',
+  1 => 'data',
+  2 => 'seenData',
+  3 => 'likeData',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001835s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.004180s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000834s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.040583s ]
+[ sql ] [ SQL ] SELECT `id`,`image` FROM `goods` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.010513s ]
+[ sql ] [ SQL ] SELECT `id`,`image` FROM `goods` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000121s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T14:33:24+08:00 ] 127.0.0.1 127.0.0.1 POST /wed/cart/ajaxgetcount.html
+[ log ] www.akali.com/wed/cart/ajaxgetcount.html [运行时间：0.011596s][吞吐率：86.24req/s] [内存消耗：457.12kb] [文件加载：62]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'cart',
+    2 => 'ajaxgetcount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.akali.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'referer' => 'http://www.akali.com/wed/user/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D; PHPSESSID=usumdaoseuhd6floglrg84icp3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Cart->ajaxGetCount[ D:\Web\www.akali.com\application\wed\controller\Cart.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T14:33:35+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/logins/index.html
+[ log ] www.akali.com/wed/logins/index.html [运行时间：0.016245s][吞吐率：61.56req/s] [内存消耗：469.99kb] [文件加载：62]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'logins',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Logins->index[ D:\Web\www.akali.com\application\wed\controller\Logins.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/wed\view\logins\index.html [ array (
+  0 => 'companyData',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T15:34:49+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/logins/index.html
+[ log ] www.akali.com/wed/logins/index.html [运行时间：0.016706s][吞吐率：59.86req/s] [内存消耗：470.98kb] [文件加载：62]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'logins',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.akali.com/wed/user/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; thinkphp_show_page_trace=0|0; PHPSESSID=usumdaoseuhd6floglrg84icp3; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Logins->index[ D:\Web\www.akali.com\application\wed\controller\Logins.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/wed\view\logins\index.html [ array (
+  0 => 'companyData',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T15:35:12+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/logins/index.html
+[ log ] www.akali.com/wed/logins/index.html [运行时间：0.015224s][吞吐率：65.68req/s] [内存消耗：469.09kb] [文件加载：62]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'logins',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Logins->index[ D:\Web\www.akali.com\application\wed\controller\Logins.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/wed\view\logins\index.html [ array (
+  0 => 'companyData',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T15:35:24+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.akali.com/ [运行时间：0.019741s][吞吐率：50.66req/s] [内存消耗：580.57kb] [文件加载：61]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'home',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.akali.com/wed/logins/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; thinkphp_show_page_trace=0|0; PHPSESSID=usumdaoseuhd6floglrg84icp3; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Home->index[ D:\Web\www.akali.com\application\wed\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T15:35:24+08:00 ] 127.0.0.1 127.0.0.1 POST /wed/cart/ajaxgetcount.html
+[ log ] www.akali.com/wed/cart/ajaxgetcount.html [运行时间：0.004023s][吞吐率：248.58req/s] [内存消耗：457.09kb] [文件加载：62]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'cart',
+    2 => 'ajaxgetcount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.akali.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'referer' => 'http://www.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; cart=think%3A%5B%5D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Cart->ajaxGetCount[ D:\Web\www.akali.com\application\wed\controller\Cart.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T15:35:41+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.akali.com/ [运行时间：0.009752s][吞吐率：102.54req/s] [内存消耗：578.70kb] [文件加载：61]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'home',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Home->index[ D:\Web\www.akali.com\application\wed\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T15:36:03+08:00 ] 127.0.0.1 127.0.0.1 GET /home/index
+[ log ] www.akali.com/home/index [运行时间：0.088452s][吞吐率：11.31req/s] [内存消耗：302.84kb] [文件加载：44]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T15:37:22+08:00 ] 127.0.0.1 127.0.0.1 GET /home/jinx
+[ log ] www.akali.com/home/jinx [运行时间：0.004905s][吞吐率：203.87req/s] [内存消耗：301.60kb] [文件加载：44]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'jinx',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T15:38:11+08:00 ] 127.0.0.1 127.0.0.1 GET /logins/jinx
+[ log ] www.akali.com/logins/jinx [运行时间：0.012589s][吞吐率：79.43req/s] [内存消耗：301.58kb] [文件加载：44]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'logins',
+    1 => 'jinx',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T15:38:23+08:00 ] 127.0.0.1 127.0.0.1 POST /wed/cart/ajaxgetcount.html
+[ log ] www.akali.com/wed/cart/ajaxgetcount.html [运行时间：0.021461s][吞吐率：46.60req/s] [内存消耗：457.09kb] [文件加载：62]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'cart',
+    2 => 'ajaxgetcount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.akali.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'referer' => 'http://www.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; cart=think%3A%5B%5D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Cart->ajaxGetCount[ D:\Web\www.akali.com\application\wed\controller\Cart.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T15:38:25+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/logins/index.html
+[ log ] www.akali.com/wed/logins/index.html [运行时间：0.007753s][吞吐率：128.98req/s] [内存消耗：472.05kb] [文件加载：62]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'logins',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Logins->index[ D:\Web\www.akali.com\application\wed\controller\Logins.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/wed\view\logins\index.html [ array (
+  0 => 'companyData',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T15:38:38+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/logins/jinx.html
+[ log ] www.akali.com/wed/logins/jinx.html [运行时间：0.015731s][吞吐率：63.57req/s] [内存消耗：467.61kb] [文件加载：60]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'logins',
+    2 => 'jinx',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Logins->jinx[ D:\Web\www.akali.com\application\wed\controller\Logins.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T15:38:54+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/logins/jinx.html
+[ log ] www.akali.com/wed/logins/jinx.html [运行时间：0.004262s][吞吐率：234.63req/s] [内存消耗：466.13kb] [文件加载：60]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'logins',
+    2 => 'jinx',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Logins->jinx[ D:\Web\www.akali.com\application\wed\controller\Logins.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T15:39:48+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/logins/jinx.html
+[ log ] www.akali.com/wed/logins/jinx.html [运行时间：0.028475s][吞吐率：35.12req/s] [内存消耗：438.83kb] [文件加载：62]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'logins',
+    2 => 'jinx',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Logins->jinx[ D:\Web\www.akali.com\application\wed\controller\Logins.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]variable type error： array[D:\Web\www.akali.com\thinkphp\library\think\Response.php:312]
+
+---------------------------------------------------------------
+[ 2019-06-05T15:39:58+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/logins/jinx.html
+[ log ] www.akali.com/wed/logins/jinx.html [运行时间：0.016705s][吞吐率：59.86req/s] [内存消耗：454.83kb] [文件加载：60]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'logins',
+    2 => 'jinx',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Logins->jinx[ D:\Web\www.akali.com\application\wed\controller\Logins.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T15:40:10+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/logins/jinx.html
+[ log ] www.akali.com/wed/logins/jinx.html [运行时间：0.006504s][吞吐率：153.75req/s] [内存消耗：451.87kb] [文件加载：60]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'logins',
+    2 => 'jinx',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Logins->jinx[ D:\Web\www.akali.com\application\wed\controller\Logins.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T15:40:54+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/logins/jinx.html
+[ log ] www.akali.com/wed/logins/jinx.html [运行时间：0.008468s][吞吐率：118.09req/s] [内存消耗：451.87kb] [文件加载：60]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'logins',
+    2 => 'jinx',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Logins->jinx[ D:\Web\www.akali.com\application\wed\controller\Logins.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T15:41:07+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/logins/jinx.html
+[ log ] www.akali.com/wed/logins/jinx.html [运行时间：0.003227s][吞吐率：309.89req/s] [内存消耗：451.87kb] [文件加载：60]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'logins',
+    2 => 'jinx',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Logins->jinx[ D:\Web\www.akali.com\application\wed\controller\Logins.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T15:42:02+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/logins/jinx.html
+[ log ] www.akali.com/wed/logins/jinx.html [运行时间：0.003350s][吞吐率：298.51req/s] [内存消耗：451.87kb] [文件加载：60]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'logins',
+    2 => 'jinx',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Logins->jinx[ D:\Web\www.akali.com\application\wed\controller\Logins.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T15:42:32+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/logins/jinx.html
+[ log ] www.akali.com/wed/logins/jinx.html [运行时间：0.006802s][吞吐率：147.01req/s] [内存消耗：451.87kb] [文件加载：60]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'logins',
+    2 => 'jinx',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Logins->jinx[ D:\Web\www.akali.com\application\wed\controller\Logins.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T15:42:47+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/logins/jinx.html
+[ log ] www.akali.com/wed/logins/jinx.html [运行时间：0.003325s][吞吐率：300.75req/s] [内存消耗：451.87kb] [文件加载：60]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'logins',
+    2 => 'jinx',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Logins->jinx[ D:\Web\www.akali.com\application\wed\controller\Logins.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T15:43:01+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/logins/jinx.html
+[ log ] www.akali.com/wed/logins/jinx.html [运行时间：0.008804s][吞吐率：113.59req/s] [内存消耗：451.87kb] [文件加载：60]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'logins',
+    2 => 'jinx',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Logins->jinx[ D:\Web\www.akali.com\application\wed\controller\Logins.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T15:43:10+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/logins/jinx.html
+[ log ] www.akali.com/wed/logins/jinx.html [运行时间：0.003269s][吞吐率：305.91req/s] [内存消耗：451.87kb] [文件加载：60]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'logins',
+    2 => 'jinx',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Logins->jinx[ D:\Web\www.akali.com\application\wed\controller\Logins.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T15:43:11+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/logins/jinx.html
+[ log ] www.akali.com/wed/logins/jinx.html [运行时间：0.002737s][吞吐率：365.36req/s] [内存消耗：451.87kb] [文件加载：60]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'logins',
+    2 => 'jinx',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Logins->jinx[ D:\Web\www.akali.com\application\wed\controller\Logins.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T15:43:13+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/logins/jinx.html
+[ log ] www.akali.com/wed/logins/jinx.html [运行时间：0.003221s][吞吐率：310.46req/s] [内存消耗：451.87kb] [文件加载：60]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'logins',
+    2 => 'jinx',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Logins->jinx[ D:\Web\www.akali.com\application\wed\controller\Logins.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T15:43:33+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/logins/jinx.html
+[ log ] www.akali.com/wed/logins/jinx.html [运行时间：0.003259s][吞吐率：306.85req/s] [内存消耗：451.87kb] [文件加载：60]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'logins',
+    2 => 'jinx',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Logins->jinx[ D:\Web\www.akali.com\application\wed\controller\Logins.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T15:45:55+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/logins/jinx.html
+[ log ] www.akali.com/wed/logins/jinx.html [运行时间：0.012326s][吞吐率：81.13req/s] [内存消耗：451.87kb] [文件加载：60]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'logins',
+    2 => 'jinx',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Logins->jinx[ D:\Web\www.akali.com\application\wed\controller\Logins.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T15:46:07+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/logins/jinx.html
+[ log ] www.akali.com/wed/logins/jinx.html [运行时间：0.003303s][吞吐率：302.75req/s] [内存消耗：451.87kb] [文件加载：60]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'logins',
+    2 => 'jinx',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Logins->jinx[ D:\Web\www.akali.com\application\wed\controller\Logins.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T15:47:30+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/logins/jinx.html
+[ log ] www.akali.com/wed/logins/jinx.html [运行时间：0.003397s][吞吐率：294.38req/s] [内存消耗：451.87kb] [文件加载：60]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'logins',
+    2 => 'jinx',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Logins->jinx[ D:\Web\www.akali.com\application\wed\controller\Logins.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T15:53:18+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/logins/jinx.html?action=order&qq=1131271533
+[ log ] www.akali.com/wed/logins/jinx.html?action=order&qq=1131271533 [运行时间：0.038404s][吞吐率：26.04req/s] [内存消耗：457.45kb] [文件加载：55]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'logins',
+    2 => 'jinx',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'order',
+  'qq' => '1131271533',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Logins->jinx[ D:\Web\www.akali.com\application\wed\controller\Logins.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T15:55:39+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/logins/jinx.html?action=order&qq=1131271533?action=order&qq=1131271533
+[ log ] www.akali.com/wed/logins/jinx.html?action=order&qq=1131271533?action=order&qq=1131271533 [运行时间：0.010824s][吞吐率：92.39req/s] [内存消耗：456.50kb] [文件加载：55]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'logins',
+    2 => 'jinx',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'order',
+  'qq' => '1131271533',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Logins->jinx[ D:\Web\www.akali.com\application\wed\controller\Logins.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T16:20:38+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/logins/jinx.html?action=order&qq=1131271533?action=order&qq=1131271533
+[ log ] www.akali.com/wed/logins/jinx.html?action=order&qq=1131271533?action=order&qq=1131271533 [运行时间：0.010989s][吞吐率：91.00req/s] [内存消耗：456.50kb] [文件加载：55]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'logins',
+    2 => 'jinx',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'order',
+  'qq' => '1131271533',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Logins->jinx[ D:\Web\www.akali.com\application\wed\controller\Logins.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T16:20:59+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/logins/jinx.html?action=order&qq=1131271533?action=order&qq=1131271533
+[ log ] www.akali.com/wed/logins/jinx.html?action=order&qq=1131271533?action=order&qq=1131271533 [运行时间：0.003097s][吞吐率：322.89req/s] [内存消耗：456.50kb] [文件加载：55]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'logins',
+    2 => 'jinx',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'order',
+  'qq' => '1131271533',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Logins->jinx[ D:\Web\www.akali.com\application\wed\controller\Logins.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T16:23:08+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?action=order&qq=1131271533?action=order&qq=1131271533
+[ log ] www.akali.com/wed/number/index.html?action=order&qq=1131271533?action=order&qq=1131271533 [运行时间：0.016659s][吞吐率：60.03req/s] [内存消耗：563.80kb] [文件加载：57]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'order',
+  'qq' => '1131271533',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001202s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.001023s ]
+[ sql ] [ SQL ] SELECT * FROM `number` LIMIT 1 [ RunTime:0.001168s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T16:23:36+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?action=order&qq=1131271533?action=order&qq=1131271533
+[ log ] www.akali.com/wed/number/index.html?action=order&qq=1131271533?action=order&qq=1131271533 [运行时间：0.011189s][吞吐率：89.37req/s] [内存消耗：571.58kb] [文件加载：61]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'order',
+  'qq' => '1131271533',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001194s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.000762s ]
+[ sql ] [ SQL ] SELECT * FROM `number` LIMIT 1 [ RunTime:0.001193s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T16:23:55+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?action=order&qq=1131271533?action=order&qq=1131271533
+[ log ] www.akali.com/wed/number/index.html?action=order&qq=1131271533?action=order&qq=1131271533 [运行时间：0.007042s][吞吐率：142.01req/s] [内存消耗：563.72kb] [文件加载：57]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'order',
+  'qq' => '1131271533',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001181s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.000766s ]
+[ sql ] [ SQL ] SELECT * FROM `number` LIMIT 1 [ RunTime:0.001032s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T16:38:06+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?action=order&qq=1131271533?action=order&qq=1131271533
+[ log ] www.akali.com/wed/number/index.html?action=order&qq=1131271533?action=order&qq=1131271533 [运行时间：0.020239s][吞吐率：49.41req/s] [内存消耗：563.72kb] [文件加载：57]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'order',
+  'qq' => '1131271533',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005674s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.000723s ]
+[ sql ] [ SQL ] SELECT * FROM `number` LIMIT 1 [ RunTime:0.001032s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T16:43:34+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?action=order&qq=1131271533?action=order&qq=1131271533&kd_id=8
+[ log ] www.akali.com/wed/number/index.html?action=order&qq=1131271533?action=order&qq=1131271533&kd_id=8 [运行时间：0.042349s][吞吐率：23.61req/s] [内存消耗：563.89kb] [文件加载：57]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'order',
+  'qq' => '1131271533',
+  'kd_id' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001876s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.001295s ]
+[ sql ] [ SQL ] SELECT * FROM `number` LIMIT 1 [ RunTime:0.001442s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T17:30:45+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?action=order&kd_id=1131271533?action=order&kd_id=8&key=c4ca4238a0b923820dcc509a6f75849b
+[ log ] www.akali.com/wed/number/index.html?action=order&kd_id=1131271533?action=order&kd_id=8&key=c4ca4238a0b923820dcc509a6f75849b [运行时间：0.046785s][吞吐率：21.37req/s] [内存消耗：451.74kb] [文件加载：64]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'order',
+  'kd_id' => '8',
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]类型错误: Too few arguments to function think\db\Query::where(), 0 passed and at least 1 expected[D:\Web\www.akali.com\thinkphp\library\think\db\Query.php:942]
+
+---------------------------------------------------------------
+[ 2019-06-05T17:35:09+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kd_id=8?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kd_id=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kd_id=8?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kd_id=8 [运行时间：0.018760s][吞吐率：53.31req/s] [内存消耗：573.98kb] [文件加载：61]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kd_id' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001204s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SELECT `secret` FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000161s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T17:36:03+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kd_id=8?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kd_id=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kd_id=8?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kd_id=8 [运行时间：0.007368s][吞吐率：135.72req/s] [内存消耗：573.98kb] [文件加载：61]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kd_id' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001175s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000793s ]
+[ sql ] [ SQL ] SELECT `secret` FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000195s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T17:38:49+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kd_id=8?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kd_id=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kd_id=8?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kd_id=8 [运行时间：0.021870s][吞吐率：45.72req/s] [内存消耗：572.88kb] [文件加载：61]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kd_id' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001381s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.001292s ]
+[ sql ] [ SQL ] SELECT `secret` FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000262s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T17:39:20+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kd_id=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kd_id=8 [运行时间：0.018049s][吞吐率：55.40req/s] [内存消耗：574.15kb] [文件加载：61]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kd_id' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001301s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SELECT `secret` FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000161s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T17:52:35+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kd_id=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kd_id=8 [运行时间：0.085756s][吞吐率：11.66req/s] [内存消耗：557.42kb] [文件加载：65]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kd_id' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002040s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.005365s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000357s ]
+[ error ] [8]未定义变量: secret[D:\Web\www.akali.com\application\wed\controller\Number.php:14]
+
+---------------------------------------------------------------
+[ 2019-06-05T17:52:43+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kd_id=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kd_id=8 [运行时间：0.031476s][吞吐率：31.77req/s] [内存消耗：584.40kb] [文件加载：61]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kd_id' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002304s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.001182s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000296s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T17:53:03+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kd_id=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kd_id=8 [运行时间：0.011215s][吞吐率：89.17req/s] [内存消耗：584.40kb] [文件加载：61]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kd_id' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001912s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.001157s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000319s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T17:53:51+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kd_id=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kd_id=8 [运行时间：0.013534s][吞吐率：73.89req/s] [内存消耗：577.85kb] [文件加载：61]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kd_id' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001970s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.001251s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000330s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T17:53:59+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=1c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kd_id=8
+[ log ] www.akali.com/wed/number/index.html?key=1c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kd_id=8 [运行时间：0.018553s][吞吐率：53.90req/s] [内存消耗：575.93kb] [文件加载：61]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => '1c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kd_id' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001212s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000815s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = '1c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000197s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T17:54:03+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kd_id=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kd_id=8 [运行时间：0.007535s][吞吐率：132.71req/s] [内存消耗：576.37kb] [文件加载：61]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kd_id' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001702s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000808s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000173s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:00:58+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8 [运行时间：0.013527s][吞吐率：73.93req/s] [内存消耗：302.31kb] [文件加载：45]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kdid' => '8',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting ']'[D:\Web\www.akali.com\application\wed\controller\Number.php:23]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:02:29+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8 [运行时间：0.008616s][吞吐率：116.06req/s] [内存消耗：302.70kb] [文件加载：45]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kdid' => '8',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting ']'[D:\Web\www.akali.com\application\wed\controller\Number.php:23]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:02:35+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8 [运行时间：0.014942s][吞吐率：66.93req/s] [内存消耗：578.44kb] [文件加载：57]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001097s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.001214s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000385s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:02:48+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8 [运行时间：0.009133s][吞吐率：109.49req/s] [内存消耗：578.49kb] [文件加载：57]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001072s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.001154s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000331s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:02:54+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8 [运行时间：0.008598s][吞吐率：116.31req/s] [内存消耗：578.44kb] [文件加载：57]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001002s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.001115s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000276s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:02:55+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8 [运行时间：0.008218s][吞吐率：121.68req/s] [内存消耗：571.85kb] [文件加载：57]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000981s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.001169s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000274s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:02:55+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8 [运行时间：0.007320s][吞吐率：136.61req/s] [内存消耗：570.76kb] [文件加载：57]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000992s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000873s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000276s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:02:55+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8 [运行时间：0.007394s][吞吐率：135.24req/s] [内存消耗：570.76kb] [文件加载：57]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001018s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000938s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000275s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:02:56+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8 [运行时间：0.007331s][吞吐率：136.41req/s] [内存消耗：570.76kb] [文件加载：57]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001053s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000852s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000266s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:02:56+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8 [运行时间：0.007393s][吞吐率：135.27req/s] [内存消耗：570.76kb] [文件加载：57]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001056s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000927s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000275s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:03:10+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8 [运行时间：0.023940s][吞吐率：41.77req/s] [内存消耗：571.85kb] [文件加载：57]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001196s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.001005s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000284s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:03:47+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8 [运行时间：0.017961s][吞吐率：55.68req/s] [内存消耗：578.41kb] [文件加载：57]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001119s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000890s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000276s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:03:52+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8 [运行时间：0.009392s][吞吐率：106.47req/s] [内存消耗：578.41kb] [文件加载：57]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001106s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.001058s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000301s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:04:12+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8 [运行时间：0.008293s][吞吐率：120.58req/s] [内存消耗：578.41kb] [文件加载：57]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001072s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000903s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000312s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:04:22+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8 [运行时间：0.008948s][吞吐率：111.76req/s] [内存消耗：571.85kb] [文件加载：57]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001022s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.001221s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000281s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:04:32+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8 [运行时间：0.013544s][吞吐率：73.83req/s] [内存消耗：302.73kb] [文件加载：45]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kdid' => '8',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected 'echo' (T_ECHO), expecting ';'[D:\Web\www.akali.com\application\wed\controller\Number.php:27]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:04:38+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8 [运行时间：0.013878s][吞吐率：72.06req/s] [内存消耗：578.41kb] [文件加载：57]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001019s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000934s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000282s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:06:37+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8 [运行时间：0.036637s][吞吐率：27.29req/s] [内存消耗：568.17kb] [文件加载：65]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000832s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000671s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SELECT * FROM `number` WHERE  `kdid` = 8  AND `type` = 1 LIMIT 1 [ RunTime:0.001808s ]
+[ error ] [0]致命错误: Call to a member function toArray() on null[D:\Web\www.akali.com\application\wed\controller\Number.php:26]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:07:00+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8 [运行时间：0.014578s][吞吐率：68.60req/s] [内存消耗：567.08kb] [文件加载：65]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000694s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000708s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000172s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SELECT * FROM `number` WHERE  `kdid` = 8  AND `type` = 1 LIMIT 1 [ RunTime:0.002639s ]
+[ error ] [0]致命错误: Call to a member function toArray() on null[D:\Web\www.akali.com\application\wed\controller\Number.php:26]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:07:48+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8 [运行时间：0.011756s][吞吐率：85.06req/s] [内存消耗：567.08kb] [文件加载：65]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000752s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000579s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.000810s ]
+[ sql ] [ SQL ] SELECT * FROM `number` WHERE  `kdid` = 8  AND `type` = 1 LIMIT 1 [ RunTime:0.002345s ]
+[ error ] [0]致命错误: Call to a member function toArray() on null[D:\Web\www.akali.com\application\wed\controller\Number.php:26]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:08:01+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8 [运行时间：0.023289s][吞吐率：42.94req/s] [内存消耗：570.76kb] [文件加载：57]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001102s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000911s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000286s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:09:47+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8 [运行时间：0.024193s][吞吐率：41.33req/s] [内存消耗：567.08kb] [文件加载：65]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000959s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.000762s ]
+[ sql ] [ SQL ] SELECT * FROM `number` WHERE  `kdid` = 8  AND `type` = 1 LIMIT 1 [ RunTime:0.001861s ]
+[ error ] [0]致命错误: Call to a member function toArray() on null[D:\Web\www.akali.com\application\wed\controller\Number.php:26]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:09:56+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8 [运行时间：0.022618s][吞吐率：44.21req/s] [内存消耗：570.37kb] [文件加载：57]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001038s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000993s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000286s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:10:45+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8 [运行时间：0.024383s][吞吐率：41.01req/s] [内存消耗：567.05kb] [文件加载：65]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001047s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000951s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000405s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.001115s ]
+[ sql ] [ SQL ] SELECT * FROM `number` WHERE  `kdid` = 8  AND `type` = 1 LIMIT 1 [ RunTime:0.002909s ]
+[ error ] [0]致命错误: Call to a member function toArray() on null[D:\Web\www.akali.com\application\wed\controller\Number.php:26]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:11:18+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8 [运行时间：0.009768s][吞吐率：102.38req/s] [内存消耗：567.05kb] [文件加载：65]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000717s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000589s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000172s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.000533s ]
+[ sql ] [ SQL ] SELECT * FROM `number` WHERE  `kdid` = 8  AND `type` = 1 LIMIT 1 [ RunTime:0.001795s ]
+[ error ] [0]致命错误: Call to a member function toArray() on null[D:\Web\www.akali.com\application\wed\controller\Number.php:26]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:11:55+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8 [运行时间：0.010680s][吞吐率：93.63req/s] [内存消耗：566.87kb] [文件加载：65]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000857s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SELECT * FROM `number` WHERE  `kdid` = 8  AND `type` = 1 LIMIT 1 [ RunTime:0.002001s ]
+[ error ] [0]致命错误: Call to a member function toArray() on null[D:\Web\www.akali.com\application\wed\controller\Number.php:26]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:12:46+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8 [运行时间：0.031743s][吞吐率：31.50req/s] [内存消耗：475.86kb] [文件加载：60]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T18:12:50+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8 [运行时间：0.014366s][吞吐率：69.61req/s] [内存消耗：467.41kb] [文件加载：60]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T18:12:50+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8 [运行时间：0.006015s][吞吐率：166.26req/s] [内存消耗：466.49kb] [文件加载：60]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T18:13:00+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8 [运行时间：0.022283s][吞吐率：44.88req/s] [内存消耗：571.85kb] [文件加载：57]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001148s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000964s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000274s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:15:16+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8 [运行时间：0.021106s][吞吐率：47.38req/s] [内存消耗：570.76kb] [文件加载：57]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000735s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000164s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:15:17+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8 [运行时间：0.013648s][吞吐率：73.27req/s] [内存消耗：570.76kb] [文件加载：57]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009628s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000182s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:15:22+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8 [运行时间：0.008409s][吞吐率：118.92req/s] [内存消耗：578.41kb] [文件加载：57]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001053s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000898s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000285s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:15:23+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8 [运行时间：0.017542s][吞吐率：57.01req/s] [内存消耗：571.85kb] [文件加载：57]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010542s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000903s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000281s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:15:35+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8 [运行时间：0.014529s][吞吐率：68.83req/s] [内存消耗：578.41kb] [文件加载：57]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000994s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000939s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000273s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:15:37+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8 [运行时间：0.008260s][吞吐率：121.07req/s] [内存消耗：571.85kb] [文件加载：57]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001298s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000965s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000269s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:16:25+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8 [运行时间：0.027553s][吞吐率：36.29req/s] [内存消耗：475.86kb] [文件加载：60]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T18:17:20+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8 [运行时间：0.006405s][吞吐率：156.13req/s] [内存消耗：467.59kb] [文件加载：60]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T18:17:37+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8 [运行时间：0.004100s][吞吐率：243.90req/s] [内存消耗：466.49kb] [文件加载：60]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T18:17:54+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8 [运行时间：0.011580s][吞吐率：86.35req/s] [内存消耗：568.14kb] [文件加载：65]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000755s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `number` WHERE  `kdid` = 8  AND `type` = 1 LIMIT 1 [ RunTime:0.001914s ]
+[ error ] [0]致命错误: Call to a member function toArray() on null[D:\Web\www.akali.com\application\wed\controller\Number.php:28]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:17:59+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8 [运行时间：0.010488s][吞吐率：95.35req/s] [内存消耗：567.05kb] [文件加载：65]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000713s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000167s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SELECT * FROM `number` WHERE  `kdid` = 8  AND `type` = 1 LIMIT 1 [ RunTime:0.001970s ]
+[ error ] [0]致命错误: Call to a member function toArray() on null[D:\Web\www.akali.com\application\wed\controller\Number.php:28]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:18:13+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8 [运行时间：0.015673s][吞吐率：63.80req/s] [内存消耗：475.73kb] [文件加载：60]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T18:18:13+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8 [运行时间：0.006453s][吞吐率：154.97req/s] [内存消耗：475.73kb] [文件加载：60]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T18:18:14+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8 [运行时间：0.006835s][吞吐率：146.31req/s] [内存消耗：469.30kb] [文件加载：60]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T18:18:14+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=c4ca4238a0b923820dcc509a6f75849b&kdid=8 [运行时间：0.005990s][吞吐率：166.94req/s] [内存消耗：468.21kb] [文件加载：60]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T18:18:29+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8 [运行时间：0.004035s][吞吐率：247.83req/s] [内存消耗：466.49kb] [文件加载：60]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T18:18:43+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8 [运行时间：0.015632s][吞吐率：63.97req/s] [内存消耗：467.79kb] [文件加载：60]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T18:19:11+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8 [运行时间：0.018457s][吞吐率：54.18req/s] [内存消耗：576.38kb] [文件加载：65]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001085s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000923s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.000666s ]
+[ sql ] [ SQL ] SELECT * FROM `number` WHERE  `kdid` = 8  AND `type` = 1 LIMIT 1 [ RunTime:0.002893s ]
+[ error ] [0]致命错误: Call to a member function toArray() on null[D:\Web\www.akali.com\application\wed\controller\Number.php:27]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:19:36+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8 [运行时间：0.018306s][吞吐率：54.63req/s] [内存消耗：569.83kb] [文件加载：65]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001197s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.001014s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.000968s ]
+[ sql ] [ SQL ] SELECT * FROM `number` WHERE  `kdid` = 8  AND `type` = 1 LIMIT 1 [ RunTime:0.003097s ]
+[ error ] [0]致命错误: Call to a member function toArray() on null[D:\Web\www.akali.com\application\wed\controller\Number.php:28]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:19:41+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8 [运行时间：0.014366s][吞吐率：69.61req/s] [内存消耗：597.73kb] [文件加载：62]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001015s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000872s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT * FROM `number` WHERE  `kdid` = 8  AND `type` = 1 LIMIT 1 [ RunTime:0.003094s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:19:57+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8 [运行时间：0.010965s][吞吐率：91.20req/s] [内存消耗：577.82kb] [文件加载：61]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001023s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000857s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000271s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:23:44+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=17
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=17 [运行时间：0.020367s][吞吐率：49.10req/s] [内存消耗：576.34kb] [文件加载：61]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kdid' => '17',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000825s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000676s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000178s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:23:53+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=17
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=17 [运行时间：0.034320s][吞吐率：29.14req/s] [内存消耗：591.35kb] [文件加载：62]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kdid' => '17',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001149s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000856s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.001083s ]
+[ sql ] [ SQL ] SELECT * FROM `number` WHERE  `kdid` = 17  AND `type` = 1 LIMIT 1 [ RunTime:0.001556s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:29:09+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=8 [运行时间：0.023964s][吞吐率：41.73req/s] [内存消耗：567.05kb] [文件加载：65]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kdid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000866s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.000548s ]
+[ sql ] [ SQL ] SELECT * FROM `number` WHERE  `kdid` = 8  AND `type` = 1 LIMIT 1 [ RunTime:0.001767s ]
+[ error ] [0]致命错误: Call to a member function toArray() on null[D:\Web\www.akali.com\application\wed\controller\Number.php:27]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:30:10+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=17?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=17
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=17?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=17 [运行时间：0.034693s][吞吐率：28.82req/s] [内存消耗：588.57kb] [文件加载：62]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'user-agent' => 'QQ_Mobile_V5.5',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kdid' => '17',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000722s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT * FROM `number` WHERE  `kdid` = 17  AND `type` = 1 LIMIT 1 [ RunTime:0.015787s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:30:21+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=17
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=17 [运行时间：0.010000s][吞吐率：100.00req/s] [内存消耗：590.26kb] [文件加载：62]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kdid' => '17',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000881s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000817s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000890s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.000797s ]
+[ sql ] [ SQL ] SELECT * FROM `number` WHERE  `kdid` = 17  AND `type` = 1 LIMIT 1 [ RunTime:0.001330s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:45:37+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=28
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=28 [运行时间：0.055020s][吞吐率：18.18req/s] [内存消耗：568.34kb] [文件加载：65]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kdid' => '28',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010052s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000700s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SELECT * FROM `number` WHERE  `kdid` = 28  AND `type` = 1 LIMIT 1 [ RunTime:0.001793s ]
+[ error ] [0]致命错误: Call to a member function toArray() on null[D:\Web\www.akali.com\application\wed\controller\Number.php:27]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:45:42+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=45
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=45 [运行时间：0.012978s][吞吐率：77.05req/s] [内存消耗：589.87kb] [文件加载：62]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kdid' => '45',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000882s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000665s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.004123s ]
+[ sql ] [ SQL ] SELECT * FROM `number` WHERE  `kdid` = 45  AND `type` = 1 LIMIT 1 [ RunTime:0.001244s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:48:46+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=45
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=45 [运行时间：0.031164s][吞吐率：32.09req/s] [内存消耗：597.91kb] [文件加载：62]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kdid' => '45',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001100s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000999s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.000663s ]
+[ sql ] [ SQL ] SELECT * FROM `number` WHERE  `kdid` = 45  AND `type` = 1 LIMIT 1 [ RunTime:0.001723s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:48:50+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=40
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=40 [运行时间：0.011240s][吞吐率：88.97req/s] [内存消耗：590.79kb] [文件加载：62]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kdid' => '40',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000985s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SELECT * FROM `number` WHERE  `kdid` = 40  AND `type` = 1 LIMIT 1 [ RunTime:0.001844s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:49:41+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=40
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=40 [运行时间：0.014393s][吞吐率：69.48req/s] [内存消耗：586.91kb] [文件加载：58]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kdid' => '40',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001284s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000982s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.000717s ]
+[ sql ] [ SQL ] SELECT * FROM `number` WHERE  `kdid` = 40  AND `type` = 1 LIMIT 1 [ RunTime:0.002930s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:49:57+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=45
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=45 [运行时间：0.033373s][吞吐率：29.96req/s] [内存消耗：590.96kb] [文件加载：62]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kdid' => '45',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000793s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000564s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000167s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SELECT * FROM `number` WHERE  `kdid` = 45  AND `type` = 1 LIMIT 1 [ RunTime:0.025594s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:50:13+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=45
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=45 [运行时间：0.013383s][吞吐率：74.72req/s] [内存消耗：597.91kb] [文件加载：62]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kdid' => '45',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001166s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000872s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.000926s ]
+[ sql ] [ SQL ] SELECT * FROM `number` WHERE  `kdid` = 45  AND `type` = 1 LIMIT 1 [ RunTime:0.001769s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:50:42+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=45
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=45 [运行时间：0.013664s][吞吐率：73.18req/s] [内存消耗：591.35kb] [文件加载：62]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kdid' => '45',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001346s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.001053s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.000729s ]
+[ sql ] [ SQL ] SELECT * FROM `number` WHERE  `kdid` = 45  AND `type` = 1 LIMIT 1 [ RunTime:0.001550s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:50:58+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=45
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=45 [运行时间：0.028670s][吞吐率：34.88req/s] [内存消耗：597.90kb] [文件加载：62]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kdid' => '45',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000929s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000881s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.000924s ]
+[ sql ] [ SQL ] SELECT * FROM `number` WHERE  `kdid` = 45  AND `type` = 1 LIMIT 1 [ RunTime:0.001461s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T18:51:05+08:00 ] 127.0.0.1 127.0.0.1 GET /wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=45
+[ log ] www.akali.com/wed/number/index.html?key=c4ca4238a0b923820dcc509a6f75849b&action=order&kdid=45 [运行时间：0.012767s][吞吐率：78.33req/s] [内存消耗：597.90kb] [文件加载：62]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'number',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; seen=think%3A%7B%221%22%3A%221%22%7D; like=think%3A%7B%221%22%3A%221%22%7D; PHPSESSID=usumdaoseuhd6floglrg84icp3; thinkphp_show_page_trace=0|0; cart=think%3A%5B%5D',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'action' => 'order',
+  'kdid' => '45',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Number->index[ D:\Web\www.akali.com\application\wed\controller\Number.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001088s ] mysql:dbname=www_ruiwen_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `api` [ RunTime:0.000876s ]
+[ sql ] [ SQL ] SELECT * FROM `api` WHERE  `key` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `number` [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SELECT * FROM `number` WHERE  `kdid` = 45  AND `type` = 1 LIMIT 1 [ RunTime:0.001502s ]
+
+---------------------------------------------------------------

@@ -1,0 +1,455 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>日本漫画_日本漫画大全_日本邪恶漫画大全_e绅士漫画资源网</title>
+<meta name="keywords" content="日本漫画,日本漫画大全,日本邪恶漫画大全" />
+<meta name="description" content="日本漫画,日本漫画大全,日本邪恶漫画大全" />
+<meta name="mobile-agent" content="format=xhtml;url=http://m.ess32.com/ribenmanhua/">
+<meta http-equiv="Cache-Control" content="no-transform" /> 
+<meta http-equiv="Cache-Control" content="no-siteapp" /> 
+<script type="text/javascript" src="/js/tiao.js"></script>
+<script type="text/javascript">
+uaredirect("http://m.ess32.com/ribenmanhua/");
+</script>
+<link href="http://www.ess32.com/static/style/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://www.ess32.com/static/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://www.ess32.com/static/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="http://www.ess32.com/static/js/app.js"></script>
+<script type="text/javascript" src="/js/zvda.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="logo"><a href="http://www.ess32.com" title="e绅士漫画资源网"><img src="http://www.ess32.com/static/images/logo.gif" alt="e绅士漫画资源网" /></a></div>
+    <div class="fx" style="padding-top:15px;">
+        <div class="pcsearch">
+            <script>pcsearch()</script>
+        </div>
+    	<div class="fenx">
+            <script>pcshare()</script>
+        </div>
+
+       
+													
+    </div>
+</div>
+<div class="menubox">
+    <div class="menu">    
+
+<a href="/" id="index" >首页</a> 
+
+  <li><a href='/ssmh/' ><span>绅士漫画</span></a></li>
+  
+  <li><a href='/lifanzy/' ><span>里番资源</span></a></li>
+  
+  <li><a href='/acghxq/'  rel='dropmenu4'><span>ACG和谐区</span></a></li>
+  <li><a href='/ribenmanhua/' class='cur'>日本漫画</a></li>
+  <li><a href='/xiee/' ><span>邪恶漫画</span></a></li>
+  
+  <li><a href='/xieepic/' ><span>邪恶图片</span></a></li>
+  
+  <li><a href='/kalie/' ><span>腐漫画</span></a></li>
+  
+  <li><a href='/dongtaitu/'  rel='dropmenu55'><span>动态图</span></a></li>
+  
+  <li><a href='/neihan/' ><span>内涵图</span></a></li>
+  
+  <li><a href='/sexiaozu/' ><span>色小组</span></a></li>
+  
+  <li><a href='/xieejuntuan/'  rel='dropmenu2'><span>邪恶军团</span></a></li>
+  
+  <li><a href='/baozoumanhua/' ><span>暴走漫画</span></a></li>
+  
+        
+    </div>
+</div>
+
+
+    <script type="text/javascript">
+
+
+    $(document).ready(function() {
+        //hide message li after the 5th
+        $obj = $(".box").children().children()
+        $("ul:gt(0)", $obj).hide();
+        //show all messages
+        $(".z_open", this).click(function() {
+            var $objList = $(this).parent();
+            $(this).hide();
+            //$("#show_recent_only").show()
+            $("ul:gt(0)", $objList).slideDown();
+            $("div", $objList).eq(1).show();
+            return false;
+
+        });
+        //show recent messages only
+
+        $(".z_close", this).click(function() {
+            var $objList = $(this).parent();
+            $(this).hide();
+            //$("#show_all_message").show()
+            $("ul:gt(0)", $objList).slideUp();
+            $("div", $objList).eq(0).show();
+            return false;
+
+        });
+
+
+
+    });
+    </script>
+
+<div class="comiclist">
+
+		<ul>
+			<h2>日本邪恶<br>少女漫画</h2>
+            <li><a href="/fuqi/" title="夫妻成长日记" target="_blank"><img src="/static/images/xiao/fuqi.jpg" alt="夫妻成长日记" /><span>夫妻成长日记</span></a></li>
+			<li><a href="/woyuemo/" title="我与恶魔的H生活" target="_blank"><img src="/static/images/xiao/emo.jpg" alt="我与恶魔的H生活" /><span>我与恶魔的H生活</span></a></li>
+			<li><a href="/meimei/" title="最近我的妹妹有点怪" target="_blank"><img src="/static/images/xiao/meimei.jpg" alt="最近我的妹妹有点怪" /><span>最近我的妹妹有点怪</span></a></li>
+			<li><a href="/yujie/" title="御姐进行时" target="_blank"><img src="/static/images/xiao/yujie.jpg" alt="御姐进行时" /><span>御姐进行时</span></a></li>
+			<li><a href="/jixienvpu/" title="机械女仆" target="_blank"><img src="/static/images/xiao/jixie.jpg" alt="机械女仆" /><span>机械女仆</span></a></li>
+			<li><a href="/jingbacaomei/" title="惊爆草莓" target="_blank"><img src="/static/images/xiao/caomei.jpg" alt="惊爆草莓" /><span>惊爆草莓</span></a></li>
+			<li><a href="/pisa/" title="披萨恋恋曲" target="_blank"><img src="/static/images/xiao/pisalianqu.jpg" alt="披萨恋恋曲" /><span>披萨恋恋曲</span></a></li>
+			<li><a href="/shaonian/" title="少年啊！要胸怀大志！" target="_blank"><img src="/static/images/xiao/shaonian.jpg" alt="少年啊！要胸怀大志！" /><span>少年啊！要胸怀大志！</span></a></li>
+			<li><a href="/wotaitai/" title="我太太是女高中生" target="_blank"><img src="/static/images/xiao/gaozhongsheng.jpg" alt="我太太是女高中生" /><span>我太太是女高中生</span></a></li>
+			<li><a href="/shaonvpaibie/" title="少女派别" target="_blank"><img src="/static/images/xiao/shaonv.jpg" alt="少女派别" /><span>少女派别</span></a></li>
+            <li><a href="/ribenmanhua/wuyiniao/" title="无翼鸟邪恶漫画" target="_blank"><img src="/static/images/xiao/lezhangburu.jpg" alt="无翼鸟邪恶漫画" /><span>无翼鸟邪恶漫画</span></a></li>
+			
+		</ul>
+		<ul style="display:none;">
+			<h2>韩国<br>邪恶漫画</h2>
+            <li><a href="/renyvgongzhu/" title="人鱼公主传" target="_blank"><img src="/static/images/xiao/renyugongzhu.jpg" alt="人鱼公主传" /><span>人鱼公主传</span></a></li>
+			<li><a href="/lezhangburu/" title="乐张不入" target="_blank"><img src="/static/images/xiao/lezhangburu.jpg" alt="乐张不入" /><span>乐张不入</span></a></li>
+            <li><a href="/mayifengmi/" title="蚂蚁与蜂蜜" target="_blank"><img src="/static/images/xiao/mayifengmi.jpg" alt="蚂蚁与蜂蜜" /><span>蚂蚁与蜂蜜</span></a></li>
+			<li><a href="/guafusandai/" title="寡妇三代" target="_blank"><img src="/static/images/xiao/guafusandai.jpg" alt="寡妇三代" /><span>寡妇三代</span></a></li>
+            <li><a href="/gaogenxie/" title="高跟鞋" target="_blank"><img src="/static/images/xiao/gaogenxie.jpg" alt="高跟鞋" /><span>高跟鞋</span></a></li>
+			<li><a href="/xinxianmangguo/" title="新鲜的芒果" target="_blank"><img src="/static/images/xiao/mangguo.jpg" alt="新鲜的芒果" /><span>新鲜的芒果</span></a></li>
+			<li><a href="/menglongyzhuan/" title="梦龙Y传" target="_blank"><img src="/static/images/xiao/menglong.jpg" alt="梦龙Y传" /><span>梦龙Y传</span></a></li>
+			<li><a href="/dabikong/" title="大鼻孔系列" target="_blank"><img src="/static/images/xiao/dabikong.jpg" alt="大鼻孔系列" /><span>大鼻孔系列</span></a></li>
+			
+			<li><a href="/bangbangbing/" title="棒棒冰" target="_blank"><img src="/static/images/xiao/bangbangbing.jpg" alt="棒棒冰" /><span>棒棒冰</span></a></li>
+			<li><a href="/tianluoguniang/" title="田螺姑娘" target="_blank"><img src="/static/images/xiao/tianluoguniang.jpg" alt="田螺姑娘" /><span>田螺姑娘</span></a></li>
+			<li><a href="/sexi/" title="色系军团邪恶漫画" target="_blank"><img src="/static/images/xiao/xiee.jpg" alt="色系军团邪恶漫画" /><span>色系军团</span></a></li>
+			
+			
+		</ul>
+		<ul style="display:none;">
+			<li class="title">韩国<br>邪恶漫画</li>
+            <li><a href="/sifenzhong/" title="4分钟料理" target="_blank"><img src="/static/images/xiao/sifenzhongliaoli.jpg" alt="4分钟料理" /><span>4分钟料理</span></a></li>
+			<li><a href="/gagamaga/" title="GAGAMAGA" target="_blank"><img src="/static/images/xiao/kakawuyu.jpg" alt="GAGAMAGA" /><span>GAGAMAGA</span></a></li>
+            <li><a href="/sexiaozu/" title="色小组" target="_blank"><img src="/static/images/xiao/sexiaozu.jpg" alt="色小组" /><span>色小组</span></a></li>
+			<li><a href="/woseqige/" title="我色其歌" target="_blank"><img src="/static/images/xiao/woseqige.jpg" alt="我色其歌" /><span>我色其歌</span></a></li>
+			
+			
+		</ul>
+		
+		<ul style="display:none;">
+			<h2>中国<br>邪恶漫画</h2>
+            <li><a href="/xiaochunjie/" title="请叫我小纯洁" target="_blank"><img src="/static/images/xiao/xiaochunjie.jpg" alt="请叫我小纯洁" /><span>请叫我小纯洁</span></a></li>
+            <li><a href="/balinghoufuqi/" title="80后小夫妻" target="_blank"><img src="/static/images/xiao/balinghoufuqi.jpg" alt="80后小夫妻" /><span>80后小夫妻</span></a></li>
+			<li><a href="/fankongjingying/" title="反恐精英" target="_blank"><img src="/static/images/xiao/fankong.jpg" alt="反恐精英" /><span>反恐精英</span></a></li>
+			<li><a href="/xiaomingxilie/" title="小明系列" target="_blank"><img src="/static/images/xiao/xiaoming.jpg" alt="小明系列" /><span>小明系列</span></a></li>
+            <li><a href="/yibanbuchedan/" title="一般不扯淡" target="_blank"><img src="/static/images/xiao/yibanbuchedan.jpg" alt="一般不扯淡" /><span>一般不扯淡</span></a></li>
+			
+			<li><a href="/moshoushijie/" title="魔兽世界" target="_blank"><img src="/static/images/xiao/moshou.jpg" alt="魔兽世界" /><span>魔兽世界</span></a></li>
+			<li><a href="/xiyouriji/" title="西游日记" target="_blank"><img src="/static/images/xiao/xiyouriji.jpg" alt="西游日记" /><span>西游日记</span></a></li>
+			
+			<li><a href="/juhuaxiaodian/" title="菊花宝典" target="_blank"><img src="/static/images/xiao/juhuabaodian.jpg" alt="菊花宝典" /><span>菊花宝典</span></a></li>
+			
+		</ul>
+	
+	<div class="z_open"><a href="javascript:"><img src="/static/images/xiao/zhankai.jpg" alt="查看更多漫画" /><span>展开 <img src="/static/images/xiao/zk_ico.gif" alt="展开" /></span></a></div>
+	<div style="display:none" class="z_close"><a href="javascript:"><img src="/static/images/xiao/shousuo.jpg" alt="收起更多漫画" /><span>收起  <img src="/static/images/xiao/ss_ico.gif" alt="收起" /></a></span></div>
+</div>
+<center>
+<script>pctop()</script>
+</center>
+<div class="clr space"></div>
+<!-- /header -->
+<div class="clr space"></div>
+<script type="text/javascript" src="http://www.ess32.com/static/js/listjs.js"></script>
+<script>$(".menu #snmh").addClass('cur')</script>
+<div class="clr space"></div>
+<div class="navs"> 你现在的位置是：<a href='http://www.ess32.com/'>e绅士漫画资源网</a> > <a href='/ribenmanhua/'>日本漫画</a> > </div>
+<div class="coms">
+  <div class="listslide">
+    <div id="listfocus" >
+ <ul>
+	<li>
+		<a href="/ribenmanhua/2016/0218/9168.html"><img src="http://img2.lizipeng.com/uploads/cai/201602/et175826180406161.jpg" /></a></li>
+	<li>
+		<a href="/ribenmanhua/2016/0216/9163.html"><img src="http://img2.lizipeng.com/uploads/cai/201602/et175721160404051.jpg" /></a></li>
+</ul>
+
+    </div>
+  </div>
+  <div class="hots" style="width:360px;">
+    <div class="title">
+       <h1>日本漫画</h1>
+      <span class="ico_hot">较热</span></div>
+    <ul class="att">
+    <li>题材：<span></span></li>
+	<li>类型：<span></span></li>
+	<li>进度：<span></span></li>
+    </ul>
+    <ul  class="tbar" id="tbar">
+            <li class="cur" id="t1" onMouseMove="change(1)">作品简介</li>
+            <li id="t2" onMouseMove="change(2)">作品公告</li>
+            <li id="t3" onMouseMove="change(3)">更新时间</li>
+    </ul>
+        <div class="tcont" id="tc1">日本漫画指日本国内制作或发行的漫画，包括故事连环画和四幅一组的组画，它是画面组合作品的总称，也是指刊载这类作品的杂志和单行本。高度发展的日本漫画已经成为世界漫画当中具有独特风格以及庞大影响力的流派。多数日本漫画有一些共同的特征，而具有这类特征的漫画常被称为日式漫画。</div>
+        <div class="tcont" id="tc2" style="display:none">七龙珠,火影,名侦探柯南,海贼王等一系列将不定期更新....</div>
+        <div class="tcont" id="tc3" style="display:none">待定!!</div>
+        <div class="kg">已有<span> 1827 </span>部漫画...</div>
+  </div>
+
+  <div class="wanjie listwj">
+        <div class="t">撸的最爽</div>
+    <dl class="top1">
+    <dt><a href="/ribenmanhua/wuyiniao/2018/0121/12923.html" target="_blank"><img src="http://img.lizipeng.com/uploads/cai/201612/03/5fa2sveawby.jpg" width="70" height="100" alt="邪恶少女漫画之漏尿的时候最可爱" onerror="this.src='{dede:global.cfg_basehost/}/static/images/nopic.gif'" /></a></dt>
+      <dd>
+        <h3><a href="/ribenmanhua/wuyiniao/2018/0121/12923.html" target="_blank">邪恶少女漫画之漏尿的时候最可爱</a></h3>
+        <span class="tx">撸过：172次</span> </dd>
+
+        
+    <div style="clear:both;">
+    <dt><a href="/ribenmanhua/wuyiniao/2014/0418/2779.html" target="_blank"><img src="http://img2.lizipeng.com/uploads/allimg/c140418/13aN212310-131c46.jpg" width="70" height="100" alt="邪恶漫画:女体觉醒" onerror="this.src='{dede:global.cfg_basehost/}/static/images/nopic.gif'" /></a></dt>
+      <dd>
+        <h3><a href="/ribenmanhua/wuyiniao/2014/0418/2779.html" target="_blank">邪恶漫画:女体觉醒</a></h3>
+        <span class="tx">撸过：2055198次</span> </dd>
+</div>
+        
+    </dl>  	
+	
+    <div class="top2">
+	<div class="item"><a href="/ribenmanhua/wuyiniao/2018/0121/12922.html" target="_blank">邪恶少女漫画之槐の杜-白狐の杜外</a></div>
+
+    <div class="item"><a href="/ribenmanhua/wuyiniao/2014/0418/2782.html" target="_blank">邪恶漫画：禽兽父亲的爱</a></div>
+<div class="item"><a href="/ribenmanhua/dawuge/2015/0406/7700.html" target="_blank">爱丽斯学院_邪恶漫画少女漫画_日本邪恶少女漫</a></div>
+<div class="item"><a href="/ribenmanhua/wuyiniao/2014/0418/2694.html" target="_blank">妹妹的第一次有点紧</a></div>
+<div class="item"><a href="/ribenmanhua/2016/0401/9264.html" target="_blank">无翼鸟邪恶少女漫画全集之恋母性</a></div>
+
+    </div>
+    </div>
+</div>
+<center><script>pc960x90()</script></center>
+ 
+<div class="main">
+<h1 style="float:left; width:100%; height:46px; line-height:46px; font-size:18px; color:#fff; text-indent:15px; font-family:'微软雅黑'; background-color:#0098DF; margin-bottom:10px; margin-top:0px;">日本漫画<span style="font-size:14px; font-weight:normal; color:#fff; padding-left:5px;">列表</span></h1>
+	<div class="mainleft">
+    <center><script>pclisttop()</script></center>
+		<ul class="piclist listcon">
+			<li> <a href="/ribenmanhua/wuyiniao/2018/0121/12923.html" class="pic show" title="邪恶少女漫画之漏尿的时候最可爱" target="_blank"><span class="bt">邪恶少女漫画之漏尿的时候最可爱</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/03/5fa2sveawby.jpg" alt="邪恶少女漫画之漏尿的时候最可爱" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2018/0121/12922.html" class="pic show" title="邪恶少女漫画之槐の杜-白狐の杜" target="_blank"><span class="bt">邪恶少女漫画之槐の杜-白狐の杜</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/04/5bplls42rsx.jpg" alt="邪恶少女漫画之槐の杜-白狐の杜" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2017/1220/12637.html" class="pic show" title="鬼畜制片人诹访吉雪~写真偶像秘" target="_blank"><span class="bt">鬼畜制片人诹访吉雪~写真偶像秘</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/04/n4a3fngq1m0.jpg" alt="鬼畜制片人诹访吉雪~写真偶像秘" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2017/1212/12571.html" class="pic show" title="邪恶少女漫画之里番全彩|方Proj" target="_blank"><span class="bt">邪恶少女漫画之里番全彩|方Proj</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/03/kcanvi02rqk.jpg" alt="邪恶少女漫画之里番全彩|方Proj" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2017/1129/12515.html" class="pic show" title=" 邪恶少女漫画之神也不知道的世" target="_blank"><span class="bt"> 邪恶少女漫画之神也不知道的世</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/03/dfauh02z3ha.jpg" alt=" 邪恶少女漫画之神也不知道的世" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2017/1129/12510.html" class="pic show" title="邪恶少女漫画之甲酸酱蔑视的方法" target="_blank"><span class="bt">邪恶少女漫画之甲酸酱蔑视的方法</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/03/dshciwgxg0u.jpg" alt="邪恶少女漫画之甲酸酱蔑视的方法" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2017/1129/12507.html" class="pic show" title="邪恶少女漫画之o限回廊" target="_blank"><span class="bt">邪恶少女漫画之o限回廊</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/03/rjpvec4ekpa.jpg" alt="邪恶少女漫画之o限回廊" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2017/1129/12504.html" class="pic show" title="邪恶少女漫画之READY STEADY GO2" target="_blank"><span class="bt">邪恶少女漫画之READY STEADY GO2</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/03/q3cdhnhdznq.jpg" alt="邪恶少女漫画之READY STEADY GO2" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2017/1122/12457.html" class="pic show" title="邪恶少女漫画之泳装爱宕和面包pa" target="_blank"><span class="bt">邪恶少女漫画之泳装爱宕和面包pa</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/03/m2zgc0cewgb.jpg" alt="邪恶少女漫画之泳装爱宕和面包pa" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2017/1122/12450.html" class="pic show" title="邪恶少女漫画之璃堂画笪迨六" target="_blank"><span class="bt">邪恶少女漫画之璃堂画笪迨六</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/03/g3okmdz5eou.jpg" alt="邪恶少女漫画之璃堂画笪迨六" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2017/1116/12434.html" class="pic show" title="邪恶少女漫画之侵触の刻～兄嫁の" target="_blank"><span class="bt">邪恶少女漫画之侵触の刻～兄嫁の</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/03/vs4f1gmmoda.jpg" alt="邪恶少女漫画之侵触の刻～兄嫁の" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2017/1116/12433.html" class="pic show" title="邪恶少女漫画之萝莉σ" target="_blank"><span class="bt">邪恶少女漫画之萝莉σ</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/03/mpdui22qvsd.jpg" alt="邪恶少女漫画之萝莉σ" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2017/1116/12432.html" class="pic show" title="邪恶少女漫画之白狐の杜 其の四" target="_blank"><span class="bt">邪恶少女漫画之白狐の杜 其の四</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/03/d3akjkimikj.jpg" alt="邪恶少女漫画之白狐の杜 其の四" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2017/1116/12430.html" class="pic show" title="邪恶少女漫画之月宴是吧" target="_blank"><span class="bt">邪恶少女漫画之月宴是吧</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/03/pmhzfizce1p.jpg" alt="邪恶少女漫画之月宴是吧" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2017/1116/12428.html" class="pic show" title="粗欧派战争3" target="_blank"><span class="bt">粗欧派战争3</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/03/yyaywyn2dlz.jpg" alt="粗欧派战争3" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2017/1030/12384.html" class="pic show" title="邪恶少女漫画之胸部派" target="_blank"><span class="bt">邪恶少女漫画之胸部派</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/03/swfskt5wken.jpg" alt="邪恶少女漫画之胸部派" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2017/1022/12367.html" class="pic show" title="邪恶少女漫画之辅助斯卡H" target="_blank"><span class="bt">邪恶少女漫画之辅助斯卡H</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/03/ifwe2wreuhh.jpg" alt="邪恶少女漫画之辅助斯卡H" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2017/1022/12366.html" class="pic show" title="邪恶少女漫画之参上！鬼ヶu" target="_blank"><span class="bt">邪恶少女漫画之参上！鬼ヶu</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/03/kjhfti0iyyf.jpg" alt="邪恶少女漫画之参上！鬼ヶu" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2017/1022/12365.html" class="pic show" title="邪恶少女漫画之天使の居ぬgに…" target="_blank"><span class="bt">邪恶少女漫画之天使の居ぬgに…</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/03/pbiuj1kuqry.jpg" alt="邪恶少女漫画之天使の居ぬgに…" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2017/1022/12364.html" class="pic show" title="邪恶少女漫画之妹妹的泳装秀" target="_blank"><span class="bt">邪恶少女漫画之妹妹的泳装秀</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/03/3doxxg3puxp.jpg" alt="邪恶少女漫画之妹妹的泳装秀" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2017/1022/12363.html" class="pic show" title="邪恶少女漫画之小女孩# 11" target="_blank"><span class="bt">邪恶少女漫画之小女孩# 11</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/03/5gdnpincpkv.jpg" alt="邪恶少女漫画之小女孩# 11" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2017/1016/12352.html" class="pic show" title="邪恶少女漫画之少女は牡欲で孕み" target="_blank"><span class="bt">邪恶少女漫画之少女は牡欲で孕み</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/03/nynxoo2w5wk.jpg" alt="邪恶少女漫画之少女は牡欲で孕み" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2017/1016/12351.html" class="pic show" title="邪恶少女漫画之翔Qをお召し上" target="_blank"><span class="bt">邪恶少女漫画之翔Qをお召し上</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/03/ex1b42uca0i.jpg" alt="邪恶少女漫画之翔Qをお召し上" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2017/1016/12350.html" class="pic show" title="邪恶少女漫画之性戟细胞" target="_blank"><span class="bt">邪恶少女漫画之性戟细胞</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/03/olmw5aukuri.jpg" alt="邪恶少女漫画之性戟细胞" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2017/1016/12349.html" class="pic show" title="邪恶少女漫画之悄悄的游戏" target="_blank"><span class="bt">邪恶少女漫画之悄悄的游戏</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/03/dbck33lzizi.jpg" alt="邪恶少女漫画之悄悄的游戏" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2017/1016/12348.html" class="pic show" title="邪恶少女漫画之秘书舰的饭很好吃" target="_blank"><span class="bt">邪恶少女漫画之秘书舰的饭很好吃</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/03/tfbe2oc0tvm.jpg" alt="邪恶少女漫画之秘书舰的饭很好吃" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2017/1016/12347.html" class="pic show" title="邪恶少女漫画之真夏の佳日" target="_blank"><span class="bt">邪恶少女漫画之真夏の佳日</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/03/trrrsrhusud.jpg" alt="邪恶少女漫画之真夏の佳日" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2017/1013/12337.html" class="pic show" title="邪恶少女漫画之甜蜜的假期" target="_blank"><span class="bt">邪恶少女漫画之甜蜜的假期</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/03/0og3uzl1po4.jpg" alt="邪恶少女漫画之甜蜜的假期" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2017/0924/12289.html" class="pic show" title="夏のやきもち{き女の怪" target="_blank"><span class="bt">夏のやきもち{き女の怪</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/03/xgox2u3yua3.jpg" alt="夏のやきもち{き女の怪" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2017/0922/12283.html" class="pic show" title="邪恶少女漫画之小鸠和玛利亚全彩" target="_blank"><span class="bt">邪恶少女漫画之小鸠和玛利亚全彩</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/03/i34mng3i2sw.jpg" alt="邪恶少女漫画之小鸠和玛利亚全彩" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2017/0921/12278.html" class="pic show" title="エッチな神でゴメンネ" target="_blank"><span class="bt">エッチな神でゴメンネ</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/03/fjaex50veql.jpg" alt="エッチな神でゴメンネ" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2017/0920/12277.html" class="pic show" title="邪恶少女漫画之使之服从" target="_blank"><span class="bt">邪恶少女漫画之使之服从</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/03/epqm2gl3gwh.jpg" alt="邪恶少女漫画之使之服从" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2017/0920/12276.html" class="pic show" title="我妹妹的选择" target="_blank"><span class="bt">我妹妹的选择</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/03/4bqgqd40ybv.jpg" alt="我妹妹的选择" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2017/0920/12275.html" class="pic show" title="[石村屋 (いしむら)] 抓摺袱" target="_blank"><span class="bt">[石村屋 (いしむら)] 抓摺袱</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/03/kv0dmtt0gml.jpg" alt="[石村屋 (いしむら)] 抓摺袱" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2017/0918/12269.html" class="pic show" title="邪恶少女漫画之粉色激情" target="_blank"><span class="bt">邪恶少女漫画之粉色激情</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/03/aaoilwhtxcu.jpg" alt="邪恶少女漫画之粉色激情" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ribenmanhua/wuyiniao/2017/0918/12260.html" class="pic show" title="我的妹妹肯定是乾鱼" target="_blank"><span class="bt">我的妹妹肯定是乾鱼</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/03/qneoxzgt5k0.jpg" alt="我的妹妹肯定是乾鱼" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li>
+		</ul>
+		
+		<script type="text/javascript">
+				var scrollLoad = (function (options) {
+				var defaults = (arguments.length == 0) ? { src: 'xSrc', time: 300} : { src: options.src || 'xSrc', time: options.time ||300};
+				var camelize = function (s) {
+					return s.replace(/-(\w)/g, function (strMatch, p1) {
+						return p1.toUpperCase();
+					});
+				};
+				this.getStyle = function (element, property) {
+					if (arguments.length != 2) return false;
+					var value = element.style[camelize(property)];
+					if (!value) {
+						if (document.defaultView && document.defaultView.getComputedStyle) {
+							var css = document.defaultView.getComputedStyle(element, null);
+							value = css ? css.getPropertyValue(property) : null;
+						} else if (element.currentStyle) {
+							value = element.currentStyle[camelize(property)];
+						}
+					}
+					return value == 'auto' ? '' : value;
+				};
+				var _init = function () {
+					var offsetPage = window.pageYOffset ? window.pageYOffset : window.document.documentElement.scrollTop,
+						offsetWindow = offsetPage + Number(window.innerHeight ? window.innerHeight : document.documentElement.clientHeight),
+						docImg = document.images,
+						_len = docImg.length;
+					if (!_len) return false;
+					for (var i = 0; i < _len; i++) {
+						var attrSrc = docImg[i].getAttribute(defaults.src),
+							o = docImg[i], tag = o.nodeName.toLowerCase();
+						if (o) {
+							postPage = o.getBoundingClientRect().top + window.document.documentElement.scrollTop + window.document.body.scrollTop; postWindow = postPage + Number(this.getStyle(o, 'height').replace('px', ''));
+							if ((postPage > offsetPage && postPage < offsetWindow) || (postWindow > offsetPage && postWindow < offsetWindow)) {
+								if (tag === "img" && attrSrc !== null) {
+									o.setAttribute("src", attrSrc);
+								}
+								o = null;
+							}
+						}
+					};
+					window.onscroll = function () {
+						setTimeout(function () {
+							_init();
+						}, defaults.time);
+					}
+				};
+				return _init();
+			});
+			scrollLoad();
+		</script> 
+		
+		<div style="float:left; width:640px;">
+			<div style="float:left; width:320px;">
+				<script>pcsquare()</script>
+			</div>
+			<div style="float:right; width:312px;">
+				<script>pcsquareb()</script>
+			</div>
+		</div>
+
+
+		
+		<div class="pages">
+			<ul class="pagelist">
+			<li>首页</li>
+<li class="thisclass">1</li>
+<li><a href='list_42_2.html'>2</a></li>
+<li><a href='list_42_3.html'>3</a></li>
+<li><a href='list_42_4.html'>4</a></li>
+<li><a href='list_42_5.html'>5</a></li>
+<li><a href='list_42_6.html'>6</a></li>
+<li><a href='list_42_7.html'>7</a></li>
+<li><a href='list_42_8.html'>8</a></li>
+<li><a href='list_42_9.html'>9</a></li>
+<li><a href='list_42_10.html'>10</a></li>
+<li><a href='list_42_11.html'>11</a></li>
+<li><a href='list_42_2.html'>下一页</a></li>
+<li><a href='list_42_51.html'>末页</a></li>
+<li><select name='sldd' style='width:42px' onchange='location.href=this.options[this.selectedIndex].value;'>
+<option value='list_42_1.html' selected>1</option>
+<option value='list_42_2.html'>2</option>
+<option value='list_42_3.html'>3</option>
+<option value='list_42_4.html'>4</option>
+<option value='list_42_5.html'>5</option>
+<option value='list_42_6.html'>6</option>
+<option value='list_42_7.html'>7</option>
+<option value='list_42_8.html'>8</option>
+<option value='list_42_9.html'>9</option>
+<option value='list_42_10.html'>10</option>
+<option value='list_42_11.html'>11</option>
+<option value='list_42_12.html'>12</option>
+<option value='list_42_13.html'>13</option>
+<option value='list_42_14.html'>14</option>
+<option value='list_42_15.html'>15</option>
+<option value='list_42_16.html'>16</option>
+<option value='list_42_17.html'>17</option>
+<option value='list_42_18.html'>18</option>
+<option value='list_42_19.html'>19</option>
+<option value='list_42_20.html'>20</option>
+<option value='list_42_21.html'>21</option>
+<option value='list_42_22.html'>22</option>
+<option value='list_42_23.html'>23</option>
+<option value='list_42_24.html'>24</option>
+<option value='list_42_25.html'>25</option>
+<option value='list_42_26.html'>26</option>
+<option value='list_42_27.html'>27</option>
+<option value='list_42_28.html'>28</option>
+<option value='list_42_29.html'>29</option>
+<option value='list_42_30.html'>30</option>
+<option value='list_42_31.html'>31</option>
+<option value='list_42_32.html'>32</option>
+<option value='list_42_33.html'>33</option>
+<option value='list_42_34.html'>34</option>
+<option value='list_42_35.html'>35</option>
+<option value='list_42_36.html'>36</option>
+<option value='list_42_37.html'>37</option>
+<option value='list_42_38.html'>38</option>
+<option value='list_42_39.html'>39</option>
+<option value='list_42_40.html'>40</option>
+<option value='list_42_41.html'>41</option>
+<option value='list_42_42.html'>42</option>
+<option value='list_42_43.html'>43</option>
+<option value='list_42_44.html'>44</option>
+<option value='list_42_45.html'>45</option>
+<option value='list_42_46.html'>46</option>
+<option value='list_42_47.html'>47</option>
+<option value='list_42_48.html'>48</option>
+<option value='list_42_49.html'>49</option>
+<option value='list_42_50.html'>50</option>
+<option value='list_42_51.html'>51</option>
+</select></li>
+<li><span class="pageinfo">共 <strong>51</strong>页<strong>1827</strong>条</span></li>
+
+			</ul>
+		</div>
+
+<script>pcuyan()</script>
+		
+	</div>
+	
+	<div class="mainright">
+    	<div class="wmad_t">
+			<script>pcsquared()</script>
+		</div>
+		<style>
+		.tuijian{float:left; width:280px; background-color:#fff; margin-top:10px; padding:10px; overflow:hidden;}
+		.tuijian h3{float:left; width:280px; font-size:14px; font-weight:bold; color:#333; padding-bottom:8px;}
+		.tuijian dl{float:left; width:280px; overflow:hidden;}
+		.tuijian dl dt{float:left; width:280px; height:210px; text-align:center; overflow:hidden;}
+		.tuijian dl dt img{width:272px; min-height:210px; padding:3px; border:1px #E0DFDF solid; background-color:#fcfcfc; }
+		.tuijian dl dd{float:left; width:278px; height:28px; text-align:center; line-height:28px; border:1px #E0DFDF solid; background-color:#F5F5F5;}
+		</style>
+		<div class="tuijian">
+        	<h3>猜你喜欢</h3>
+           <dl>
+			<dt><a href="/ribenmanhua/2016/0706/9354.html" target="_blank" title="日本漫画之h雷椋・瑭`い！十七槟"><img src="http://img.lizipeng.com/uploads/cai/201607/1-1606050T9210-L.jpg" alt="日本漫画之h雷椋・瑭`い！十七槟"></a></dt>
+             <dd><a href="/ribenmanhua/2016/0706/9354.html" target="_blank" title="日本漫画之h雷椋・瑭`い！十七槟">日本漫画之h雷椋・瑭`い！十七槟</a></dd>
+            </dl>
+
+		</div>
+        
+        <div class="youlist">
+        <h3>推荐图文</h3>
+        <ul class="you">
+			  <li><a href="/ribenmanhua/wuyiniao/2015/0420/7776.html" target="_blank" title="日本邪恶少女漫画大全：亚美准备工作"><img src="http://img2.lizipeng.com/uploads/20150205/3/53/0.jpg" alt="日本邪恶少女漫画大全：亚美准备工作"><span>日本邪恶少女漫画大全：亚美准备工作</span></a></li>
+<li><a href="/ribenmanhua/wuyiniao/2017/0624/12026.html" target="_blank" title="日本邪恶18禁漫画之这里这里"><img src="http://img.lizipeng.com/uploads/cai/201608/20/fh5mmnfzrt1.jpg" alt="日本邪恶18禁漫画之这里这里"><span>日本邪恶18禁漫画之这里这里</span></a></li>
+<li><a href="/ribenmanhua/2016/0114/9075.html" target="_blank" title="日本邪恶少女漫画大全之捷安特蓝"><img src="http://img2.lizipeng.com/uploads/cai/201601/et174260140411491.jpg" alt="日本邪恶少女漫画大全之捷安特蓝"><span>日本邪恶少女漫画大全之捷安特蓝</span></a></li>
+<li><a href="/ribenmanhua/2016/0325/9248.html" target="_blank" title="无翼鸟邪恶少女漫画全集之萤酱与"><img src="http://img2.lizipeng.com/uploads/cai/201603/et178402250405351.jpg" alt="无翼鸟邪恶少女漫画全集之萤酱与"><span>无翼鸟邪恶少女漫画全集之萤酱与</span></a></li>
+<li><a href="/ribenmanhua/2016/0927/11047.html" target="_blank" title="小春是个不得了的性欲之魔"><img src="http://img.lizipeng.com/uploads/cai/201609/1-1609260939170-L.png" alt="小春是个不得了的性欲之魔"><span>小春是个不得了的性欲之魔</span></a></li>
+<li><a href="/ribenmanhua/wuyiniao/2017/0123/11544.html" target="_blank" title="邪恶少女漫画之刀男士"><img src="http://img.lizipeng.com/uploads/cai/201608/20/x1kvjxyt0lb.jpg" alt="邪恶少女漫画之刀男士"><span>邪恶少女漫画之刀男士</span></a></li>
+
+            </ul>
+        </div>
+        
+		<div id="float-r" style="position:static; top:800px; padding-top:10px; z-index: 99; float:left;">
+			
+			<div class="wmad">
+			<script>pcsquarec()</script>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="clr space"></div>
+<div class="nhmh" style="width:972px; margin:0 auto; float:none; padding-top:10px; background-color:#efefef;">
+    <div class="clr space"></div>
+    <div class="dtitle" style="font-weight:bold; font-size:20px; margin-left:20px;"><span style="font-size:14px; font-weight:normal;">长篇连载</span></div>
+    <div class="clr space"></div>
+    <div class="neihan" style="border:none; padding-left:5px; width:964px;">
+      <ul class="piclist indexplist" style="padding-bottom:5px;">
+	  <li class="img1"> <a class="pic" href="/lifanzy/" target="_blank"><span class="bt">里番资源</span><span class="bg"></span><img alt="里番资源" src="http://img2.lizipeng.com/uploads/cai/201604/et178929050405221.jpg"></a> <a class="txt" href="/lifanzy/" target="_blank">里番资源</a> </li><li class="img1"> <a class="pic" href="/ribenmanhua/youyue/" target="_blank"><span class="bt">悠月工房</span><span class="bg"></span><img alt="悠月工房" src="http://img2.lizipeng.com/static/images/youyue.jpg"></a> <a class="txt" href="/ribenmanhua/youyue/" target="_blank">悠月工房</a> </li><li class="img1"> <a class="pic" href="/ribenmanhua/dawuge/" target="_blank"><span class="bt">大吴哥邪恶漫画</span><span class="bg"></span><img alt="大吴哥邪恶漫画" src="http://img2.lizipeng.com/static/images/dawuge.jpg"></a> <a class="txt" href="/ribenmanhua/dawuge/" target="_blank">大吴哥邪恶漫画</a> </li><li class="img1"> <a class="pic" href="/ribenmanhua/muniang/" target="_blank"><span class="bt">母娘乱馆</span><span class="bg"></span><img alt="母娘乱馆" src="http://img2.lizipeng.com/static/images/muniang.jpg"></a> <a class="txt" href="/ribenmanhua/muniang/" target="_blank">母娘乱馆</a> </li><li class="img1"> <a class="pic" href="/ribenmanhua/huowu/" target="_blank"><span class="bt">不知火舞全集</span><span class="bg"></span><img alt="不知火舞全集" src="http://img2.lizipeng.com/uploads/allimg/140329/13aMc630P-30I34.jpg"></a> <a class="txt" href="/ribenmanhua/huowu/" target="_blank">不知火舞全集</a> </li><li class="img1"> <a class="pic" href="/shaonvmanhua/kunrao/" target="_blank"><span class="bt">困扰漫画</span><span class="bg"></span><img alt="困扰漫画" src="http://img2.lizipeng.com/static/images/shao3.jpg"></a> <a class="txt" href="/shaonvmanhua/kunrao/" target="_blank">困扰漫画</a> </li><li class="img1"> <a class="pic" href="/shaonvmanhua/lianjie/" target="_blank"><span class="bt">恋姐倾心</span><span class="bg"></span><img alt="恋姐倾心" src="http://img2.lizipeng.com/static/images/shao1.jpg"></a> <a class="txt" href="/shaonvmanhua/lianjie/" target="_blank">恋姐倾心</a> </li><li class="img1"> <a class="pic" href="/shaonvmanhua/chucitiyan/" target="_blank"><span class="bt">初次体验</span><span class="bg"></span><img alt="初次体验" src="http://img2.lizipeng.com/uploads/img/2014/04/26/25/0.jpg"></a> <a class="txt" href="/shaonvmanhua/chucitiyan/" target="_blank">初次体验</a> </li><li class="img1"> <a class="pic" href="/ribenmanhua/wuyiniao/" target="_blank"><span class="bt">无翼鸟漫画</span><span class="bg"></span><img alt="无翼鸟漫画" src="http://img2.lizipeng.com/uploads/allimg/c140418/13aMcA250-325592.jpg"></a> <a class="txt" href="/ribenmanhua/wuyiniao/" target="_blank">无翼鸟漫画</a> </li><li class="img1"> <a class="pic" href="/ribenmanhua/gongkou/" target="_blank"><span class="bt">工口漫画</span><span class="bg"></span><img alt="工口漫画" src="http://img2.lizipeng.com/static/images/gongkou.jpg"></a> <a class="txt" href="/ribenmanhua/gongkou/" target="_blank">工口漫画</a> </li>
+      </ul>
+    </div>
+  </div>
+<div class="clr space"></div>
+<center><script>pc960x90b()</script></center>
+
+<div class="footer">
+<div class="footlink">
+<a href="/">e绅士漫画资源网</a> 
+<a href="/tags.php">Tag</a> 
+<a href="/data/sitemap.html">网站地图</a> 
+<a href="/data/rssmap.html">Rss</a> 
+<a href="javascript:scroll(0,0)">返回顶部&uarr;</a>
+</div>
+<div class="foottxt">网站使用说明：所有图片均收集自互联网,如果喜欢，请支持正版！若侵犯到您的权益，联系我们处理。</div>
+</div>
+<script>pctj()</script>
+
+
+</body>
+</html>

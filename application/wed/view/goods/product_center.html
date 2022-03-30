@@ -1,0 +1,308 @@
+	
+		<div class="place">
+
+			<p>当前位置</p>
+
+			<img src="__PUBLIC__img/icon_place_02.png" alt="icon_place_02" />
+
+			<p><a href="{:url('wed/goods/index')}">产品中心</a></p>
+			
+			{if condition="! empty($cateParent)"}
+			
+			<img src="__PUBLIC__img/icon_place_02.png" alt="icon_place_02" />
+
+			<p><a href="{:url('wed/goods/index', ['category_id' => $cateParent['cid']])}">{$cateParent['cate_name']}</a></p>
+			
+			{/if}
+			
+			<img src="__PUBLIC__img/icon_place_02.png" alt="icon_place_02" />
+
+			<p>{$goods.goods_name}</p>
+
+		</div>
+
+		<div class="center_show">
+
+			<div class="row">
+
+				<div class="col-md-2 col-xs-12">
+
+					<div class="subnav">
+						
+						<ul>
+						
+							{foreach name="categoryNav" item="value" key="k"}
+							
+							<li {if condition="! empty($cateParent) && $cateParent['cid'] == $value.id"} class="default_style" {/if} ><a href="{:url('wed/goods/index', ['category_id' => $value.id])}">{$value.cate_name}</a></li>
+							
+							{/foreach}
+
+						</ul>
+
+					</div>
+					
+
+				</div>
+				
+				<form action="" method="post" name="form">
+				
+					<div class="col-md-10 col-sm-12 col-xs-12">
+
+						<div class="product_show" style="height:430px;">
+
+							<div class="show_top">
+
+								<div class="show_img">
+
+									<img src="/{$goods.image}" alt="{$goods.image}" />
+
+								</div>
+
+								<div class="show_text">
+
+									<h4>{$goods.goods_name}</h4>
+
+									<div class="price">
+
+										<p>价格 ¥ &nbsp;<strike>{$goods.market_price}</strike></p>
+
+										<span>
+
+											<i>1342</i><br />
+
+											交易成功
+
+										</span>
+
+										<h2><i>¥</i>&nbsp;&nbsp;{$goods.shop_price}</h2>
+
+									</div>
+									
+									
+									{foreach $spec as $specKey => $specValue}
+									
+									<p class="spec-item">
+
+										<i>{$specKey}</i>
+										
+										{foreach $specValue as $itemKey => $itemValue}
+										
+										<span {eq name="$itemKey" value="0"}class="akali"{/eq}>{$itemValue.item_name}</span>
+										
+										<input type="hidden" name="spec_{$itemValue.spec_id}" value="{$itemValue.item_id}">
+										
+										{/foreach}
+										
+									</p>
+									
+									{/foreach}
+									
+									<!-- <p>
+
+										<i>{:htmlspecialchars_decode($goods.desc.content)}</i>
+										
+									</p> -->
+									
+									<div class="cart_div">
+										<span class="numSub"></span>
+										<input type="" class="numValue" name="cart_number" value="1">
+										<span class="numAdd"></span>
+									</div>
+									<div style="overflow:hidden;">
+										<a class="shopping" href="javascript:;" onclick="buy({$goods.id})" >立即购买</a>
+										
+										<a class="shopping akali_cart" href="javascript:;" onclick="add_cart({$goods.id})" >加入购物车</a>
+									</div>	
+									
+								</div>
+
+							</div>
+<!-- 
+							<p class="title">自由搭配</p>
+
+							<div class="show_bottom">
+
+								<div class="image">
+
+									<ul>
+										
+										{foreach name="$goods.imgs" item="photoValue"}
+											
+											<li><a href="product_center.html"><img src="/{$photoValue.path}" alt="{$photoValue}" width="123px" height="109px" /></a></li>
+											
+										{/foreach}
+										
+									</ul>
+
+								</div>
+
+								<div class="button">
+
+									<a class="pay" href="shopping_cart.html">立即购买</a>
+
+									<a class="add" href="javascript:;" onclick="add_cart({$goods.id})" >加入购物车</a>
+
+								</div>
+
+							</div>
+
+							<div class="xs_button">
+
+								<a class="xs_pay" href="shopping_cart.html">立即购买</a>
+
+								<a class="xs_pay" href="javascript:;" onclick="add_cart({$goods.id})" >加入购物车</a>
+
+							</div>
+ -->
+						</div>
+
+					</div>
+				
+				</form>
+				
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+
+<!--content end-->
+
+<script>
+	
+	$(function(){
+			
+		get_spec_price();
+			
+		$('.spec-item span').click(function(){
+		
+			$(this).addClass('akali').siblings().removeClass('akali');
+			
+				get_spec_price();
+			
+		});
+		
+	});
+	
+	// 立即购买
+	function buy(goods_id)
+	{
+		var number = $('.numValue').val();
+		var item_id = get_item_id();
+		
+		$.post("{:url('wed/cart/add')}", {goods_id : goods_id, item_id : item_id, number : number}, function(data){
+			
+			if(data.code == 0)
+			{
+				layer.msg(data.msg, {icon:2});
+				return false;
+			}
+			
+			window.location.href = "{:url('wed/cart/index')}";
+			
+		}, 'json');
+	}
+	
+	// 添加购物车
+	function add_cart(goods_id)
+	{
+		var number = $('.numValue').val();
+		var item_id = get_item_id();
+		
+		$.post("{:url('wed/cart/add')}", {goods_id : goods_id, item_id : item_id, number : number}, function(data){
+			
+			if(data.code == 0)
+			{
+				layer.msg(data.msg, {icon:2});
+				return false;
+			}
+			
+			layer.msg('购物车添加成功', {icon:1});
+			$('.ali span').html(data.count);
+			
+		}, 'json');
+	}
+	
+	function get_item_id()
+	{
+		var item_id = [];
+		$('.spec-item .akali').next().each(function(){
+			item_id.push($(this).val());
+		});
+		
+		return item_id.join('_');
+	}
+	
+	function get_spec_price()
+	{
+		var item_id = get_item_id()
+		
+		//item_id = item_id.split('_');//字符串分割数组
+		
+		$.post("{:url('wed/goods/ajaxgetspecprice')}", {item_id : item_id, goods_id : {$goods.id}}, function(data){
+			
+			if(data.code == 1)
+			{
+				$('.price h2').html("<i>¥</i>&nbsp;&nbsp;" + data.spec_price);
+			}
+			
+		},'json');
+	}
+	
+	$('.numSub').click(function(){
+		var inp_number = $('.numValue').val();
+		inp_number--;
+		if($('.numValue').val() > 1)
+		{
+			$('.numValue').val(inp_number);
+		}
+		
+	});
+	
+	$('.numAdd').click(function(){
+		var inp_number = $('.numValue').val();
+		inp_number++;
+		if($('.numValue').val() < 999)
+		{
+			$('.numValue').val(inp_number);
+		}
+		
+	});
+	
+	
+/*	
+	$('.spec-item span').hover(function(){
+		$(this).addClass('akali');
+	},function(){
+		$(this).removeClass('akali');
+		
+		var akali = $(this).siblings().hasClass('aklai');
+		alert(akali);
+		var thisaklai = $(this).hasClass('aklai');
+		alert(thisaklai);
+		if(akali == false && thisaklai == false)
+		{
+			$(this).addClass('akali');
+		}
+	});
+*/
+	
+	
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

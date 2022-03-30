@@ -1,0 +1,94 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:70:"D:\Web\www.akali.com\public/../application/admin\view\login\index.html";i:1488467400;}*/ ?>
+
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>后台登录</title>
+  <link href="__PUBLIC__css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="__PUBLIC__css/login.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="__PUBLIC__js/jquery.js"></script>
+  <script type="text/javascript" src="__PUBLIC__js/bootstrap.min.js"></script>
+  <style type="text/css">
+  </style>
+  <script type="text/javascript">
+  </script>
+ </head>
+ <body class="loginbody" onkeydown="loginkey(event)">
+	<div class="login">
+		<div class="panel panel-danger">
+			<div class="panel-heading">
+				<h3 class="panel-title">后台登录</h3>
+			</div>
+			<div class="panel-body">
+				<form class="form-horizontal" role="form" action="" method="post" return="login()">
+					<div class="form-group">
+						<label for="inputusername" class="col-sm-2 control-label">用户名</label>
+						<div class="col-sm-10">
+							<input name="username" type="text" class="form-control" id="inputusername" placeholder="请输入用户名" value="" >
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="inputPassword3" class="col-sm-2 control-label">密　码</label>
+						<div class="col-sm-10">
+							<input name="password" type="password" class="form-control" id="inputPassword3" placeholder="请输入密码" value="">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="inputVcode" class="col-sm-2 control-label">验证码</label>
+						<div class="col-sm-6" style="padding-right:0;">
+							<input name="vcode" type="text" class="form-control" id="inputVcode" placeholder="请输入验证码" value="">
+						</div>
+						<div class="col-sm-4">
+							<img src="<?php echo captcha_src(); ?>" height="35px" width="130px" onclick="this.src = this.src + '?1'" style="cursor:pointer;" />
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-offset-2 col-sm-10">
+							<div class="checkbox">
+								<label>
+									<input name="reme" type="checkbox" value="1" >自动登录
+								</label>
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-offset-2 col-sm-10">
+							<button type="sbumit" class="btn btn-default" onclick="login()">登录</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+ </body>
+</html>
+
+<script>
+	
+	function loginkey(event)
+	{
+		//alert(event.keyCode);
+		if(event.keyCode == 13)
+		{
+			login();
+		}
+	}
+	
+	function login()
+	{
+		$('form').submit();
+	}
+
+</script>
+
+
+
+
+
+
+
+
+
+

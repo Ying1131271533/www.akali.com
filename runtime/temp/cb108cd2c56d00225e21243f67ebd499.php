@@ -1,0 +1,242 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:71:"D:\Web\www.akali.com\public/../application/admin\view\home\welcome.html";i:1553312877;}*/ ?>
+
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>公司后台管理</title>
+  <link href="__PUBLIC__css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="__PUBLIC__css/style.css" rel="stylesheet" type="text/css" />
+  <link href="__PUBLIC__layui/css/layui.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="__PUBLIC__js/jquery.js"></script>
+  <script type="text/javascript" src="__PUBLIC__layui/layui.js"></script>
+  <style type="text/css">
+  </style>
+  <script type="text/javascript">
+	function akali()
+	{
+		var cont = $('#content').val();
+		var myReg = /阿卡丽/gi; //这是一个正则表达式对象，可以检索4个连续的数字
+		//var myReg = new RegExp('(\\d){4}', 'gi');
+		while(res = myReg.exec(cont)) // res是检索处理的结果，但是一个结果就对应一个数组，该数组的res[0]就在找到的那个文本
+		{
+			window.alert('找到' + res[0]);
+		}
+	}
+	
+	function ruiwen()
+	{
+		var cont = $('#content').val();
+		var myreg = /abc/gi;
+		if(myreg.test(cont))
+		{
+			alert('有abc')
+		}else
+		{
+			alert('没有abc')
+		}
+	}
+	
+	// mathc方法
+	
+	function test2()
+	{
+		var cont = $('#content').val();
+		var myreg = /abc/gi;
+		
+		res = cont.match(myreg);
+		for(var i = 0; i < res.length; i++)
+		{
+			window.alert(i + " " + res[0]);
+		}
+	}
+	
+	// replace 方法
+	function test3()
+	{
+		var cont = $('#content').val();
+		var myReg = /(\d){4}/gi;
+		// 把四个数，换成 这里原来是四个数字
+		var newCon = cont.replace(myReg, "这里原是四个数字");
+		$('#content').val(newCon);
+	}
+
+	// index, leftContent, rightContent
+	function test4()
+	{
+		var cont = $('#content').val();
+		//alert(cont);
+		var myReg = /(\d){4}/gi;
+		while(res = myReg.exec(cont))
+		{
+			alert("index = " + RegExp.index + " left = " + RegExp.leftContext + " right = " + RegExp.rightContext);
+		}
+	}
+	
+	// 第一位与第四位相同 第二位于第三位相同
+	// 比如 1221， 5775，.....
+	function test5()
+	{
+		var cont = $('#content').val();
+		//alert(cont);
+		//aabbcc
+		//var myReg = /(\d)(\d)\2\1/gi;
+		
+		//abbba
+		//var myReg = /(\d)(\d)\2\2\1/gi;
+		
+		// 12321-333999111 前面五位任意 - 三个相同
+		var myReg = /(\d){5}-(\d)\2{2}(\d)\3{2}(\d)\4{2}/gi;
+		while(res = myReg.exec(cont))
+		{
+			alert(res[0]);
+		}
+		
+	}
+	
+	// 限定符 {}
+	function test5()
+	{
+		var cont = $('#content').val();
+		//alert(cont);
+		var myReg = /1{3,4}/gi;
+		while(res = myReg.exec(cont))
+		{
+			alert(res[0]);
+		}
+	}
+	
+	// 限定符 + * ?
+	function test6()
+	{
+		var cont = $('#content').val();
+		var myReg1 = /a1+/gi; //1出现1次或者多次
+		var myReg2 = /al*/gi; //1出现0次或者多次
+		var myReg3 = /a1?/gi; //1出现0次或者1次
+		while(res = myReg.exec(cont))
+		{
+			alert(res[0]);
+		}
+	}
+	
+	// 字符匹配符 [a-z] - 这个范围内的意思
+	// [^a-z] 反范围 表示可以匹配不是a-z中任意一个字符 ^在中括号里面才是 非
+	function test7()
+	{
+		var cont = $('#content').val();
+		var myReg = /[a-z]+/gi; //1出现1次或者多次
+		while(res = myReg.exec(cont))
+		{
+			alert(res[0]);
+		}
+	}
+	
+	// 三个连续任意字符
+	function test8()
+	{
+		var cont = $('#content').val();
+		var myReg = /([\w\W])\1{2}/gi; 
+		while(res = myReg.exec(cont))
+		{
+			alert(res[0]);
+		}
+	}
+	
+	// 定位符 ^ 匹配字符串的开始位置（在中括号里面才是 非） $匹配目标字符串的结束位置
+	function test9()
+	{
+		var cont = $('#content').val();
+		//var myReg =/^ali/gi;
+		var myReg =/ali$/gi;
+		while(res = myReg.exec(cont))
+		{
+			alert(res[0]);
+		}
+	}
+	
+	// 选择匹配符 |
+	function test10()
+	{
+		var cont = $('#content').val();
+		var myReg =/(ali|阿狸|阿里)/gi;
+		while(res = myReg.exec(cont))
+		{
+			alert(res[0]);
+		}
+	}
+	
+	// 练习 验证邮箱正则表示式
+	function emali()
+	{
+		var cont = $('#content').val();
+		var myReg =/^[a-zA-Z0-9_-]+@([a-zA-Z0-9]+\.)+(com|cn|net|org)$/;
+		//领导
+		//var myReg =/^[a-zA-Z0-9_-]+@([a-zA-Z0-9]{1,63}(\.[a-z]{2,10}){1,2}/g;
+		if(myReg.test(cont))
+		{
+			alert('是邮件');
+		}else
+		{
+			alert('不是邮件');
+		}
+	}
+	
+	// () 子匹配 意思是只拿括号里面的东西
+	function div()
+	{
+		var cont = '<div>href="<a id="akali" href="http://www.baidu.com" class="abc">百度</a>卡迪哦假按揭贷款感觉</div>奥迪钢筋啊';
+		// var myReg =/<div>(.*)<\/div>/;
+		var myReg =/<a.+href=['"](.+?)['"].*?/;
+		var a = cont.match(myReg);
+		console.log(a);
+	}
+	
+	// div();
+	layui.use('flow', function(){
+	  var flow = layui.flow;
+	  //当你执行这样一个方法时，即对页面中的全部带有lay-src的img元素开启了懒加载（当然你也可以指定相关img）
+	  flow.lazyimg(); 
+	});
+  </script>
+ </head>
+ <body class="welcombody">
+	欢迎来到公司后台管理
+	<br/>
+	<!-- 
+	<textarea id="content" rows="10" cols="50" ></textarea>
+	<input type="button" value="查看" onclick="emali()" />
+	 -->
+ </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

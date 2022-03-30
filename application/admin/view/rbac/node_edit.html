@@ -1,0 +1,46 @@
+
+ <body class="mainbody">
+	<div class="container-fluid" style="padding:15px;">
+		<div class="panel panel-danger">
+			<div class="panel-heading">节点修改</div>
+			<div class="panel-body">
+				<form class="form-horizontal" action="" method="post">
+					<div class="form-group">
+						<label for="name" class="col-sm-2 control-label">节点名称</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" value="{$data.name}" name="name" id="name" placeholder="节点名称">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="title" class="col-sm-2 control-label">备注</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" value="{$data.title}" name="title" id="title" placeholder="备注">
+						</div>
+					</div>
+					<div class="form-group" id="roles">
+						<label for="show" class="col-sm-2 control-label">是否显示</label>
+						<div class="col-sm-2" id="jinx">
+							<select class="form-control" name="show" id="show">
+								<option value="1" {$data.show == 1 ? 'selected' : ''}>显示</option>
+								<option value="2" {$data.show == 2 ? 'selected' : ''}>不显示</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="local" class="col-sm-2 control-label">位置</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" value="{$data.local}" name="local" id="local" placeholder="位置">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-offset-2 col-sm-10">
+							<input type="hidden" name="pid" value="{$data.pid}" />
+							<input type="hidden" name="level" value="{$data.level}" />
+							<button type="submit" class="btn btn-default">修改</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+

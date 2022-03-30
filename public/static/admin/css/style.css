@@ -1,0 +1,252 @@
+
+.welcombody{
+	background:url(../images/akali.jpg) no-repeat;
+}
+
+.mainbody{
+	padding:0;
+	margin:0;
+	width:100%;
+	height:100%;
+}
+
+.mainbody .main-header{
+	height:52px;
+	width:100%;
+	border-bottom:#ccc solid 1px;
+	background:#f3f3f3;
+}
+
+.mainbody .main-footer{
+	height:30px;
+	width:100%;
+	border-top:#666 solid 1px;
+	background:#f3f3f3;
+	position:absolute;
+	bottom:0;
+	line-height:30px;
+	text-align:center;
+}
+
+.mainbody .main-menu{
+	width:200px;
+	border-right:#999 solid 1px;
+	background:#f3f3f3;
+	position:absolute;
+	top:52px;
+	left:0;
+	bottom:30px;
+}
+
+.mainbody .main-body{
+	//background:#f3f3f3;
+	position:absolute;
+	top:52px;
+	left:200px;
+	right:0;
+	bottom:30px;
+}
+
+.mainbody .main-menu .panel-group{
+	margin-bottom:0;
+}
+
+.mainbody .main-menu .panel-group .panel{
+	border-radius:0;
+	border:none;
+	border-bottom:#efc5c5 solid 1px;
+}
+
+
+.mainbody .main-menu .panel-group .panel+.panel{
+	margin-top:0;
+}
+
+.mainbody .main-menu .panel-body{
+	padding:0;
+}
+
+.mainbody .main-menu .list-group-item:last-child,
+.mainbody .main-menu .list-group-item:first-child{
+	border-radius:0;
+}
+
+.mainbody .main-menu .list-group-item{
+	margin-bottom:0px;
+	border:none;
+	border-bottom:#efc5c5 solid 1px;
+}
+
+.mainbody .main-menu .list-group{
+	margin-bottom:0;
+}
+
+.pagination .cur span{
+	background:#ebcccc;
+	color:#fff;
+}
+
+.pagination .cur span:hover{
+	background:#ebcccc;
+	color:#fff;
+}
+
+.pagination>li>a:hover{
+	//color:#ebcccc; 暂时不给;
+	background:#ebcccc;
+	color:#fff;
+}
+
+
+.navbar-default .navbar-nav>li>a{
+	color:#e07e7e;
+	//color:#c3607d;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	color:#f2a5a5;	
+}
+
+.btn-default{
+	color:#e07e7e;
+    border-color: #adadad;
+}
+
+.btn-default:hover{
+	color: #f2a5a5;
+    border-color: #adadad;
+    background-color: #ffede9;
+}
+
+.navbar-default .navbar-brand{
+	color: #c3607d;
+	font-style:bold;
+}
+
+.navbar-default .navbar-brand:hover{
+	color:#f2a5a5;	
+}
+
+.table.treetable{
+	font-size:16px;
+}
+
+.page .pagination{
+	float:right;
+	margin-right:50px;
+}
+
+.photolist{
+	margin-left:-40px;
+}
+
+.photolist li{
+	list-style:none;
+	margin:5px;
+	float:left;
+	position:relative;
+}
+
+.photolist li .img-thumbnail{
+	height:100px;
+}
+
+.photolist li a{
+	position:absolute;
+	right:3px;
+	top:3px;
+}
+
+.photolist li a:hover{
+	text-decoration:none;
+}
+
+.form-inline{
+	margin-bottom:0;
+}
+
+.allAction{
+	float:left;
+	padding-top:15px;
+}
+
+.badge{
+	float:right;
+}
+
+.auth{
+	border:#dedede solid 1px;
+	margin-bottom:15px;
+}
+
+.auth .title{
+	background:#f1f1f1;
+	border-bottom:#dedede solid 1px;
+	height:35px;
+	line-height:30px;
+	padding-left:10px;
+}
+
+.auth input{
+	//margin-right:5px;
+}
+
+
+.auth  ul{
+	overflow:hidden;
+	margin:10px;
+}
+
+.auth  li{
+	list-style:none;
+	float:left;
+	margin-right:25px;
+	height:35px;
+	line-height:20px;
+}
+
+.list-group-item a{
+	color:#e07e7e;
+}
+
+.panel-default>.panel-heading .badge{
+	//background-color:#f2a5a5;
+	background-color:#e07e7e;
+}
+
+.panel-title>a{
+	//color:#e07e7e;
+}
+
+.pagination>.active>span,.pagination>.active>span:hover{
+	background-color:#ebcccc;
+    border-color:#ebcccc;
+}
+
+.pagination>li>a{
+	color:#ea9393;
+}
+
+.akali{
+	cursor:pointer;
+	color:#e07e7e;
+	//color:#337ab7;
+}
+
+.akali:hover{
+	cursor:pointer;
+	color:#bd4a4a;
+}
+
+.akali_admin label{
+	margin-left:5px;
+}
+
+.akali_admin input{
+	margin-left:20px;
+}
+
+.auth label{
+	font-weight:normal;
+}
+

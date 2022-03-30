@@ -1,0 +1,71 @@
+
+ <body class="mainbody">
+	<div class="container-fluid" style="padding:15px;">
+		<div class="panel panel-danger">
+			<div class="panel-heading">文章列表</div>
+			<div class="panel-body">
+				<table class="table table-bordered table-hover">
+					<tr class="danger">
+						<td>id</td>
+						<td>图片</td>
+						<td>标题</td>
+						<td>作者</td>
+						<td>操作</td>
+					</tr>
+					{foreach name="articleList" item="value"}
+					<tr>
+						<td>{$value.id}</td>
+						<td>
+							{eq name=":file_exists($value.image)" value="true"}
+							<img src="/{$value.image}" width="100px" height="100px" />
+							{/eq}
+						</td>
+						<td>
+						{$content = mb_substr(strip_tags($value.title), 0, 15, "utf-8") . (mb_strlen(strip_tags($value.title), 'utf-8') >= 15 ? '……' : '')}
+						</td>
+						<td>{$value.author}</td>
+						<td>
+							<a href="{:url('admin/article/edit', ['id' => $value.id])}" style="margin-right:10px;">
+								<span class="glyphicon glyphicon-pencil"></span>
+							</a>								
+							<a href="javascript:;" onclick="del({$value.id})">
+								<span class="glyphicon glyphicon-trash"></span>
+							</a>
+						</td>
+					</tr>
+					{/foreach}
+				</table>
+				
+				<!-- 分页码 -->
+				<div class="page">
+					{$page = $articleList -> render()}
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		function del(id)
+		{
+			if(confirm('确定要删除吗?'))
+			{
+				var url = "{:url('admin/article/del', ['id' => 'str_replace'])}";
+				
+				window.location.href = url.replace('str_replace', id);
+			}
+		}
+	</script>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

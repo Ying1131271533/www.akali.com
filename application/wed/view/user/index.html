@@ -1,0 +1,141 @@
+
+	<div class="member_center">
+		<div class="row">
+			<div class="subnav col-sm-2">
+				<ul class="text_list">
+					<li class="title">全部功能</li>
+					<li><a href="{:url('wed/cart/index')}">我的购物车</a></li>
+					<li><a href="javascript:;" onclick="purchase(this, 1)">已买到的服装</a></li>
+					<li class="move_color"><a href="{:url('wed/user/personal')}">个人信息</a></li>
+					<li><a href="{:url('wed/user/address')}">收货地址</a></li>
+					<li><a href="{:url('wed/user/personal')}">修改密码</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-10">
+				<div class="single_message">
+					<a class="portrait" href="javascript:;"><img class="img-responsive" src="{$data['image']}" alt="single_portrait" /></a>
+					<div class="right_text">
+						<h4>{$data['username']}</h4>
+						<p>手机已绑定 {$data['phone']} <a href="{:url('wed/user/personal')}" style="color:#f74747;">修改</a></p>
+						<a href="{:url('wed/user/address')}">我的收货地址</a>
+					</div>
+				</div>
+				<div class="other_text">
+					<a href="javascript:;" onclick="obligation(this, 0)">待付款</a>
+					<a href="javascript:;" onclick="obligation(this, 1)">待发货</a>
+					<a href="javascript:;" onclick="obligation(this, 2)">待收货</a>
+					<a href="javascript:;" onclick="obligation(this, 3)">待评价</a>
+					<a href="javascript:;" onclick="obligation(this, 4)">退款</a>
+				</div>
+				<div class="seen">
+					<p>我看过的</p>
+					<div class="listpic">
+					
+						<ul>
+						
+							{foreach name="seenData" item="seenValue"}
+							
+							<li>
+							
+								<a href="{:url('wed/goods/product_center', ['id' => $seenValue.id])}">
+								
+									<img class="img-responsive"src="\{$seenValue.image}" alt="seen_product" style="width:156px;height:175px;"/>
+									
+								</a>
+								
+							</li>
+							
+							{/foreach}
+							
+						</ul>
+						
+					</div>
+					<a class="prev_switch" href="###"><img class="img-responsive"src="__PUBLIC__img/prev_switch.png" alt="prev_switch" /></a>
+					<a class="next_switch" href="###"><img class="img-responsive"src="__PUBLIC__img/next_switch.png" alt="next_switch" /></a>
+				</div>
+			</div>
+			<div class="like col-sm-12">
+				<p>我可能喜欢的</p>
+				<ul>
+				
+					{foreach name="likeData" item="likeValue"}
+					
+					<li><a href="{:url('wed/goods/product_center', ['id' => $likeValue.id])}"><img class="img-responsive"src="\{$likeValue.image}" alt="seen_product" style="width:186px;height:176px;" /></a></li>
+					
+					{/foreach}
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<!--content end-->
+
+
+<script>
+
+	// 待
+	function obligation(obj, status)
+	{
+		
+		$.post("{:url('wed/user/obligation')}", {status : status}, function(data){
+		
+			if(data.code === 0)
+			{
+				layer.msg(data.msg);
+				return false;
+			}
+			
+			$('.seen p').html(data.title);
+			
+			$('.listpic ul').html(data.html);
+		
+		});
+	}
+	
+	// 买
+	function purchase(obj, status)
+	{
+		
+		$.post("{:url('wed/user/purchase')}", {status : status}, function(data){
+		
+			if(data.code === 0)
+			{
+				layer.msg(data.msg);
+				return false;
+			}
+			
+			$('.seen p').html(data.title);
+			
+			$('.listpic ul').html(data.html);
+		
+		});
+	}
+
+	$('.text_list li').click(function(){
+	
+		$(this).addClass('move_color').siblings().removeClass('move_color');
+	
+	});
+	
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,84 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"D:\Web\www.akali.com\public/../application/wed\view\logins\index.html";i:1616336691;}*/ ?>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="__PUBLIC__css/bootstrap.css" />
+		<link rel="stylesheet" href="__PUBLIC__css/login.css" />		<script type="text/javascript" src="__PUBLIC__js/jquery-1.11.0.js"></script>		<script type="text/javascript" src="__PUBLIC__js/bootstrap.js"></script>				<script type="text/javascript" src="__PUBLIC__js/layer.js"></script>		<script type="text/javascript" src="__PUBLIC__js/login.js"></script>
+		<title>登录页</title>
+	</head>
+	<body onkeydown="loginkey(event)">
+		<!--header-->
+		<div class="header">
+			<div class="header_top">
+				<div class="container">
+					<ul class="nav nav-pills">
+						<li><a href="<?php echo url('wed/logins/index'); ?>">登录</a></li>
+						<li><a href="<?php echo url('wed/logins/reg'); ?>">免费注册</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--header end-->
+		
+		<!--content-->
+		<div class="content">
+			<div class="container">
+				<div class="logo">
+					<a href="/"><img src="__PUBLIC__img/logo_02.png" alt="logo_02" class="img-responsive" /></a>
+				</div>
+				<div class="login_text">
+					<div class="login_bg"></div>
+					<h2>会员登录</h2>
+					<form class="form-horizontal" role="form" name="form" action="" method="post">
+						<div class="massage">
+							<input type="text" class="form-control" id="username" placeholder="用户名" name="username" />
+							<input type="password" class="form-control" id="password" placeholder="密码" name="password" />
+						</div>
+						<div class="checked">
+							<label class="checkbox-inline pull-left">
+								<input type="checkbox" name="auto" />自动登录
+							</label>
+							<!-- <label class="checkbox-inline pull-right">
+								<input type="checkbox" name="safety" />安全控件登录
+							</label> -->
+						</div>
+						<div class="login_button">
+							<a href="javascript:;" onclick="logins()">登录</a>
+						</div>
+						<!-- <a href="###">使用其他账户登录</a> -->
+					</form>
+				</div>
+			</div>
+		</div>
+		<!--content end-->
+		
+		<!--footer-->
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="text_position list_text col-xs-4 col-sm-4 col-md-3">
+						<h4>公司地址</h4>
+						<p><?php echo $companyData['address']; ?></p>					</div>					<div class="list_text col-xs-2 col-sm-2 col-md-2">						<h4>公司电话</h4>						<p><?php echo $companyData['phone']; ?></p>					</div>					<div class="list_text col-xs-3 col-sm-3 col-md-2">						<h4>公司emali</h4>						<p><?php echo $companyData['email']; ?></p>
+					</div>
+					<div class="list_text col-xs-3 col-sm-3 col-md-2">
+						<h4>jhv自媒体平台</h4>
+						<ul>
+							<li class="pull-left"><a href="###"><img src="__PUBLIC__img/icon_01.png" alt="icon_01" /></a></li>
+							<li class="pull-left"><a href="###"><img src="__PUBLIC__img/icon_02.png" alt="icon_01" /></a></li>
+						</ul>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-3">
+						<span class="footer_text">© JHV中国官网. All rights reserved.</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--footer end-->
+	</body>
+	<!--[if lte IE 8]>
+	<script src="js/respond.min.js"></script>
+	<script src="js/html5shiv.min.js"></script>
+	<![endif]-->
+</html><script>	function loginkey(event)	{		if(event.keyCode == 13)		{			logins();		}	}		function logins()	{		var username = $('input[name="username"]').val();		var password = $('input[name="password"]').val();		var auto = $('input[name="auto"]').prop('checked') ? 1 : 0;				$.post("<?php echo url('wed/logins/index'); ?>", {username : username, password : password, auto : auto}, function(data){						if(data.code == 0)			{				layer.msg(data.msg);			}						window.location.href = "<?php echo url('wed/user/index'); ?>";					});	}</script>

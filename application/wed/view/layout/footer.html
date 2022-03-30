@@ -1,0 +1,87 @@
+
+
+		<!--footer-->
+
+		<div class="footer">
+
+			<div class="container">
+
+				
+				<div class="row">
+
+					<div class="text_position list_text col-xs-4 col-sm-4 col-md-3">
+
+						<h4>公司地址</h4>
+
+						<p>{$companyData.address}</p>
+
+					</div>
+
+					<div class="list_text col-xs-2 col-sm-2 col-md-2">
+
+						<h4>公司电话</h4>
+
+						<p>{$companyData.phone}</p>
+
+					</div>
+
+					<div class="list_text col-xs-3 col-sm-3 col-md-2">
+
+						<h4>公司emali</h4>
+
+						<p>{$companyData.email}</p>
+
+					</div>
+
+					<div class="list_text col-xs-3 col-sm-3 col-md-2">
+
+						<h4>jhv自媒体平台</h4>
+
+						<ul>
+
+							<li class="pull-left"><a href="###"><img src="__PUBLIC__img/icon_01.png" alt="icon_01" /></a></li>
+
+							<li class="pull-left"><a href="###"><img src="__PUBLIC__img/icon_02.png" alt="icon_01" /></a></li>
+
+						</ul>
+
+					</div>
+
+					<div class="col-xs-12 col-sm-12 col-md-3">
+
+						<span class="footer_text">© JHV中国官网. All rights reserved.</span>
+
+					</div>
+
+				</div>
+
+
+			</div>
+
+		</div>
+
+		<!--footer end-->
+
+	</body>
+
+	{if condition="$Request.controller == 'Goods'"}
+		
+		<!-- 产品中心 -->
+		{if condition="$Request.action == 'cart'"}
+
+		<script type="text/javascript" src="__PUBLIC__js/shopping_cart-2.js"></script>
+		
+		{/if}
+	
+	{/if}
+	
+	
+	<!--[if lte IE 9]>
+
+		<script src="js/respond.min.js"></script>
+
+		<script src="js/html5shiv.min.js"></script>
+
+	<![endif]-->
+
+</html>

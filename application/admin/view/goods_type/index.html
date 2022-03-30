@@ -1,0 +1,44 @@
+
+ <body class="mainbody">
+	<div class="container-fluid" style="padding:15px;">
+		<div class="panel panel-danger">
+			<div class="panel-heading">商品模型列表</div>
+			<div class="panel-body">
+				<table class="table table-bordered table-hover">
+					<tr class="danger">
+						<td>id</td>
+						<td>模型名称</td>
+						<td>操作</td>
+					</tr>
+					{foreach name = "cateData" item = "value"}
+					<tr>
+						<td>{$value.type_id}</td>
+						<td>{$value.type_name}</td>
+						<td>
+							<a href="{:url('admin/goods_attr/index', ['type_id' => $value.type_id])}" data-toggle="tooltip" title="" class="btn btn-info" data-original-title="属性列表">属性列表</a>
+							<a href="{:url('admin/goods_spec/index', ['type_id' => $value.type_id])}" data-toggle="tooltip" title="" class="btn btn-info" data-original-title="属性列表">规格列表</a>
+							<a href="{:url('admin/goods_attr/edit', ['type_id' => $value.type_id])}" style="margin-right:10px;">
+								<span class="glyphicon glyphicon-pencil"></span>
+							</a>								
+							<a href="javascript:;" onclick="del({$value.type_id})">
+								<span class="glyphicon glyphicon-trash"></span>
+							</a>
+						</td>
+					</tr>
+					{/foreach}
+				</table>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		function del(id)
+		{
+			if(confirm('确定要删除吗?'))
+			{
+				var url = "{:url('admin/goods_type/del', ['type_id' => 'str_replace'])}";
+				
+				window.location.href = url.replace('str_replace', id);
+			}
+		}
+	</script>
+

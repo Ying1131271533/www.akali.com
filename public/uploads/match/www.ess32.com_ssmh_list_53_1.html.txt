@@ -1,0 +1,375 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>绅士漫画_e绅士漫画资源网</title>
+<meta name="keywords" content="绅士漫画,绅士本子,绅士漫画大全,绅士漫画网" />
+<meta name="description" content="本子栏目为大家分享最新最全的绅士漫画,绅士本子,绅士漫画大全," />
+<meta name="mobile-agent" content="format=xhtml;url=http://m.ess32.com/ssmh/">
+<meta http-equiv="Cache-Control" content="no-transform" /> 
+<meta http-equiv="Cache-Control" content="no-siteapp" /> 
+<script type="text/javascript" src="/js/tiao.js"></script>
+<script type="text/javascript">
+uaredirect("http://m.ess32.com/ssmh/");
+</script>
+<link href="http://www.ess32.com/static/style/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://www.ess32.com/static/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://www.ess32.com/static/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="http://www.ess32.com/static/js/app.js"></script>
+<script type="text/javascript" src="/js/zvda.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="logo"><a href="http://www.ess32.com" title="e绅士漫画资源网"><img src="http://www.ess32.com/static/images/logo.gif" alt="e绅士漫画资源网" /></a></div>
+    <div class="fx" style="padding-top:15px;">
+        <div class="pcsearch">
+            <script>pcsearch()</script>
+        </div>
+    	<div class="fenx">
+            <script>pcshare()</script>
+        </div>
+
+       
+													
+    </div>
+</div>
+<div class="menubox">
+    <div class="menu">    
+
+<a href="/" id="index" >首页</a> 
+<li><a href='/ssmh/' class='cur'>绅士漫画</a></li>
+  <li><a href='/lifanzy/' ><span>里番资源</span></a></li>
+  
+  <li><a href='/acghxq/'  rel='dropmenu4'><span>ACG和谐区</span></a></li>
+  
+  <li><a href='/ribenmanhua/'  rel='dropmenu42'><span>日本漫画</span></a></li>
+  
+  <li><a href='/xiee/' ><span>邪恶漫画</span></a></li>
+  
+  <li><a href='/xieepic/' ><span>邪恶图片</span></a></li>
+  
+  <li><a href='/kalie/' ><span>腐漫画</span></a></li>
+  
+  <li><a href='/dongtaitu/'  rel='dropmenu55'><span>动态图</span></a></li>
+  
+  <li><a href='/neihan/' ><span>内涵图</span></a></li>
+  
+  <li><a href='/sexiaozu/' ><span>色小组</span></a></li>
+  
+  <li><a href='/xieejuntuan/'  rel='dropmenu2'><span>邪恶军团</span></a></li>
+  
+  <li><a href='/baozoumanhua/' ><span>暴走漫画</span></a></li>
+  
+        
+    </div>
+</div>
+
+
+    <script type="text/javascript">
+
+
+    $(document).ready(function() {
+        //hide message li after the 5th
+        $obj = $(".box").children().children()
+        $("ul:gt(0)", $obj).hide();
+        //show all messages
+        $(".z_open", this).click(function() {
+            var $objList = $(this).parent();
+            $(this).hide();
+            //$("#show_recent_only").show()
+            $("ul:gt(0)", $objList).slideDown();
+            $("div", $objList).eq(1).show();
+            return false;
+
+        });
+        //show recent messages only
+
+        $(".z_close", this).click(function() {
+            var $objList = $(this).parent();
+            $(this).hide();
+            //$("#show_all_message").show()
+            $("ul:gt(0)", $objList).slideUp();
+            $("div", $objList).eq(0).show();
+            return false;
+
+        });
+
+
+
+    });
+    </script>
+
+<div class="comiclist">
+
+		<ul>
+			<h2>日本邪恶<br>少女漫画</h2>
+            <li><a href="/fuqi/" title="夫妻成长日记" target="_blank"><img src="/static/images/xiao/fuqi.jpg" alt="夫妻成长日记" /><span>夫妻成长日记</span></a></li>
+			<li><a href="/woyuemo/" title="我与恶魔的H生活" target="_blank"><img src="/static/images/xiao/emo.jpg" alt="我与恶魔的H生活" /><span>我与恶魔的H生活</span></a></li>
+			<li><a href="/meimei/" title="最近我的妹妹有点怪" target="_blank"><img src="/static/images/xiao/meimei.jpg" alt="最近我的妹妹有点怪" /><span>最近我的妹妹有点怪</span></a></li>
+			<li><a href="/yujie/" title="御姐进行时" target="_blank"><img src="/static/images/xiao/yujie.jpg" alt="御姐进行时" /><span>御姐进行时</span></a></li>
+			<li><a href="/jixienvpu/" title="机械女仆" target="_blank"><img src="/static/images/xiao/jixie.jpg" alt="机械女仆" /><span>机械女仆</span></a></li>
+			<li><a href="/jingbacaomei/" title="惊爆草莓" target="_blank"><img src="/static/images/xiao/caomei.jpg" alt="惊爆草莓" /><span>惊爆草莓</span></a></li>
+			<li><a href="/pisa/" title="披萨恋恋曲" target="_blank"><img src="/static/images/xiao/pisalianqu.jpg" alt="披萨恋恋曲" /><span>披萨恋恋曲</span></a></li>
+			<li><a href="/shaonian/" title="少年啊！要胸怀大志！" target="_blank"><img src="/static/images/xiao/shaonian.jpg" alt="少年啊！要胸怀大志！" /><span>少年啊！要胸怀大志！</span></a></li>
+			<li><a href="/wotaitai/" title="我太太是女高中生" target="_blank"><img src="/static/images/xiao/gaozhongsheng.jpg" alt="我太太是女高中生" /><span>我太太是女高中生</span></a></li>
+			<li><a href="/shaonvpaibie/" title="少女派别" target="_blank"><img src="/static/images/xiao/shaonv.jpg" alt="少女派别" /><span>少女派别</span></a></li>
+            <li><a href="/ribenmanhua/wuyiniao/" title="无翼鸟邪恶漫画" target="_blank"><img src="/static/images/xiao/lezhangburu.jpg" alt="无翼鸟邪恶漫画" /><span>无翼鸟邪恶漫画</span></a></li>
+			
+		</ul>
+		<ul style="display:none;">
+			<h2>韩国<br>邪恶漫画</h2>
+            <li><a href="/renyvgongzhu/" title="人鱼公主传" target="_blank"><img src="/static/images/xiao/renyugongzhu.jpg" alt="人鱼公主传" /><span>人鱼公主传</span></a></li>
+			<li><a href="/lezhangburu/" title="乐张不入" target="_blank"><img src="/static/images/xiao/lezhangburu.jpg" alt="乐张不入" /><span>乐张不入</span></a></li>
+            <li><a href="/mayifengmi/" title="蚂蚁与蜂蜜" target="_blank"><img src="/static/images/xiao/mayifengmi.jpg" alt="蚂蚁与蜂蜜" /><span>蚂蚁与蜂蜜</span></a></li>
+			<li><a href="/guafusandai/" title="寡妇三代" target="_blank"><img src="/static/images/xiao/guafusandai.jpg" alt="寡妇三代" /><span>寡妇三代</span></a></li>
+            <li><a href="/gaogenxie/" title="高跟鞋" target="_blank"><img src="/static/images/xiao/gaogenxie.jpg" alt="高跟鞋" /><span>高跟鞋</span></a></li>
+			<li><a href="/xinxianmangguo/" title="新鲜的芒果" target="_blank"><img src="/static/images/xiao/mangguo.jpg" alt="新鲜的芒果" /><span>新鲜的芒果</span></a></li>
+			<li><a href="/menglongyzhuan/" title="梦龙Y传" target="_blank"><img src="/static/images/xiao/menglong.jpg" alt="梦龙Y传" /><span>梦龙Y传</span></a></li>
+			<li><a href="/dabikong/" title="大鼻孔系列" target="_blank"><img src="/static/images/xiao/dabikong.jpg" alt="大鼻孔系列" /><span>大鼻孔系列</span></a></li>
+			
+			<li><a href="/bangbangbing/" title="棒棒冰" target="_blank"><img src="/static/images/xiao/bangbangbing.jpg" alt="棒棒冰" /><span>棒棒冰</span></a></li>
+			<li><a href="/tianluoguniang/" title="田螺姑娘" target="_blank"><img src="/static/images/xiao/tianluoguniang.jpg" alt="田螺姑娘" /><span>田螺姑娘</span></a></li>
+			<li><a href="/sexi/" title="色系军团邪恶漫画" target="_blank"><img src="/static/images/xiao/xiee.jpg" alt="色系军团邪恶漫画" /><span>色系军团</span></a></li>
+			
+			
+		</ul>
+		<ul style="display:none;">
+			<li class="title">韩国<br>邪恶漫画</li>
+            <li><a href="/sifenzhong/" title="4分钟料理" target="_blank"><img src="/static/images/xiao/sifenzhongliaoli.jpg" alt="4分钟料理" /><span>4分钟料理</span></a></li>
+			<li><a href="/gagamaga/" title="GAGAMAGA" target="_blank"><img src="/static/images/xiao/kakawuyu.jpg" alt="GAGAMAGA" /><span>GAGAMAGA</span></a></li>
+            <li><a href="/sexiaozu/" title="色小组" target="_blank"><img src="/static/images/xiao/sexiaozu.jpg" alt="色小组" /><span>色小组</span></a></li>
+			<li><a href="/woseqige/" title="我色其歌" target="_blank"><img src="/static/images/xiao/woseqige.jpg" alt="我色其歌" /><span>我色其歌</span></a></li>
+			
+			
+		</ul>
+		
+		<ul style="display:none;">
+			<h2>中国<br>邪恶漫画</h2>
+            <li><a href="/xiaochunjie/" title="请叫我小纯洁" target="_blank"><img src="/static/images/xiao/xiaochunjie.jpg" alt="请叫我小纯洁" /><span>请叫我小纯洁</span></a></li>
+            <li><a href="/balinghoufuqi/" title="80后小夫妻" target="_blank"><img src="/static/images/xiao/balinghoufuqi.jpg" alt="80后小夫妻" /><span>80后小夫妻</span></a></li>
+			<li><a href="/fankongjingying/" title="反恐精英" target="_blank"><img src="/static/images/xiao/fankong.jpg" alt="反恐精英" /><span>反恐精英</span></a></li>
+			<li><a href="/xiaomingxilie/" title="小明系列" target="_blank"><img src="/static/images/xiao/xiaoming.jpg" alt="小明系列" /><span>小明系列</span></a></li>
+            <li><a href="/yibanbuchedan/" title="一般不扯淡" target="_blank"><img src="/static/images/xiao/yibanbuchedan.jpg" alt="一般不扯淡" /><span>一般不扯淡</span></a></li>
+			
+			<li><a href="/moshoushijie/" title="魔兽世界" target="_blank"><img src="/static/images/xiao/moshou.jpg" alt="魔兽世界" /><span>魔兽世界</span></a></li>
+			<li><a href="/xiyouriji/" title="西游日记" target="_blank"><img src="/static/images/xiao/xiyouriji.jpg" alt="西游日记" /><span>西游日记</span></a></li>
+			
+			<li><a href="/juhuaxiaodian/" title="菊花宝典" target="_blank"><img src="/static/images/xiao/juhuabaodian.jpg" alt="菊花宝典" /><span>菊花宝典</span></a></li>
+			
+		</ul>
+	
+	<div class="z_open"><a href="javascript:"><img src="/static/images/xiao/zhankai.jpg" alt="查看更多漫画" /><span>展开 <img src="/static/images/xiao/zk_ico.gif" alt="展开" /></span></a></div>
+	<div style="display:none" class="z_close"><a href="javascript:"><img src="/static/images/xiao/shousuo.jpg" alt="收起更多漫画" /><span>收起  <img src="/static/images/xiao/ss_ico.gif" alt="收起" /></a></span></div>
+</div>
+<center>
+<script>pctop()</script>
+</center>
+<div class="clr space"></div>
+<!-- /header -->
+
+<script type="text/javascript" src="/static/js/listjs.js"></script>
+<script>$(".menu #xemh").addClass('cur')</script>
+
+<div class="navs"> 当前位置：<a href='http://www.ess32.com/'>e绅士漫画资源网</a> > <a href='/ssmh/'>绅士漫画</a> > </div>
+<div class="coms">
+    <div class="listslide">
+        <div id="listfocus" >
+           <ul>
+	<li>
+		<a href="/ribenmanhua/2016/0327/9253.html"><img src="http://img2.lizipeng.com/uploads/cai/201603/et178500270404271.jpg" /></a></li>
+	<li>
+		<a href="/ribenmanhua/2016/0401/9264.html"><img src="http://img2.lizipeng.com/uploads/cai/201604/et178756010404161.jpg" /></a></li>
+</ul>
+
+        </div>
+    </div>
+    <div class="hots">
+        <div class="title">
+            <h1>绅士漫画</h1>
+            <span class="ico_hot">较热</span></div>
+        <ul  class="tbar" id="tbar">
+            <li class="cur" id="t1" onMouseMove="change(1)">作品简介</li>
+        </ul>
+        <div class="tcont" id="tc1">本子栏目为大家分享最新最全的绅士漫画、动漫本子下载,是值得大家收藏的二次元漫画网站。
+</div>
+        <div class="kg">已有<span> 169 </span>位美女...</div>
+    </div>
+    <div class="wanjie listwj">
+        <div class="t">撸的最爽</div>
+    <dl class="top1">
+    
+        
+    <div style="clear:both;">
+    <dt><a href="/ssmh/2016/0818/10844.html" target="_blank"><img src="http://img.lizipeng.com/uploads/cai/201608/1-15102ZI0170-L.jpg" width="70" height="100" alt="人妻侵犯全彩h本子：[LINDA]人妻" onerror="this.src='{dede:global.cfg_basehost/}/static/images/nopic.gif'" /></a></dt>
+      <dd>
+        <h3><a href="/ssmh/2016/0818/10844.html" target="_blank">人妻侵犯全彩h本子：[LINDA]人妻</a></h3>
+        <span class="tx">撸过：1084182次</span> </dd>
+</div>
+        
+    </dl>  	
+	
+    <div class="top2">
+	
+    <div class="item"><a href="/ssmh/2017/0121/11534.html" target="_blank">真麻侵犯h漫画：醒淫メイド</a></div>
+<div class="item"><a href="/ssmh/2016/0811/10675.html" target="_blank">绅士漫画之亚丝娜侵犯h本子</a></div>
+<div class="item"><a href="/ssmh/2017/0209/11592.html" target="_blank">直美侵犯肉本子图：Oz榕～非道の洗改造</a></div>
+<div class="item"><a href="/ssmh/2016/0706/9366.html" target="_blank">动漫本子之刀剑神域亚斯娜调教本子(C83)PILED</a></div>
+
+    </div>
+    </div>
+</div>
+<center><script>pclisttop()</script></center>
+
+<div class="main">
+	<div class="mainleft">    
+       <center><script>pclisttop()</script></center>
+		<ul class="piclist listcon">
+			<li> <a href="/ssmh/2017/0209/11592.html" class="pic show" title="直美侵犯肉本子图：Oz榕～非道の洗改造" target="_blank"><span class="bt">直美侵犯肉本子图：Oz榕～非道の洗改造</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201702/1-1601030919570-L.jpg" alt="直美侵犯肉本子图：Oz榕～非道の洗改造" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2017/0202/11569.html" class="pic show" title="伊铃妹控h本子：初恋モ`ション" target="_blank"><span class="bt">伊铃妹控h本子：初恋モ`ション</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201702/1-160102092F10-L.jpg" alt="伊铃妹控h本子：初恋モ`ション" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2017/0130/11562.html" class="pic show" title="小樱工口邪恶漫画：学@性活" target="_blank"><span class="bt">小樱工口邪恶漫画：学@性活</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201701/1-1601020ZI50-L.jpg" alt="小樱工口邪恶漫画：学@性活" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2017/0121/11534.html" class="pic show" title="真麻侵犯h漫画：醒淫メイド" target="_blank"><span class="bt">真麻侵犯h漫画：醒淫メイド</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201701/1-1512310TZ60-L.jpg" alt="真麻侵犯h漫画：醒淫メイド" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2017/0116/11520.html" class="pic show" title="小淳肉番漫画图片：[上乃也] 「身体中" target="_blank"><span class="bt">小淳肉番漫画图片：[上乃也] 「身体中</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201701/1-1512300KF30-L.jpg" alt="小淳肉番漫画图片：[上乃也] 「身体中" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2016/1229/11456.html" class="pic show" title="小朕工口邪恶漫画：初恋モ`ション" target="_blank"><span class="bt">小朕工口邪恶漫画：初恋モ`ション</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/1-15122PK6140-L.jpg" alt="小朕工口邪恶漫画：初恋モ`ション" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2016/1227/11440.html" class="pic show" title="月野同学邪恶少女漫画：[新堂エル] 晒し" target="_blank"><span class="bt">月野同学邪恶少女漫画：[新堂エル] 晒し</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/1-15122PJF00-L.jpg" alt="月野同学邪恶少女漫画：[新堂エル] 晒し" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2016/1221/11430.html" class="pic show" title="小霞老师邪恶肉番h本子：[かるま狼] よなよな" target="_blank"><span class="bt">小霞老师邪恶肉番h本子：[かるま狼] よなよな</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/1-1512260T9100-L.jpg" alt="小霞老师邪恶肉番h本子：[かるま狼] よなよな" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2016/1219/11424.html" class="pic show" title="小早川邪恶少女漫画：[乃良二] ナマナカ" target="_blank"><span class="bt">小早川邪恶少女漫画：[乃良二] ナマナカ</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/1-1512260T0010-L.jpg" alt="小早川邪恶少女漫画：[乃良二] ナマナカ" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2016/1216/11416.html" class="pic show" title="静香和京子工口福利漫画：k情ベイビ`" target="_blank"><span class="bt">静香和京子工口福利漫画：k情ベイビ`</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/1-1512250KZ80-L.jpg" alt="静香和京子工口福利漫画：k情ベイビ`" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2016/1208/11391.html" class="pic show" title="王姐肉番h本子：[いずみきょうた] B-HARD" target="_blank"><span class="bt">王姐肉番h本子：[いずみきょうた] B-HARD</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/1-1512230Q1120-L.jpg" alt="王姐肉番h本子：[いずみきょうた] B-HARD" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2016/1208/11390.html" class="pic show" title="美溘啻夯校园邪恶漫画：おっぱインフィニテ" target="_blank"><span class="bt">美溘啻夯校园邪恶漫画：おっぱインフィニテ</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/1-1512230R4100-L.jpg" alt="美溘啻夯校园邪恶漫画：おっぱインフィニテ" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2016/1202/11370.html" class="pic show" title="莲华校园邪恶漫画：[乃良二] ヴァ`ジンきら" target="_blank"><span class="bt">莲华校园邪恶漫画：[乃良二] ヴァ`ジンきら</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/1-1512201026220-L.jpg" alt="莲华校园邪恶漫画：[乃良二] ヴァ`ジンきら" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2016/1201/11365.html" class="pic show" title="美鹤工口福利本子：[木谷椎] Lovely Colors" target="_blank"><span class="bt">美鹤工口福利本子：[木谷椎] Lovely Colors</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201612/1-1512200942590-L.jpg" alt="美鹤工口福利本子：[木谷椎] Lovely Colors" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2016/1127/11349.html" class="pic show" title="~月校园里番h本子：[衣七五三太]" target="_blank"><span class="bt">~月校园里番h本子：[衣七五三太]</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201611/1-15121PRA40-L.jpg" alt="~月校园里番h本子：[衣七五三太]" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2016/1124/11334.html" class="pic show" title="雾姐姐弟h里番本子：[七瑞[] なま_" target="_blank"><span class="bt">雾姐姐弟h里番本子：[七瑞[] なま_</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201611/1-15121FK4390-L.jpg" alt="雾姐姐弟h里番本子：[七瑞[] なま_" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2016/1120/11319.html" class="pic show" title="舰娘榛名工口里番漫画：情これくしょん" target="_blank"><span class="bt">舰娘榛名工口里番漫画：情これくしょん</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201611/1-1512150FG90-L.jpg" alt="舰娘榛名工口里番漫画：情これくしょん" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2016/1120/11318.html" class="pic show" title="舰娘翔鹤h里番本子：翔Qの提督乳育日I" target="_blank"><span class="bt">舰娘翔鹤h里番本子：翔Qの提督乳育日I</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201611/1-1512140S2560-L.jpg" alt="舰娘翔鹤h里番本子：翔Qの提督乳育日I" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2016/1120/11311.html" class="pic show" title="喵酱钱仙工口h本子：入れ替わり?{依ファンタズ" target="_blank"><span class="bt">喵酱钱仙工口h本子：入れ替わり?{依ファンタズ</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201611/1-151216052J10-L.jpg" alt="喵酱钱仙工口h本子：入れ替わり?{依ファンタズ" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2016/1120/11307.html" class="pic show" title="松波留美电车痴汉侵犯h本子：性Qアンソロジ" target="_blank"><span class="bt">松波留美电车痴汉侵犯h本子：性Qアンソロジ</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201611/1-1512160532200-L.jpg" alt="松波留美电车痴汉侵犯h本子：性Qアンソロジ" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2016/1115/11293.html" class="pic show" title="姐弟侵犯福利本子：[米}けんご] 淫笑う看oD" target="_blank"><span class="bt">姐弟侵犯福利本子：[米}けんご] 淫笑う看oD</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201611/1-1512140KJ30-L.jpg" alt="姐弟侵犯福利本子：[米}けんご] 淫笑う看oD" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2016/1115/11292.html" class="pic show" title="京子少女邪恶漫画：[美夜川はじめ] 世界で一番" target="_blank"><span class="bt">京子少女邪恶漫画：[美夜川はじめ] 世界で一番</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201611/1-1512130Z5370-L.jpg" alt="京子少女邪恶漫画：[美夜川はじめ] 世界で一番" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2016/1114/11291.html" class="pic show" title="京子少女邪恶漫画：[美夜川はじめ] 世界で一番" target="_blank"><span class="bt">京子少女邪恶漫画：[美夜川はじめ] 世界で一番</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201611/1-1512130Z5370-L.jpg" alt="京子少女邪恶漫画：[美夜川はじめ] 世界で一番" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2016/1113/11289.html" class="pic show" title="蓟花萝莉控h本子：[vのル`ペ] ガ`デン" target="_blank"><span class="bt">蓟花萝莉控h本子：[vのル`ペ] ガ`デン</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201611/1-1512130U9430-L.jpg" alt="蓟花萝莉控h本子：[vのル`ペ] ガ`デン" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2016/1112/11284.html" class="pic show" title="里番漫画之有希h本子" target="_blank"><span class="bt">里番漫画之有希h本子</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201611/1-1512120920030-L.jpg" alt="里番漫画之有希h本子" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2016/1104/11252.html" class="pic show" title="凉霞学姐少女侵犯本子：uずかし女（はずかし" target="_blank"><span class="bt">凉霞学姐少女侵犯本子：uずかし女（はずかし</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201611/1-1512100T2050-L.jpg" alt="凉霞学姐少女侵犯本子：uずかし女（はずかし" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2016/1103/11249.html" class="pic show" title="秋深小姐萝莉控福利漫画：生膣ひゃくぱぁせん" target="_blank"><span class="bt">秋深小姐萝莉控福利漫画：生膣ひゃくぱぁせん</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201611/1-15120ZQ3130-L.jpg" alt="秋深小姐萝莉控福利漫画：生膣ひゃくぱぁせん" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2016/1027/11150.html" class="pic show" title="数码宝贝同人漫画：Honey cap" target="_blank"><span class="bt">数码宝贝同人漫画：Honey cap</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201610/1-1512020T4150-L.jpg" alt="数码宝贝同人漫画：Honey cap" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2016/1027/11140.html" class="pic show" title="日本邪恶少女漫画之椿少女h本子" target="_blank"><span class="bt">日本邪恶少女漫画之椿少女h本子</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201610/1-1512040S3120-L.jpg" alt="日本邪恶少女漫画之椿少女h本子" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2016/1027/11137.html" class="pic show" title="猫酱肉番h本子：[TYPE.90] またたびパニック" target="_blank"><span class="bt">猫酱肉番h本子：[TYPE.90] またたびパニック</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201610/1-1512030R0350-L.jpg" alt="猫酱肉番h本子：[TYPE.90] またたびパニック" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2016/1027/11136.html" class="pic show" title="莎利亚工口h本子：グラビティ?ダイ" target="_blank"><span class="bt">莎利亚工口h本子：グラビティ?ダイ</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201610/1-1512040P0100-L.jpg" alt="莎利亚工口h本子：グラビティ?ダイ" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2016/1027/11133.html" class="pic show" title="食蜂h里番本：いっしょくほうらん" target="_blank"><span class="bt">食蜂h里番本：いっしょくほうらん</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201610/1-1512050U2470-L.jpg" alt="食蜂h里番本：いっしょくほうらん" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2016/1017/11113.html" class="pic show" title="沙希和亚希姐弟福利本子：[ReDrop] 乙女ドロップ" target="_blank"><span class="bt">沙希和亚希姐弟福利本子：[ReDrop] 乙女ドロップ</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201610/1-15112PT3250-L.jpg" alt="沙希和亚希姐弟福利本子：[ReDrop] 乙女ドロップ" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2016/1017/11110.html" class="pic show" title="莎莉亚侵犯h本子：グラビティ?ダイ" target="_blank"><span class="bt">莎莉亚侵犯h本子：グラビティ?ダイ</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201610/1-15112ZUP20-L.jpg" alt="莎莉亚侵犯h本子：グラビティ?ダイ" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2016/1017/11108.html" class="pic show" title="亚希和千夏萝莉控本子：[舞原マツゲ] スクヌプ" target="_blank"><span class="bt">亚希和千夏萝莉控本子：[舞原マツゲ] スクヌプ</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201610/1-1511300Q0200-L.jpg" alt="亚希和千夏萝莉控本子：[舞原マツゲ] スクヌプ" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li><li> <a href="/ssmh/2016/1017/11107.html" class="pic show" title="美绪电车h漫画：[めいびい] 洪_乙女" target="_blank"><span class="bt">美绪电车h漫画：[めいびい] 洪_乙女</span> <span class="bg"></span><img class="scrollLoading" src="http://images.cnblogs.com/cnblogs_com/Darren_code/302725/o_pixel.gif" xSrc="http://img.lizipeng.com/uploads/cai/201610/1-1511300RU00-L.jpg" alt="美绪电车h漫画：[めいびい] 洪_乙女" style="background:url({dede:global.cfg_basehost/}/static/images/loading.gif) no-repeat center;" width="150" height="185" /></a> </li> 		
+		</ul>
+
+		<script type="text/javascript">
+				var scrollLoad = (function (options) {
+				var defaults = (arguments.length == 0) ? { src: 'xSrc', time: 300} : { src: options.src || 'xSrc', time: options.time ||300};
+				var camelize = function (s) {
+					return s.replace(/-(\w)/g, function (strMatch, p1) {
+						return p1.toUpperCase();
+					});
+				};
+				this.getStyle = function (element, property) {
+					if (arguments.length != 2) return false;
+					var value = element.style[camelize(property)];
+					if (!value) {
+						if (document.defaultView && document.defaultView.getComputedStyle) {
+							var css = document.defaultView.getComputedStyle(element, null);
+							value = css ? css.getPropertyValue(property) : null;
+						} else if (element.currentStyle) {
+							value = element.currentStyle[camelize(property)];
+						}
+					}
+					return value == 'auto' ? '' : value;
+				};
+				var _init = function () {
+					var offsetPage = window.pageYOffset ? window.pageYOffset : window.document.documentElement.scrollTop,
+						offsetWindow = offsetPage + Number(window.innerHeight ? window.innerHeight : document.documentElement.clientHeight),
+						docImg = document.images,
+						_len = docImg.length;
+					if (!_len) return false;
+					for (var i = 0; i < _len; i++) {
+						var attrSrc = docImg[i].getAttribute(defaults.src),
+							o = docImg[i], tag = o.nodeName.toLowerCase();
+						if (o) {
+							postPage = o.getBoundingClientRect().top + window.document.documentElement.scrollTop + window.document.body.scrollTop; postWindow = postPage + Number(this.getStyle(o, 'height').replace('px', ''));
+							if ((postPage > offsetPage && postPage < offsetWindow) || (postWindow > offsetPage && postWindow < offsetWindow)) {
+								if (tag === "img" && attrSrc !== null) {
+									o.setAttribute("src", attrSrc);
+								}
+								o = null;
+							}
+						}
+					};
+					window.onscroll = function () {
+						setTimeout(function () {
+							_init();
+						}, defaults.time);
+					}
+				};
+				return _init();
+			});
+			scrollLoad();
+		</script> 
+		
+		
+		<div class="pages">
+			<ul class="pagelist">
+    <li>首页</li>
+<li class="thisclass">1</li>
+<li><a href='list_53_2.html'>2</a></li>
+<li><a href='list_53_3.html'>3</a></li>
+<li><a href='list_53_4.html'>4</a></li>
+<li><a href='list_53_5.html'>5</a></li>
+<li><a href='list_53_2.html'>下一页</a></li>
+<li><a href='list_53_5.html'>末页</a></li>
+<li><select name='sldd' style='width:36px' onchange='location.href=this.options[this.selectedIndex].value;'>
+<option value='list_53_1.html' selected>1</option>
+<option value='list_53_2.html'>2</option>
+<option value='list_53_3.html'>3</option>
+<option value='list_53_4.html'>4</option>
+<option value='list_53_5.html'>5</option>
+</select></li>
+<li><span class="pageinfo">共 <strong>5</strong>页<strong>169</strong>条</span></li>
+			</ul>
+		</div>
+
+		<div style="float:left; width:640px;">
+			<div style="float:left; width:320px;">
+				<script>pcsquare()</script>
+			</div>
+			<div style="float:right; width:312px;">
+				<script>pcsquareb()</script>
+			</div>
+		</div>
+
+<script>pcuyan()</script>
+
+	</div>
+	
+	<div class="mainright">
+    	<div class="wmad_t">
+			<script>pcsquared()</script>
+	  </div>
+
+		<div class="tuijian">
+        	<h3>猜你喜欢</h3>
+			 <dl>
+			<dt><a href="/ssmh/2016/1120/11319.html" target="_blank" title="舰娘榛名工口里番漫画：情これくしょん"><img src="http://img.lizipeng.com/uploads/cai/201611/1-1512150FG90-L.jpg" alt="舰娘榛名工口里番漫画：情これくしょん"></a></dt>
+             <dd><a href="/ssmh/2016/1120/11319.html" target="_blank" title="舰娘榛名工口里番漫画：情これくしょん">舰娘榛名工口里番漫画：情これくしょん</a></dd>
+            </dl>
+<dl>
+			<dt><a href="/ssmh/2016/0731/10418.html" target="_blank" title="工口漫画之萝莉节福利 I Love Ageha Love Very Much"><img src="http://img.lizipeng.com/uploads/cai/201607/1-1502200915220-L.jpg" alt="工口漫画之萝莉节福利 I Love Ageha Love Very Much"></a></dt>
+             <dd><a href="/ssmh/2016/0731/10418.html" target="_blank" title="工口漫画之萝莉节福利 I Love Ageha Love Very Much">工口漫画之萝莉节福利 I Love Ageha Love Very Much</a></dd>
+            </dl>
+
+		</div>
+        <div class="wmad">
+				<script>pcsquarec()</script>
+			</div>
+        <div class="youlist">
+        <h3>推荐图文</h3>
+        <ul class="you">
+			  <li><a href="/ssmh/2016/1112/11284.html" target="_blank" title="里番漫画之有希h本子"><img src="http://img.lizipeng.com/uploads/cai/201611/1-1512120920030-L.jpg" alt="里番漫画之有希h本子"><span>里番漫画之有希h本子</span></a></li>
+<li><a href="/ssmh/2016/1115/11292.html" target="_blank" title="京子少女邪恶漫画：[美夜川はじめ] 世界で一番"><img src="http://img.lizipeng.com/uploads/cai/201611/1-1512130Z5370-L.jpg" alt="京子少女邪恶漫画：[美夜川はじめ] 世界で一番"><span>京子少女邪恶漫画：[美夜川はじめ] 世界で一番</span></a></li>
+<li><a href="/ssmh/2016/0903/10901.html" target="_blank" title="都小姐工口h本子：[DISTANCE] 美～ちく（上册）"><img src="http://img.lizipeng.com/uploads/cai/201609/1-1511030K3340-L.jpg" alt="都小姐工口h本子：[DISTANCE] 美～ちく（上册）"><span>都小姐工口h本子：[DISTANCE] 美～ちく（上册）</span></a></li>
+<li><a href="/ssmh/2016/0802/10456.html" target="_blank" title="长门和陆奥绅士本子：(C85)[くろにくる(福永ゆき"><img src="http://img.lizipeng.com/uploads/cai/201607/1-1509130S9180-L.jpg" alt="长门和陆奥绅士本子：(C85)[くろにくる(福永ゆき"><span>长门和陆奥绅士本子：(C85)[くろにくる(福永ゆき</span></a></li>
+<li><a href="/ssmh/2016/0903/10905.html" target="_blank" title="萝莉控侵犯本子：自kあるいは制羞u（下册"><img src="http://img.lizipeng.com/uploads/cai/201609/1-1511040UJ90-L.jpg" alt="萝莉控侵犯本子：自kあるいは制羞u（下册"><span>萝莉控侵犯本子：自kあるいは制羞u（下册</span></a></li>
+<li><a href="/ssmh/2016/0903/10888.html" target="_blank" title="裘莉和亚丝娜工口本子：エリ`ンペロペロ×3"><img src="http://img.lizipeng.com/uploads/cai/201609/1-1511050IR30-L.jpg" alt="裘莉和亚丝娜工口本子：エリ`ンペロペロ×3"><span>裘莉和亚丝娜工口本子：エリ`ンペロペロ×3</span></a></li>
+
+            </ul>
+        </div>
+        
+		<div id="float-r" style="position:static; top:800px; padding-top:10px; z-index: 99; float:left;">
+			
+			<div class="wmad">
+				<script>pcsquarec2()</script>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="clr space"></div>
+<center><script>pc960x90b()</script></center>
+
+<div class="footer">
+<div class="footlink">
+<a href="/">e绅士漫画资源网</a> 
+<a href="/tags.php">Tag</a> 
+<a href="/data/sitemap.html">网站地图</a> 
+<a href="/data/rssmap.html">Rss</a> 
+<a href="javascript:scroll(0,0)">返回顶部&uarr;</a>
+</div>
+<div class="foottxt">网站使用说明：所有图片均收集自互联网,如果喜欢，请支持正版！若侵犯到您的权益，联系我们处理。</div>
+</div>
+<script>pctj()</script>
+
+
+<script>pcbottom()</script>
+</body>
+</html>

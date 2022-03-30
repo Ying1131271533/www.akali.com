@@ -1,0 +1,106 @@
+{__NOLAYOUT__}<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="__PUBLIC__css/bootstrap.css" />
+		<link rel="stylesheet" href="__PUBLIC__css/Registration.css" />				<script type="text/javascript" src="__PUBLIC__js/jquery-1.11.0.js"></script>		<script type="text/javascript" src="__PUBLIC__js/bootstrap.js"></script>		<script type="text/javascript" src="__PUBLIC__js/Registration.js"></script>				<script type="text/javascript" src="__PUBLIC__js/layer.js"></script>					<script>				function uploader(params)		{			var url = "/wed/api/upload";						if(params.id)			{				url += '/id/' + params.id;			}						if(params.callback)			{				url += '/callback/' + params.callback;			}						if(params.type)			{				url += '/type/' + params.type;			}						// iframe层-父子操作			layer.open({				type: 2,				title : '上传文件',				area: ['500px', '500px'],				fixed: false, // 不固定				maxmin: false,				content: url,				end:function(){					//alert(0); 有时间 看看怎么做				}			});		}			</script>
+		<title>账号安全</title>
+	</head>	
+	<body>
+		<!--header-->
+		<div class="header">
+			<div class="header_top">
+				<div class="container">
+					<ul class="nav nav-pills">
+						<li><a href="{:url('wed/logins/index')}">登陆</a></li>						<li><a href="{:url('wed/logins/reg')}">免费注册</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--header end-->
+		
+		<!--content-->
+		<div class="content">
+			<div class="container">
+				<div class="logo" style="position:relative;">
+					<a href="/"><img src="__PUBLIC__img/logo_02.png" alt="logo_02" class="img-responsive" /></a>										<a href="{:url('wed/user/index')}" style="position:absolute;top:50px;width:100px;"><img src="__PUBLIC__img/back.png" alt="logo_02" width="100" title="返回"/></a>
+				</div>
+				<div class="registration_text">
+					<div class="row">
+						<div class="col-md-12">
+							<form class="form-horizontal" role="form" action="" method="post" name="reg">
+								<div class="form-gouop">								
+									<div class="col-sm-9">
+										<div class="text_left">
+											<label class="col-sm-4 control-label">会员名：</label>
+											<div class="col-sm-8">
+												<input type="text" class="form-control" name="username" value="{$user.username}" />
+											</div>																					</div>																				<div class="text_left">
+											<label class="col-sm-4 control-label">密码：</label>
+											<div class="col-sm-8">
+												<input type="text" class="form-control" name="password" value="{$user.password}"/>
+											</div>											<label class="col-sm-4 control-label">确认密码：</label>											<div class="col-sm-8">												<input type="text" class="form-control" name="password2" value="{$user.password}"/>											</div>
+										</div>
+																				<div class="text_place">
+											<label class="col-md-4 col-sm-3 control-label">验证码：</label>
+											<div class="col-md-8 col-sm-9">
+												<input type="text" class="checkCode form-control  pull-left" name="vcode"/>
+												<div class="checkCode_image pull-left">
+													<img src="{:captcha_src()}" height="35px" width="130px" onclick="this.src = this.src + '?1'" style="cursor:pointer;" />
+													<a class="pull-right" href="###">看不清，换一张</a>
+												</div>
+											</div>											
+										</div>
+										<div class="xs_buttom">
+											<button class="sub" type="submit"  >修改</button>
+										</div>
+									</div>
+									<div class="md_T col-sm-3">
+										<img src="{$user.image}" id="avatar" class="portrait" onclick="uploader({id : 'avatar', type : 'src'})" width="150px" height="150px" />
+										<input type="hidden" id="image" style="display:none" name="image" value="{$user.image}">
+									</div>																		
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--content-->		
+		<!--footer-->
+		<div class="footer" style="margin-top:140px;">
+			<div class="container">
+				<div class="row">
+					<div class="text_position list_text col-xs-4 col-sm-4 col-md-3">
+						<h4>公司地址</h4>
+						<p>{$companyData.address}</p>
+					</div>
+					<div class="list_text col-xs-2 col-sm-2 col-md-2">
+						<h4>公司电话</h4>
+						<p>{$companyData.phone}</p>
+					</div>
+					<div class="list_text col-xs-3 col-sm-3 col-md-2">
+						<h4>公司emali</h4>
+						<p>{$companyData.email}</p>
+					</div>
+					<div class="list_text col-xs-3 col-sm-3 col-md-2">
+						<h4>jhv自媒体平台</h4>
+						<ul>
+							<li class="pull-left"><a href="###"><img src="__PUBLIC__img/icon_01.png" alt="icon_01" /></a></li>
+							<li class="pull-left"><a href="###"><img src="__PUBLIC__img/icon_02.png" alt="icon_01" /></a></li>
+						</ul>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-3">
+						<span class="footer_text">© JHV中国官网. All rights reserved.</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--footer end-->
+	</body>		<script>			$(function(){					$('input[name="sex"]:checked').parents('label').css({'background' : 'url(/static/wed/img/checked.jpg) no-repeat right 0'});				});			</script>
+	<!--[if lte IE 8]>
+	<script src="js/respond.min.js"></script>
+	<script src="js/html5shiv.min.js"></script>
+	<![endif]-->
+</html>

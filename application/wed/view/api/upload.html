@@ -1,0 +1,327 @@
+{__NOLAYOUT__}
+
+  <link href="__PUBLIC__css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <!-- <link href="__PUBLIC__css/login.css" rel="stylesheet" type="text/css" /> -->
+  <link href="__PUBLIC__css/style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="__PUBLIC__css/webuploader.css">
+  <script type="text/javascript" src="__PUBLIC__js/jquery.js"></script>
+  <script type="text/javascript" src="__PUBLIC__js/layer.js"></script>
+  <script type="text/javascript" src="__PUBLIC__js/webuploader.js"></script>
+  <script type="text/javascript" src="__PUBLIC__js/common.js"></script>
+<style type="text/css">
+
+.body{
+	padding:10px;
+}
+
+.body .Note{
+	margin:12px 0;
+	line-height:22px;
+	color:#999;
+	word-break:bread-all;
+}
+
+.body .Note strong{
+	color:#f2a5a5;
+}
+
+.flashWrap{
+	clear:both;
+	height:50px;
+}
+
+.fileWrap{
+	border:#f2a5a5 solid 1px;
+	min-height:280px;
+	height:auto;
+	position:relative;
+}
+
+legend{
+	position:absolute;
+	height:25px;
+	width:100px;
+	text-align:center;
+	line-height:25px;
+	background:#f2a5a5;
+	top:-10px;
+	left:5px;
+	color:#9ec1d5;
+	font-size:18px;
+	font-weight:bold;
+	border-bottom:none;
+}
+
+legend ul, legend #fileQueue{
+	padding:10px;
+}
+
+.btnBox{
+	padding-top:10px;
+	float:right;
+}
+
+.body li{
+	width:100px;
+	height:140px;
+	float:left;
+	margin:0;
+	padding:0;
+	margin-left:10px;
+	list-style:none;
+}
+
+.body ul{
+	margin:10px 0;
+	padding:0;
+}
+
+.body li a{
+	height:23px;
+	line-height:23px;
+	dislplay:block;
+}
+
+</style>
+<div class="body">
+	<p class="Note">
+		最多上传<strong>1</strong>个附件，单文件最大<strong>4M</strong>,类型<strong>jpg,png,gif,jpeg</strong>
+	</p>
+	<div class="flashWrap">
+		<div id="picker" style="float:left;margin-right:10px;">选择文件</div>
+	</div>
+	<div class="fileWrap">
+		<fieldset>
+			<ul>
+				
+			</ul>
+			<div id="fileQueue"></div>
+		</fieldset>
+	</div>
+	<div class="btnBox">
+		<button class="btn btn-default" id="SaveBtn">保存</button>
+			&nbsp;
+		<button class="btn btn-default" id="CancelBtn">取消</button>
+	</div>
+</div>
+<script>
+	$(function(){
+			
+		// 对百度上传控件初始化
+		var uploader = WebUploader.create({
+			
+			// 自动上传
+			auto : true,
+			
+			// swf文件路径
+			swf: '__PUBLIC__js/Uploader.swf',
+
+			// 文件接收服务端。
+			server: '{:url("wed/api/upload")}',
+
+			// 选择文件的按钮。可选。
+			// 内部根据当前运行是创建，可能是input元素，也可能是flash.
+			pick: {
+				id: '#picker',
+				
+				// 不允许上传时 鼠标拖拽多个文件
+				multiple : true,
+			},
+
+			// 不压缩image, 默认如果是jpeg，文件上传前会压缩一把再上传！
+			resize: false,
+			
+			// 设置文件上传域的 name
+			fileVal: 'image',
+			
+			// 验证文件总数量，超出则不允许加入队列
+			//fileNumLimit: 1,
+			
+		});
+		
+		// 当有文件被添加进队列的时候
+		uploader.on( 'fileQueued', function( file ) {
+		
+			$('#fileQueue').html( '<div id="' + file.id + '" class="item">' +
+				'<span class="info">' + file.name + '</span>' + 
+				'<span class="state" style="margin-left:10px;">文件上传中...</span>' +
+			'</div>' );
+			
+		});
+		
+		// 文件上传过程中创建进度条实时显示。
+		uploader.on( 'uploadProgress', function( file, percentage ) {
+			var $li = $( '#'+file.id ),
+			$percent = $li.find('.state');
+			$percent.html( percentage * 100 + '%' );
+			
+			uploader.on( 'uploadSuccess', function( file ) {
+				<!-- $( '#'+file.id ).find('span.state').text('已上传'); -->
+				$('#' + file.id).remove();
+			});
+
+			uploader.on( 'uploadError', function( file ) {
+				$( '#'+file.id ).find('span.state').text('上传出错');
+				$( '#'+file.id ).remove();
+			});
+
+			uploader.on( 'uploadComplete', function( file ) {
+				$( '#'+file.id ).find('.progress').fadeOut();
+			});
+		});
+		
+		// 判断文件是否上传成功
+		uploader.on( 'uploadAccept', function( file , data ) {
+			
+			if(data.status == 0)
+			{
+				layer.msg(data.msg);
+				return false;
+			}
+			
+			$('ul').append('<li><img src="/' + data.path + '" width="100" height="100"/><a href="javascript:;" onclick="del(this)">删除</a></li>');
+			
+		});
+		
+		var index = parent.layer.getFrameIndex(window.name); // 获取窗口索引
+		
+		// 保存
+		$('#SaveBtn').click(function(){
+			var img = $('ul img');
+			var src = [];
+			img.each(function(){
+				var srcStr = $(this).attr('src');
+				src.push(srcStr.substring(1, srcStr.length));
+			});
+			
+			var id = '{$Request.param.id}';
+			var type = '{$Request.param.type}';
+			var callback = '{$Request.param.callback}';
+			
+			if(! callback)
+			{
+				switch(type)
+				{
+					case 'src':
+						// 自己乱来的代码
+						parent.$('#' + id).attr('src', "/" + src[0]);
+						parent.$('#image').val("/" + src[0]);
+						break;
+					case 'input':
+						parent.$('#' + id).val(src[0]);
+						break;
+					default:
+						parent.$('#' + id).html('<img src="'+ src[0] +'">');
+						break;
+				}
+				
+			}else
+			{
+				// eval() 函数可以计算某个字符串 并执行其中的 JavaScript 代码
+				parent.eval(callback)({src : src});
+			}
+			
+			parent.layer.close(index);
+			
+		});
+		
+		// 取消
+		$('#CancelBtn').click(function(){
+			var img = $('ul img');
+			var src = [];
+			img.each(function(){
+				var srcStr = $(this).attr('src');
+				src.push(srcStr.substring(1, srcStr.length));
+			});
+			
+			var id = '{$Request.param.id}';
+			var type = '{$Request.param.type}';
+			var callback = '{$Request.param.callback}';
+			
+			$.ajax({
+				type : 'post', //传输数据的方式
+				url : "{:url('wed/api/del')}", //服务器的地址
+				dataType : 'json', //text,html,xml,json..从服务放回的数据类型
+				data : {src:src},
+				success : function(data)
+				{
+					console.log(data);
+					
+					if(data.error == true)
+					{
+						layer.alert(data.msg);
+						return false;
+					}	
+				}
+			});
+			
+			parent.layer.close(index);
+			
+		});
+		
+	});
+	
+	// 删除图片 -------> 没有 还是有时间再做
+	function del(obj)
+	{
+		$(obj).parents('li').remove();
+		// 取消
+		var img = $('ul img');
+		var src = [];
+		img.each(function(){
+			var srcStr = $(this).attr('src');
+			src.push(srcStr.substring(1, srcStr.length));
+		});
+		
+		var id = '{$Request.param.id}';
+		var type = '{$Request.param.type}';
+		var callback = '{$Request.param.callback}';
+		
+		$.ajax({
+			type : 'post', //传输数据的方式
+			url : "{:url('wed/api/del')}", //服务器的地址
+			dataType : 'json', //text,html,xml,json..从服务放回的数据类型
+			data : {src:src},
+			success : function(data)
+			{
+				console.log(data);
+				
+				if(data.error == true)
+				{
+					layer.alert(data.msg);
+					return false;
+				}	
+			}
+		});
+		
+	}
+	
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

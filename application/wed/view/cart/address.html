@@ -1,0 +1,44 @@
+
+<div class="address_text">
+	<form name="form" method="post" action="">
+		<h4>常用地址</h4>
+		<div class="information">
+			<ul>
+				{foreach name="userAddress" item="addValue"}								<li data-id="{$addValue.id}">
+					<div class="place_message {if condition="$addValue.default == 1"} default_massage {/if} ">
+						<p>收货人：{$addValue.name}</p>
+						<p>所在地区：{$addValue.address}</p>
+						<p>邮编：{$addValue.postal}</p>
+						<p>电话：{$addValue.phone}</p>
+					</div>
+					<a {if condition="$addValue.default == 1"} class="setup" {else/} class="akali" {/if} href="javascript:;" onclick="choseBtn(this)">设为默认地址</a>										<a class="akali" href="###">删除</a>
+				</li>								{/foreach}				
+			</ul>
+		</div>				<div class="col-sm-10 col-xs-12">			<button type="button" onclick="morder()" class="jianji">确认地址</button>		</div>
+		<div class="new_address">
+			<h4>新增地址</h4>
+			<form class="form-horizontal" role="form">
+				<div class="row">										<div class="text_place">							<label class="col-md-2 col-sm-3 control-label">所在地：</label>							<div>															<select class="select_text_01 form-control pull-left" name="province" id="province" onchange="region(this)">									<option value="">请选择所在省份</option>																		{foreach name="province" item="pvalue"}										<option value="{$pvalue.id}">{$pvalue.name}</option>									{/foreach}								</select>								<select class="select_text_01 form-control pull-left" name="city" onchange="region(this)">									<option value="">请选择所在城市</option>								</select>								<select class="select_text_01 form-control pull-left" name="area">									<option value="">请选择所在地区</option>								</select>							<!-- 	<select class="select_text_01 form-control pull-left" 	name="area" onchange="region(this)">									<option value="0">请选择所在街道</option>								</select> -->							</div>						</div>
+					<div class="form-group col-sm-5 col-xs-12">
+						<p>详细地址</p>
+						<textarea type="text" class="form-control datailaddress" rows="7" name="datailaddress" ></textarea>
+					</div>
+					<div class="col-sm-4 col-xs-12">
+						<p>邮政编码</p>
+						<input type="text" class="form-control" name="postal" />
+						<p>收货人姓名</p>
+						<input type="text" class="form-control"  name="username" />
+						<p>手机号码</p>
+						<input type="text" class="form-control"  name="phone" />
+					</div>
+					<div class="col-sm-3 col-xs-12">											<label class="address">														<input type="checkbox" value="1" name="defaultAddress">														<span>设为默认地址</span>													</label>
+						<a href="javascript:;" class="save" onclick="save_address()">保存地址</a>
+					</div>
+				</div>
+			</form>
+		</div>
+</form>
+</div>
+</div>
+<!--content end--><script>		function choseBtn(obj)	{		$(obj).parents('ul').find('.setup').removeClass('setup').addClass('akali');		$(obj).addClass('setup');	}		// 设为默认地址	function morder()	{		var len = $('.setup').length;				if(len < 1)		{			layer.msg('请选择收货地址', {icon:2});			return false;		}				var address_id = $('.setup').parents('li').attr('data-id');				var url = "{:url('wed/cart/index', ['step' => 4, 'address_id' => 'address_id_str'])}" . replace('address_id_str', address_id);				window.location.href = url;	}		// 保存收货地址	function save_address()	{		var username = $('input[name="username"]').val();		var phone = $('input[name="phone"]').val();		var province = $('select[name="province"]').val();		var city = $('select[name="city"]').val();		var area = $('select[name="area"]').val();		var postal = $('input[name="postal"]').val();		var datailAddress = $('.datailaddress').val();		var defaultAddress = $('input[name="defaultAddress"]:checked').val();				if(username == '' || phone == '' || province == '' || city == '' || area == '' || postal == '' || datailAddress == '')		{			layer.msg('收货地址填写有误', {icon:2});			return false;		}				$.post("{:url('wed/user/ajaxsaveaddress')}", {username : username, phone : phone, province : province, city : city, area : area, postal : postal, datailAddress : datailAddress, defaultAddress : defaultAddress}, function(data){					if(data.code == 0)			{				layer.msg(data.msg, {icon:2});				return false;			}						if(defaultAddress == 1)			{				$('.information ul .setup').addClass('akali').removeClass('setup');			}						$('.information ul').append(data.html);				}, 'json');			}		function region(obj)	{		var region_id = $(obj).val();		var selectName = $(obj).prop('name');				$.post("{:url('wed/cart/ajaxregion')}", {region_id : region_id}, function(data){						var html = '<option value="0">请选择所在地区</option>';			if(selectName == 'province')			{				html = '<option value="0">请选择所在城市</option>';				$(obj).next().next().html('<option value="0">请选择所在地区</option>');			}						$(obj).next().html(html + data);				}, 'html');			}			// 跳转支付页面	function step()	{		window.location.href = ("{:url('wed/cart/index', ['step' => 4])}");	}	</script>
+		

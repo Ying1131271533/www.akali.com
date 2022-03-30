@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<meta charset="utf-8" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+		
+		<link rel="icon" href="__PUBLIC__img/chuyin.ico"/>
+		
+		<!--------------------- css ----------------------->
+
+		<link rel="stylesheet" href="__PUBLIC__css/bootstrap.css">
+			
+		{if condition="$Request.controller == 'Home'"}
+		
+		<!-- 首页 -->	
+			{if condition="$Request.action == 'index'"}
+		
+			<link rel="stylesheet" href="__PUBLIC__css/index.css">
+			
+			{/if}
+		
+		{/if}
+		
+		<!-- 品牌介绍 -->
+		
+		{if condition="$Request.controller == 'About'"}
+			
+			{if condition="$Request.action == 'index'"}
+		
+			<link rel="stylesheet" href="__PUBLIC__css/about_us.css">
+			
+			{/if}
+		
+		{/if}
+		
+		
+		<!-- 联系我们 -->
+		
+		{if condition="$Request.controller == 'Message'"}
+			
+			{if condition="$Request.action == 'index'"}
+		
+			<link rel="stylesheet" href="__PUBLIC__css/contact_us.css">
+			
+			{/if}
+		
+		{/if}
+		
+		<!-- 新闻中心 -->
+		
+		{if condition="$Request.controller == 'Article'"}
+			
+			{if condition="$Request.action == 'index'"}
+		
+			<link rel="stylesheet" href="__PUBLIC__css/news.css">
+			
+			{/if}
+			
+			{if condition="$Request.action == 'details'"}
+		
+			<link rel="stylesheet" href="__PUBLIC__css/news_center.css">
+			
+			{/if}
+		
+		{/if}
+		
+		{if condition="$Request.controller == 'Goods'"}
+		
+			<!-- 产品中心 -->
+			{if condition="$Request.action == 'index'"}
+			
+			<link rel="stylesheet" href="__PUBLIC__css/idangerous.swiper.css">
+
+			<link rel="stylesheet" href="__PUBLIC__css/product.css" />
+			
+			{/if}
+			
+			{if condition="$Request.action == 'product_center'"}
+
+			<link rel="stylesheet" href="__PUBLIC__css/product_center.css" />
+			
+			{/if}
+			
+		{/if}
+		
+		{if condition="$Request.controller == 'Cart'"}
+			
+			{if condition="input('step') == ''"}
+
+			<link rel="stylesheet" href="__PUBLIC__css/shopping_cart.css" />
+			
+			{/if}
+			
+			{if condition="input('step') == '2'"}
+
+			<link rel="stylesheet" href="__PUBLIC__css/confirm_order.css" />
+			
+			{/if}
+			
+			{if condition="input('step') == '3'"}
+
+			<link rel="stylesheet" href="__PUBLIC__css/address.css" />
+			
+			{/if}
+			
+			{if condition="input('step') == '4'"}
+
+			<link rel="stylesheet" href="__PUBLIC__css/pay.css" />			
+			
+			{/if}
+			
+		{/if}
+		
+		<!--  用户中心 -->
+		{if condition="$Request.controller == 'User'"}		
+			
+			{if condition="$Request.action == 'address'"}
+
+			<link rel="stylesheet" href="__PUBLIC__css/address.css" />
+			
+			{/if}
+			
+		{/if}
+		
+		<!--------------------- javascipt ----------------------->
+		
+		
+		<script type="text/javascript" src="__PUBLIC__js/jquery-1.11.0.js"></script>
+
+		<script type="text/javascript" src="__PUBLIC__js/bootstrap.js"></script>
+		
+		<script type="text/javascript" src="__PUBLIC__js/common.js"></script>
+		
+		<script type="text/javascript" src="__PUBLIC__js/layer.js"></script>
+	
+		<!-- 产品中心 -->
+		
+		{if condition="$Request.controller == 'Goods'"}
+	
+			{if condition="$Request.action == 'index'"}
+			
+			<script type="text/javascript" src="__PUBLIC__js/product.js"></script>
+		
+			<script type="text/javascript" src="__PUBLIC__js/idangerous.swiper.min.js"></script>
+			
+			{/if}
+			
+		{/if}
+		
+		<!-- 新闻中心 -->
+		
+		{if condition="$Request.controller == 'Article'"}
+	
+			{if condition="$Request.action == 'details'"}
+			
+			<script type="text/javascript" src="__PUBLIC__js/new_center.js"></script>
+			
+			{/if}
+			
+		{/if}
+		
+		<!-- 联系我们 -->
+		
+		{if condition="$Request.controller == 'Message'"}
+	
+			{if condition="$Request.action == 'index'"}
+			
+			<script type="text/javascript" src="__PUBLIC__js/contact_us.js"></script>
+			
+			{/if}
+			
+		{/if}
+		
+		<!-- 购物车 -->
+		
+		{if condition="$Request.controller == 'Cart'"}
+	
+			{if condition="$Request.action == 'index'"}
+			
+			<!-- <script type="text/javascript" src="__PUBLIC__js/shopping_cart-2.js"></script> -->
+			
+			{/if}
+			
+			{if condition="input('step') == '2'"}
+			
+			<script type="text/javascript" src="__PUBLIC__js/confirm_order-2.js"></script>
+			
+			{/if}
+			
+			
+			{if condition="input('step') == '3'"}
+			
+			<script type="text/javascript" src="__PUBLIC__js/address.js"></script>
+			
+			{/if}
+			
+			{if condition="input('step') == '4'"}
+			
+			<script type="text/javascript" src="__PUBLIC__js/address.js"></script>
+			
+			{/if}
+			
+		{/if}
+		
+		<!-- 用户中心 -->
+		
+		{if condition="$Request.controller == 'User'"}
+	
+			{if condition="$Request.action == 'index'"}
+			
+			<link rel="stylesheet" href="__PUBLIC__css/member.css" />
+			
+			<link rel="stylesheet" href="__PUBLIC__css/idangerous.swiper.css" />
+			
+			<script type="text/javascript" src="__PUBLIC__js/idangerous.swiper.min.js"></script>
+			
+			<script type="text/javascript" src="__PUBLIC__js/member.js"></script>
+			
+			{/if}
+			
+		{/if}
+		
+		<script type="text/javascript" src="__PUBLIC__js/nav_logo.js"></script>
+		
+		
+		<title>首页</title>
+
+	</head>
+
+	<body>
+
+		<!--header-->
+
+		<div class="header">
+
+			<div class="header_top">
+
+				<div class="container">
+
+					<ul class="nav nav-pills">
+
+						<li><a href="{:url('wed/logins/index')}">登录</a></li>
+
+						<li><a href="{:url('wed/logins/reg')}">免费注册</a></li>
+
+						<li><a href="{:url('wed/logins/logout')}">退出登录</a></li>
+
+					</ul>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<!--header end-->
+
+		
+
+		<!--content-->
+
+		<div class="content">
+
+			<div class="container">
+
+				<div class="logo">
+
+					<a href="index.html">
+					
+						<img src="__PUBLIC__img/logo.png" alt="logo" class="img-responsive" />
+						
+					</a>
+
+				</div>
+
+				<div class="sm_nav navbar-header">
+
+			        <button type="button" class="btn navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+
+				        <span class="icon-style"></span>
+
+				        <span class="icon-style"></span>
+
+				        <span class="icon-style"></span>
+
+			        </button>
+
+			    </div>
+
+				<div class="nav_first collapse navbar-collapse" id="example-navbar-collapse">
+					
+				
+					<div class="nav_logo">
+					
+						<a href="/">
+						
+							{if condition="$Request.controller == 'Home'"}
+							
+							<img src="__PUBLIC__img/logo.png" alt="logo" class="img-responsive" />
+							
+							{/if}
+							
+							{if condition="$Request.controller == 'Goods'"}
+								
+								{if condition="$Request.action == 'index'"}
+							
+								<img src="__PUBLIC__img/logo_03.png" alt="logo_03" class="img-responsive" />
+								
+								{/if}
+								
+								{if condition="$Request.action == 'product_center'"}
+							
+								<img src="__PUBLIC__img/logo_02.png" alt="logo_02" class="img-responsive" />
+								
+								{/if}
+								
+								{if condition="$Request.action == 'cart'"}
+							
+								<img src="__PUBLIC__img/logo_05.png" alt="logo_05" class="img-responsive" />
+							
+								{/if}
+							
+							{/if}
+							
+							{if condition="$Request.controller == 'Cart'"}
+								
+								{if condition="input('step') == ''"}
+							
+								<img src="__PUBLIC__img/logo_05.png" alt="logo_03" class="img-responsive" />
+								
+								{/if}
+								
+								{if condition="input('step') == '3'"}
+							
+								<img src="__PUBLIC__img/logo_02.png" alt="logo_02" class="img-responsive" />
+								
+								{/if}
+								
+								{if condition="input('step') == '4'"}
+							
+								<img src="__PUBLIC__img/logo_02.png" alt="logo_02" class="img-responsive" />
+								
+								{/if}
+								
+							{/if}
+							
+							
+							{if condition="$Request.controller == 'User'"}
+								
+								{if condition="$Request.action == 'index'"}
+							
+								<img src="__PUBLIC__img/logo_05.png" alt="logo_03" class="img-responsive" />
+								
+								{/if}
+								
+								{if condition="$Request.action == 'address'"}
+							
+								<img src="__PUBLIC__img/logo_02.png" alt="logo_03" class="img-responsive" />
+								
+								{/if}
+								
+							{/if}
+							
+							
+							{if condition="$Request.controller == 'About'"}
+								
+								{if condition="$Request.action == 'index'"}
+								
+								<img src="__PUBLIC__img/logo_02.png" alt="logo_02" class="img-responsive" />
+								
+								{/if}
+								
+							{/if}
+							
+							
+							{if condition="$Request.controller == 'Article'"}
+								
+								<img src="__PUBLIC__img/logo_02.png" alt="logo_02" class="img-responsive" />
+								
+							{/if}
+							
+							{if condition="$Request.controller == 'Message'"}
+								
+								<img src="__PUBLIC__img/logo_02.png" alt="logo_02" class="img-responsive" />
+								
+							{/if}
+							
+						</a>
+						
+						
+					</div>
+
+					<ul class="nav navbar-nav">
+
+						<li><a {if condition="$Request.controller == 'Home'"}class="default"{/if} href="\">首页</a></li>
+
+						<li><a {if condition="$Request.controller == 'About'"}class="default"{/if} href="{:url('wed/about/index')}">品牌介绍</a></li>
+
+						<li><a {if condition="$Request.controller == 'Article'"}class="default"{/if} href="{:url('wed/article/index')}">新闻中心</a></li>
+						
+						<li><a {if condition="$Request.controller == 'Goods'"}class="default"{/if} class="" href="{:url('wed/goods/index')}">产品中心</a></li>
+
+						<li><a {if condition="$Request.controller == 'Contact'"}class="default"{/if} href="{:url('wed/message/index')}">联系我们</a></li>
+
+						<li><a {if condition="$Request.controller == 'User'"}class="default"{/if} href="{:url('wed/user/index')}">个人中心</a></li>
+
+					</ul>
+					
+				</div>
+				<style>
+				
+					.ali{
+						position:absolute;
+						left: 90%;
+						top: 40px;
+					}
+					
+					.ali a:link{
+						text-decoration:none;
+					}
+					
+					.ali a:hover{
+						text-decoration:none;
+					}
+
+
+					.ali span{
+						//font-family:'宋体'; 
+						//font-weight:bold;
+						font-size:16px;
+						position:relative;
+						//color:#ff0062;
+						color:#f74747;
+						left:59px;
+						top:-79px;
+						display:block;
+						width:35px;
+						height:26px;
+						line-height:26px;
+						text-align:center;
+					}
+
+				</style>
+				
+				<div class="ali">
+					<a href="{:url('wed/cart/index')}">
+						
+						{if condition="input('step') == '3'"}
+						
+						<img src="__PUBLIC__img/cart2.png" width="100px" height="80px" />
+						
+						{elseif condition="$Request.controller == 'Article'"/}
+						
+						<img src="__PUBLIC__img/cart2.png" width="100px" height="80px" />
+						
+						{elseif condition="$Request.controller == 'Message'"/}
+						
+						<img src="__PUBLIC__img/cart2.png" width="100px" height="80px" />
+						
+						{elseif condition="input('step') == '4'"/}
+						
+						<img src="__PUBLIC__img/cart2.png" width="100px" height="80px" />
+						
+						{else/}
+						
+						<img src="__PUBLIC__img/cart.png" width="100px" height="80px" />
+						
+						{/if}
+						
+						<span>0<span>
+					</a>
+				</div>
+				
+				<script>
+				
+					$(function(){
+						$.post("{:url('wed/cart/ajaxGetCount')}", {}, function(data){
+							$('.ali span').html(data.count);
+						}, 'json');
+					});
+					
+				</script>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				

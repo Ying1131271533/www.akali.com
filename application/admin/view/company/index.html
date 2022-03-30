@@ -1,0 +1,71 @@
+
+ <body class="mainbody">
+	<div class="container-fluid" style="padding:15px;">
+		<div class="panel panel-danger">
+			<div class="panel-heading">信息列表</div>
+			<div class="panel-body">
+				<table class="table table-bordered table-hover">
+					<tr class="danger">
+						<td>id</td>
+						<td>公司地址</td>
+						<td>公司电话</td>
+						<td>传真</td>
+						<td>邮箱</td>
+						<td>邮编</td>
+						<td>创建时间</td>
+						<td>操作</td>
+					</tr>
+					{foreach name="company" item="value"}
+					<tr>
+						<td>{$value.id}</td>
+						<td>{$value.address}</td>
+						<td>{$value.phone}</td>
+						<td>{$value.preserve}</td>
+						<td>{$value.email}</td>
+						<td>{$value.postcode}</td>
+						<td>{$value.create_time}</td>
+						<td>
+							<a href="{:url('admin/company/edit', ['id' => $value.id])}" style="margin-right:10px;">
+								<span class="glyphicon glyphicon-pencil"></span>
+							</a>								
+							<a href="javascript:;" onclick="del(this, {$value.id})">
+								<span class="glyphicon glyphicon-trash"></span>
+							</a>
+						</td>
+					</tr>
+					{/foreach}
+				</table>
+				
+				<!-- 分页码 -->
+				<div class="page">
+					{$page = $company -> render()}
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+	
+		function del(obj, id)
+		{
+			var this_ = obj;
+			layer.confirm('是否删除', function(){
+				
+				$.post("{:url('admin/company/del')}", {id : id}, function(data){
+				
+					if(data.code == 0)
+					{
+						layer.msg(data.msg);
+						return false;
+					}
+					
+					layer.msg(data.msg);
+					
+					$(this_).parents('tr').remove();
+				
+				}, 'json');
+			
+			});
+		}
+		
+	</script>

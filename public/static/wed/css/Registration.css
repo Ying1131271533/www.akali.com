@@ -1,0 +1,323 @@
+body {
+  background: url(../img/Registration_background.jpg) center 0;
+  font-family: "微软雅黑";
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none !important;
+	display: block;
+}
+
+.header_top {
+  padding-top: 3px;
+  background: #000000;
+}
+
+.header_top ul li a {
+  color: #cccccc;
+  font-size: 12px;
+  padding: 0 15px;
+}
+
+
+
+.content .logo{
+	margin-top: 25px;
+}
+.content .logo a{
+	width: 184px;
+	margin: 0 auto;
+}
+
+.content .registration_text{
+	margin-top: 65px;
+}
+.content .registration_text .text_left{
+  padding: 0 230px 0 92px;
+  overflow: hidden;
+}
+.content .registration_text .text_left .col-sm-8{
+	padding: 10px 0;
+}
+.content .registration_text .text_left .col-sm-4{
+	margin-top: 6px;
+}
+.content .portrait{
+	border: 1px solid #CCCCCC;
+	width: 150px;
+	height: 150px;
+	line-height: 150px;
+	text-align: center;
+	color: #666666;
+	font-size: 24px;
+	background: none;
+	outline: none;		cursor:pointer ;
+}
+.content .xs_T{
+	text-align: center;
+	display: none;
+	margin-bottom: 20px;
+}
+.content .registration_text .checkbox-inline{
+	background: url(../img/checkbox.jpg) no-repeat right 0;
+	padding: 0 12px 5px 0;
+}
+.content .registration_text .checkbox-inline input[type="radio"]{
+	visibility: hidden;
+}
+.content .registration_text .select_text{
+	width: 25%;
+	margin-right: 8%;
+}
+.content .registration_text .text_place{
+	padding: 0 80px 0 16px;
+	overflow: hidden;
+}
+.content .registration_text .text_place .col-md-8{
+	padding: 0;
+}
+.content .registration_text .text_place .select_text_01{
+	width: 18%;
+	margin-right: 5%;
+}
+.content .registration_text .checkCode{
+	width: 40%;
+}
+.content .registration_text .checkCode_image{
+	margin-left: 43px;
+}
+.content .registration_text .checkCode_image a{
+	margin: 30px 0 0 20px;
+	font-size: 14px;
+	color: #999999;
+	font-weight: 700;
+}
+.form-horizontal .checkbox{
+	width: 100%;
+	padding-left: 264px;
+	float: left;
+}
+.content .registration_text .text_place .checkbox label{
+	padding: 0;
+	font-size: 14px;
+	color: #999999;
+	font-weight: 600;
+}
+.content .registration_text .sub{
+	width: 120px;
+	height: 40px;
+	font-size: 18px;
+	color: #666666;
+	background: url(../img/submit.jpg);
+	border: none;
+	margin: 15px 0 0 290px;
+}
+.content .registration_text label{
+	font-size: 14px;
+	color: #666666;
+	font-weight: 500;
+}
+.content .registration_text input{
+	border: 1px solid #cccccc;
+	border-radius: 0;
+	outline: none;
+}
+.content .registration_text input:focus{
+	box-shadow: none;
+}
+.content .registration_text select{
+	border: 1px solid #cccccc;
+	border-radius: 0;
+	outline: none;
+}
+.content .registration_text select:focus{
+	box-shadow: none;
+}
+.content .registration_text button{
+	outline: none;
+}
+
+
+
+.footer{
+	margin-top: 60px;
+}
+.footer h4{
+	color:#333333;
+}
+.footer p,span{
+	color:#333333;
+}
+.footer .text_position{
+	padding-left: 54px;
+}
+.footer ul{
+	overflow: hidden;
+	clear: both;
+	padding: 0;
+}
+.footer li{
+	margin-right: 15px;
+}
+.footer .footer_text{
+	display: inline-block;
+	padding: 38px 0 15px;
+}
+
+
+
+
+
+
+@media (max-width: 767px) {
+	.content .xs_T{
+		display: block;
+	}
+	.content .md_T{
+		display: none;
+	}
+	.content .col-sm-9{
+		padding: 0;
+	}
+	.content .registration_text label{
+		padding-left: 0;
+	}
+	.content .registration_text .text_left{
+		padding: 0;
+	}
+	.content .registration_text .text_place{
+		padding: 0;
+		margin-top: 10px;
+	}
+	.content .registration_text .checkbox-inline{
+		background: url(../img/checkbox.jpg) no-repeat right 0px;
+		padding: 0px 12px 0 0;
+	}
+	.content .registration_text .text_left .col-sm-8{
+		padding: 5px 0;
+	}
+	.content .registration_text .select_text{
+		width: 32%;
+    margin-right: 1%;
+	}
+	.content .registration_text .text_place .select_text_01{
+		width: 30%;
+		margin-top: 20px;
+	}
+	.form-horizontal .checkbox{
+		padding-left: 20px;
+	}
+	.content .registration_text .checkCode{
+		width: 50%;
+	}
+	.content .registration_text .checkCode_image{
+		margin: 10px 0 0 0;
+		float: none !important;
+	}	
+	.form-horizontal .checkbox{
+		margin-top: 30px;
+	}
+	.content .registration_text .xs_buttom{
+		margin-top: 20px;
+		text-align: center;
+	}
+	.content .registration_text .sub{
+		margin: 0;
+	}
+	.content .registration_text .checkCode{
+		float: none !important;
+	}
+	.content .registration_text .checkCode_image img{
+		float: none !important;
+	}
+	.content .registration_text .checkCode_image a{
+		margin: 0;
+		float: none !important;
+	}
+	.content .registration_text label{
+		color: #000000;
+	}
+	.footer{
+		margin-top: 50px;
+	}
+	.footer .text_position{
+		padding-left: 15px;
+	}
+	.footer .list_text{
+		width:50%;
+		height: 90px;
+		text-align: center;
+	}
+	.footer ul{
+		display: inline-block;
+	}
+	.footer .footer_text{
+		padding:0 0 15px;
+	}
+	.footer .col-sm-12{
+		text-align: center;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px) {
+	.content .registration_text .text_left{
+		padding: 0 120px 0 0;
+	}
+	.content .registration_text .text_place{
+		padding: 0;
+	}
+	.content .registration_text .select_text{
+		width: 32%;
+    margin-right: 1%;
+	}
+	.content .registration_text .text_place .select_text_01{
+		width: 24%;
+    margin-right: 1%;
+	}
+	.content .registration_text .checkCode{
+		width: 30%;
+	}
+	.form-horizontal .checkbox{
+		padding-left: 148px;
+	}
+	.content .registration_text .sub{
+		margin-left: 190px;
+	}
+	.footer {
+    margin-top: 55px;
+	}
+	.footer .text_position{
+		padding-left: 10px;
+	}
+	.footer .col-sm-2{
+		padding: 0;
+	}
+	.footer .col-sm-12{
+		text-align: center;
+	}
+	.footer .footer_text{
+		display: inline-block;
+    padding: 15px 0 15px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	.content .registration_text .text_left{
+		padding: 0 100px 0 50px;
+	}
+	.content .registration_text .text_place{
+		padding: 0;
+	}
+	.form-horizontal .checkbox{
+		padding-left: 246px;
+	}
+	.footer{
+		margin-top: 50px;
+	}
+	.footer .col-md-3{
+		padding: 0;
+	}
+	.footer .text_position{
+		padding-left: 30px;
+	}
+}

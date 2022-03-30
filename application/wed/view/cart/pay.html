@@ -1,0 +1,67 @@
+
+<div class="pay_text">
+	<form method="post" action="" name="form">
+		<h4>配送信息</h4>
+		<div class="information">
+			<ul>
+				<li>
+					<div class="place_message default_massage">
+						<p>收货人：{$address.name}</p>
+						<p>所在地区：{$address.address}</p>
+						<p>邮编：{$address.postal}</p>
+						<p>电话：{$address.phone}</p>
+					</div>
+					<a class="setup" href="{:url('wed/cart/index', ['step' => 3])}">修改</a>
+				</li>
+			</ul>
+		</div>				<div class="cart_text">			<div class="row">				<form class="form-horizontal" role="form">					<div class="col-sm-12">						<h4>我的购物车</h4>					</div>					<div class="text_list col-sm-12">						<div class="col-sm-3">							<span>全部商品 </span>												</div>						<div class="col-sm-2">							<p>数量</p>						</div>						<div class="col-sm-2">							<p>单价</p>						</div>						<div class="col-sm-2">							<p>折扣</p>						</div>						<div class="col-sm-3">							<p>总价</p>						</div>					</div>					<ul class="lg_cart">						{foreach name="data" item="value"}												{eq name="$value.selected" value="1"}												<li>							<div class="text_product col-sm-12">								<div class="col-sm-3">																	<div class="image">										<a href="{:url('wed/goods/product_center', ['id' => $value.goods_id])}">											<img class="img-responsive" src="/{$value.image}" alt="shopping_pic01" />										</a>									</div>								</div>								<div class="col-sm-2">																	<p style="padding-left:30px">{$value.number}</p>																	</div>								<div class="col-sm-2">									<p>										<span>¥</span>&nbsp;										<i class="singleprice">{$value.price}</i>									</p>								</div>								<div class="col-sm-2">									<p class="discount">8<!-- {$value.price / $value.market_price * 10} --></p>								</div>								<div class="text_price col-sm-3">									<p>										<span>¥</span>&nbsp;										<i class="totalprice">{$value.price * $value.number}</i>									</p>								</div>							</div>						</li>												{/eq}												{/foreach}											</ul>				</form>			</div>		</div>				<!-- 该死的发票 -->		<!--
+		<h4>发票服务</h4>
+		<div class="Invoice_message">
+			<div class="choice">
+				<input type="checkbox" />需要发票，如需开发票需增加 0 % 税点
+			</div>
+			<ul>
+				<li>
+					<span>发票抬头</span>
+					<div class="single Invoice_header">
+						<input type="checkbox" />个人
+					</div>
+					<div class="single  Invoice_header">
+						<input type="checkbox" />公司
+					</div><br />
+					<p>温馨提示：你填写的所有内容将被系统自动打印到发票上，所以千万别写于发票抬头无关的信息</p>
+				</li>
+				<li>
+					<span>发票内容</span>
+					<div class="single Invoice_content">
+						<input type="checkbox" />电子产品
+					</div>
+					<div class="single Invoice_content">
+						<input type="checkbox" />服装
+					</div><br />
+				</li>
+			</ul>
+		</div>-->
+				<h4>选择支付方式</h4>
+		<div class="select_pay">
+			<div class="pay_method">
+				<ul>
+					<li>
+						<input type="radio" name="method" id="zhifubao" /><label for="zhifubao"><img src="__PUBLIC__img/paymethod_01.jpg" alt="paymethod_01" /></label>
+					</li>
+					<li>
+						<input type="radio" name="method" id="wangyin" /><label for="wangyin"><img src="__PUBLIC__img/paymethod_02.jpg" alt="paymethod_02" /></label>
+					</li>
+					<li>
+						<input type="radio" name="method" id="caifutong" /><label for="caifutong"><img src="__PUBLIC__img/paymethod_03.jpg" alt="paymethod_03" /></label>
+					</li>
+				</ul>
+			</div>
+			<p>应付总金额<span>¥{$total.price}</span></p>
+			<button type="button" id="submitFail">提交订单</button>
+		</div>
+	</form>
+</div>
+</div>
+</div>
+<!--content end--><script>	$(function(){			$('#submitFail').click(function(){					//layer.msg('阿卡丽', {icon:1});						var address_id = "{$Request.param.address_id}";						$.post('{:url("wed/order/saveOrder")}', {address_id : address_id}, function(data){							layer.confirm('订单号：'+ data.order_sn +'<br>订单提交成功，是否前往支付', function(){									window.location.href = "{:url('wed/pay/alipay', ['order_sn' => 'order_sn_str'])}".replace('order_sn_str', data.order_sn);								});							}, 'json');				});			});</script>

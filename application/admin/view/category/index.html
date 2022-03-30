@@ -1,0 +1,106 @@
+
+ <body class="mainbody">
+	<div class="container-fluid" style="padding:15px;">
+		<div class="panel panel-danger">
+			<div class="panel-heading">分类列表</div>
+			<div class="panel-body">
+				<table class="table table-bordered table-hover">
+					<tr class="danger">
+						<td>id</td>
+						<td>分类名称</td>
+						<td>操作</td>
+					</tr>
+					{foreach name = "cateList" item = "value"}
+					<tr data-path="{$value.path}">
+						<td>{$value.id}</td>
+						<td>
+							{eq name = "$value.is_child" value = "1"}
+							<span class="glyphicon glyphicon-plus akali" style="padding:2px; font-size:12px;" onclick="rowClicked(this)"></span>
+							{/eq}
+							{$value.cate_name}
+						</td>
+						<td>
+							<a href="{:url('admin/category/edit', ['id' => $value.id])}" style="margin-right:10px;">
+								<span class="glyphicon glyphicon-pencil"></span>
+							</a>							
+							<a href="javascript:;" onclick="del(this, {$value.id})">
+								<span class="glyphicon glyphicon-trash"></span>
+							</a>
+						</td>
+					</tr>
+					{/foreach}
+				</table>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		
+		// before 在前面
+		// after  在后面
+		// append 在里面的最后面
+		
+		function rowClicked(obj)
+		{
+			var pathData = $(obj).parents('tr').attr('data-path');
+			$.post("{:url('admin/category/ajaxGetChildList')}", {path:pathData}, function(data){
+				$(obj).addClass('glyphicon-minus').removeClass('glyphicon-plus').attr('onclick', 'rowClickClose(this)').parents('tr').after(data.html);
+			}, 'json');
+		}
+		
+		function rowClickClose(obj)
+		{
+			var pathData = $(obj).parents('tr').attr('data-path');
+			$('.table tr').each(function(){
+				var p = $(this).attr('data-path');
+				if(p)
+				{
+					if(p.indexOf(pathData + '_') == 0)
+					{
+						$(this).remove();
+					}
+				}
+			});
+			
+			$(obj).addClass('glyphicon-plus').removeClass('glyphicon-minus').attr('onclick', 'rowClicked(this)');
+		}
+		
+		function del(obj, id)
+		{
+			var this_ = obj;
+			layer.confirm('是否删除', function(){
+				
+				$.post("{:url('admin/category/del')}", {id : id}, function(data){
+				
+					if(data.code == 0)
+					{
+						layer.msg(data.msg);
+						return false;
+					}
+					
+					layer.msg(data.msg);
+					
+					$(this_).parents('tr').remove();
+				
+				}, 'json');
+			
+			});
+		}
+	</script>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

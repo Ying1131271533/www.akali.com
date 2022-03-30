@@ -1,0 +1,63 @@
+
+.loginbody{
+	background:url(../images/chuyin.jpg) no-repeat center -360px;
+}
+
+.login{
+	margin:0 auto;
+	width:500px;
+	height:300px;
+	background:white;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-150px;
+	margin-left:-250px;
+	overflow:hidden;
+}
+
+.login .panel-body{
+	height:260px;
+}
+
+.error{
+	color:red;
+}
+
+.form-control:focus{
+	border-color:#eaafb9;
+}
+
+label.col-sm-2.control-label{
+	//color:#a94442;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

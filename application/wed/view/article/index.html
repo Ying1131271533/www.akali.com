@@ -1,0 +1,44 @@
+
+	<div class="place">
+		<p>当前位置</p>
+		<img src="__PUBLIC__img/icon_place.png" alt="icon_place" />
+		<p><a href="news.html">新闻中心</a></p>
+	</div>
+	<div class="news">
+		<div class="row">
+			<div class="col-lg-7 col-md-6">
+				<div class="news_left">
+					<img class="img-responsive" src="__PUBLIC__img/news_title.png">
+					<p>JHV传递的精神为“青春（Juvenile）、快乐（Happy）、朝气蓬勃（Vigou- rous）”，品牌汇集了诸多国内及日韩优秀设计师，以“成衣、服饰、配饰”进行产品组 合开发，为18-40岁时尚女性提供高性价比时尚产品。 JHVJHV产品简约、时尚、核心价格段10-199元，深受消费者喜欢。在生产和供应方面 更是整合了一批出口欧美市场的优质供应商伙伴、保证价格成本与品质。让利消费大众， 相同品质产品售价低于其他品牌3-4倍，比电商更具价格优势。 </p>
+				</div>
+			</div>
+			<div class="news_right col-lg-5 col-md-6">
+				<ul>
+					{foreach name="article" item="value"}										<li>
+						<div class="news_date">
+							<!-- <h2>{$value.create_time}</h2> -->							<h2>{:date('d', strtotime($value.create_time))}</h2>
+							<p>{:date('Y', strtotime($value.create_time))} {$value.create_time|substr=6,4}</p>
+						</div>
+						<div class="news_text">
+							<h4><a href="{:url('wed/article/details', ['id' => $value.id])}">														{$content = mb_substr(strip_tags($value.title), 0, 20, "utf-8") . (mb_strlen(strip_tags($value.title), 'utf-8') >= 20 ? '……' : '')}														</a></h4>
+							<p>								{$content = mb_substr(strip_tags(html_dcode($value.content)), 0, 50, "utf-8") . (mb_strlen(strip_tags(html_dcode($value.content)), 'utf-8') >= 50 ? '……' : '')}							<a href="{:url('wed/article/details', ['id' => $value.id])}">【详情】</a></p>
+						</div>
+					</li>										{/foreach}
+				</ul>								<style>					.aklai{						background:#666;					}				</style>								<!-- 分页码 --> 				<div class="list_page page">									{$page = $article -> render()}									</div><!--				<div class="list_page pager">					<ul>					<li><a href="?page=1" class="page_default" >上一页</a></li>					<li><a href="?page=1">1</a></li>					<li><span class="page_active">2</span></li>					<li><a href="###">3</a></li>					<li><a class="page_default">下一页</a></li>					</ul>									</div>-->
+<!-- 							<div class="list_page pager">
+					<ul>
+						<li><a class="page_default" href="###">上一页</a></li>
+						<li><a href="###">1</a></li>
+						<li><a class="page_active" href="###">2</a></li>
+						<li><a href="###">3</a></li>
+						<li><p>...</p></li>
+						<li><a  class="page_default" href="###">下一页</a></li>
+					</ul>
+				</div>-->
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<!--content end-->
+<script>	$(function(){			$(".page ul li:first span").html('上一页');		$(".page ul li:first a").html('上一页');		$(".page ul li:last span").html('下一页');		$(".page ul li:last a").html('下一页');			});</script>

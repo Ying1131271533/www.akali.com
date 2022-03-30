@@ -1,0 +1,318 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"D:\Web\www.akali.com\public/../application/admin\view\home\index.html";i:1554270552;}*/ ?>
+
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>公司后台管理</title>
+  <link href="__PUBLIC__css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="__PUBLIC__css/style.css" rel="stylesheet" type="text/css" />
+  <style type="text/css">
+  </style>
+  <script type="text/javascript">
+  </script>
+ </head>
+ <body class="mainbody">
+	<div class="main-header">
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">			
+					<a class="navbar-brand" href="<?=url('home/index')?>" style="font-size:24px;"><span class="glyphicon glyphicon-home" style="maring-right:20px;"> 公司后台管理</span></a>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				
+					<ul class="nav navbar-nav navbar-right">
+					<li><a href="<?=url('home/index')?>">欢迎使用 <?php echo \think\Session::get('admin.username'); ?></a></li>
+					<li class="dropdown">
+					<a href="<?php echo url('admin/home/logout'); ?>" class="quit" >退出登录</a>
+					</ul>
+					</li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+	</div>
+	<div class="main-menu">
+	
+		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+			
+			<div class="panel panel-danger">
+				<div class="panel-heading" role="tab" id="heading1">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+						<span class="glyphicon glyphicon-th-list"></span>
+							管理员管理
+						<span class="badge">0</span>
+						</a>
+					</h4>
+				</div>
+				<div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
+					<div class="panel-body">
+						<ul class="list-group">
+							<li class="list-group-item">
+								<a href="<?php echo url('admin/rbac/admin_add'); ?>" target="mainframe">
+									<span class="glyphicon glyphicon-play"></span>管理员添加
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="<?php echo url('admin/rbac/index'); ?>" target="mainframe">
+									<span class="glyphicon glyphicon-play"></span>管理员列表
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="<?php echo url('admin/rbac/role_add'); ?>" target="mainframe">
+									<span class="glyphicon glyphicon-play"></span>角色添加
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="<?php echo url('admin/rbac/role'); ?>" target="mainframe">
+									<span class="glyphicon glyphicon-play"></span>角色列表
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="<?php echo url('admin/rbac/node_add'); ?>" target="mainframe">
+									<span class="glyphicon glyphicon-play"></span>节点添加
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="<?php echo url('admin/rbac/node'); ?>" target="mainframe">
+									<span class="glyphicon glyphicon-play"></span>节点列表
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			<div class="panel panel-danger">
+				<div class="panel-heading" role="tab" id="heading2">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+						<span class="glyphicon glyphicon-th-list"></span>
+							新闻管理
+						<span class="badge">0</span>
+						</a>
+					</h4>
+				</div>
+				<div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+					<div class="panel-body">
+						<ul class="list-group">
+							<li class="list-group-item">
+								<a href="<?php echo url('admin/article/add'); ?>" target="mainframe">
+									<span class="glyphicon glyphicon-play"></span>新闻添加
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="<?php echo url('admin/article/index'); ?>" target="mainframe">
+									<span class="glyphicon glyphicon-play"></span>新闻列表
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="<?php echo url('admin/article_cate/add'); ?>" target="mainframe">
+									<span class="glyphicon glyphicon-play"></span>新闻分类添加
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="<?php echo url('admin/article_cate/index'); ?>" target="mainframe">
+									<span class="glyphicon glyphicon-play"></span>分类列表
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			<div class="panel panel-danger">
+				<div class="panel-heading" role="tab" id="heading3">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+						<span class="glyphicon glyphicon-th-list"></span>
+							品牌管理
+						<span class="badge">0</span>
+						</a>
+					</h4>
+				</div>
+				<div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+					<div class="panel-body">
+						<ul class="list-group">
+							<li class="list-group-item">
+								<a href="<?php echo url('admin/brand/add'); ?>" target="mainframe">
+									<span class="glyphicon glyphicon-play"></span>品牌添加
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="<?php echo url('admin/brand/index'); ?>" target="mainframe">
+									<span class="glyphicon glyphicon-play"></span>品牌列表
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="<?php echo url('admin/category/add'); ?>" target="mainframe">
+									<span class="glyphicon glyphicon-play"></span>分类添加
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="<?php echo url('admin/category/index'); ?>" target="mainframe">
+									<span class="glyphicon glyphicon-play"></span>分类列表
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			<div class="panel panel-danger">
+				<div class="panel-heading" role="tab" id="heading4">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+						<span class="glyphicon glyphicon-th-list"></span>
+							产品管理
+						<span class="badge">0</span>
+						</a>
+					</h4>
+				</div>
+				<div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+					<div class="panel-body">
+						<ul class="list-group">
+							
+							<li class="list-group-item">
+								<a href="<?php echo url('admin/goods_type/add'); ?>" target="mainframe">
+									<span class="glyphicon glyphicon-play"></span>商品模型添加
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="<?php echo url('admin/goods_type/index'); ?>" target="mainframe">
+									<span class="glyphicon glyphicon-play"></span>商品模型列表
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="<?php echo url('admin/goods/edit'); ?>" target="mainframe">
+									<span class="glyphicon glyphicon-play"></span>商品添加
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="<?php echo url('admin/goods/index'); ?>" target="mainframe">
+									<span class="glyphicon glyphicon-play"></span>商品列表
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>	
+			
+			<div class="panel panel-danger">
+				<div class="panel-heading" role="tab" id="heading5">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
+						<span class="glyphicon glyphicon-th-list"></span>
+							品牌介绍
+						<span class="badge">0</span>
+						</a>
+					</h4>
+				</div>
+				<div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
+					<div class="panel-body">
+						<ul class="list-group">
+							
+							<li class="list-group-item">
+								<a href="<?php echo url('admin/about/add'); ?>" target="mainframe">
+									<span class="glyphicon glyphicon-play"></span>介绍添加
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="<?php echo url('admin/about/index'); ?>" target="mainframe">
+									<span class="glyphicon glyphicon-play"></span>介绍列表
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>		
+			
+			<div class="panel panel-danger">
+				<div class="panel-heading" role="tab" id="heading6">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse6" 	aria-expanded="false" aria-controls="collapse6">
+						<span class="glyphicon glyphicon-th-list"></span>
+							留言板
+						<span class="badge">0</span>
+						</a>
+					</h4>
+				</div>
+				<div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
+					<div class="panel-body">
+						<ul class="list-group">
+							
+							<li class="list-group-item">
+								<a href="<?php echo url('admin/message/add'); ?>" target="mainframe">
+									<span class="glyphicon glyphicon-play"></span>留言添加
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="<?php echo url('admin/message/index'); ?>" target="mainframe">
+									<span class="glyphicon glyphicon-play"></span>留言列表
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>		
+			
+			<div class="panel panel-danger">
+				<div class="panel-heading" role="tab" id="heading7">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="false" aria-controls="collapse7">
+						<span class="glyphicon glyphicon-th-list"></span>
+							公司信息
+						<span class="badge">0</span>
+						</a>
+					</h4>
+				</div>
+				<div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7">
+					<div class="panel-body">
+						<ul class="list-group">
+							
+							<li class="list-group-item">
+								<a href="<?php echo url('admin/company/add'); ?>" target="mainframe">
+									<span class="glyphicon glyphicon-play"></span>信息添加
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="<?php echo url('admin/company/index'); ?>" target="mainframe">
+									<span class="glyphicon glyphicon-play"></span>信息列表
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>			
+		</div>	
+		
+	</div>
+	
+	<div class="main-body">
+		<iframe src="<?php echo url('admin/home/welcome'); ?>"  width="100%" height="100%" frameborder="0" name="mainframe"></iframe>
+	</div>
+	
+	<div class="main-footer">
+		神织知更后台管理
+	</div>
+  <script type="text/javascript" src="__PUBLIC__js/jquery.js"></script>
+  <script type="text/javascript" src="__PUBLIC__js/bootstrap.min.js"></script>
+  
+ </body>
+</html>
+
+<script>
+	
+	$(function(){
+		
+		$('.badge').each(function(){
+		
+			var len = $(this).parents('.panel').find('.list-group-item').length;
+			$(this).html(len);
+		});
+	});
+	
+</script>

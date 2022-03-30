@@ -1,0 +1,105 @@
+
+	<div class="container-fluid" style="padding:15px;">
+		<div class="panel panel-danger">
+			<div class="panel-heading">商品列表</div>
+			<div class="panel-body">
+				<form class="form-inline" method="post" action="{:url('index')}">
+					<div class="form-group">
+						<select class="form-control" name="category_id">
+							<option value="0">请选择分类</option>
+							{$cateInputHtml}
+						</select>
+					</div>
+					<div class="form-group">
+						<select class="form-control" name="brand_id">
+							<option value="0">请选择品牌</option>
+							{foreach name="brand" item="brandValue"}
+								<option value="{$brandValue.id}" {if condition="$Request.param.brand_id == $brandValue.id"}selected{/if}>{$brandValue.brand_name}</option>
+							{/foreach}
+						</select>
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" id="exampleInputEmail2" placeholder="请输入关键字" name="keywords" value="{$Request.param.keywords|default=''}">
+					</div>
+					<button type="submit" class="btn btn-default">搜索</button>
+				</form>
+			</div>
+			<table class="table table-bordered table-hover">
+				<tr class="danger">
+					<td>id</td>
+					<td>图片</td>
+					<td>商品名称</td>
+					<td>分类</td>
+					<td>品牌</td>
+					<td>市场价</td>
+					<td>本店价格</td>
+					<td>模型</td>
+					<td>操作</td>
+				</tr>
+				{foreach name="data" item="value"}
+				<tr>
+					<td>{$value.id}</td>
+					<td>
+						<img src="/{$value.image}" width="100" height="100" />
+					</td>
+					<td>{$value.goods_name}</td>
+					
+					<!-- 也可以直接 获取  这样可以不用在模型那边创建一个获取函数-->
+					<!-- <td>{$value.cate.cate_name}</td> -->
+					<td>{$value.cate_name}</td>
+					<td>{$value.brand_name}</td>
+					<td>{$value.market_price}</td>
+					<td>{$value.shop_price}</td>
+					<td>{$value.type_name}</td>
+					<td>
+						<a href="{:url('admin/goods/edit', ['id' => $value.id])}" style="margin-right:10px;">
+							<span class="glyphicon glyphicon-pencil"></span>
+						</a>								
+						<a href="javascript:;" onclick="del({$value.id})">
+							<span class="glyphicon glyphicon-trash"></span>
+						</a>
+					</td>
+				</tr>
+				{/foreach}
+			</table>
+			
+			<!-- 分页码 -->
+			<div class="page">
+				{$data -> render()}
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		function del(id)
+		{
+			if(confirm('确定要删除吗?'))
+			{
+				var url = "{:url('admin/article/del', ['id' => 'str_replace'])}";
+				
+				window.location.href = url.replace('str_replace', id);
+			}
+		}
+	</script>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

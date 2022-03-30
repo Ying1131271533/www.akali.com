@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<title>丧女 - 丧女漫画1-99话 - 搞笑漫画 - 谷川ニコ - 丧女在线漫画-非常爱漫在线漫画网</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <!-- <meta name=viewport content="width=device-width,initial-scale=1"> -->
+    <meta name="keywords" content="丧女, 丧女漫画，在线漫画">
+    <meta name="description" content="非常爱漫为您推荐丧女最新在线漫画浏览,     去了高中就自然能变得受欢迎，到那一刻都这么认为的黑木智子…  但是，残酷的现实袭来！这个状况怎么打破？女高中生的烦恼就此开始！又是很可爱的新生代女主角诞生！？">
+    <meta http-equiv="Cache-Control" content="no-transform" />
+	<link rel='stylesheet'  href='http://mhstatic.duapp.com/static/vim/css/styles.css' type='text/css' media='all' />
+	<script src="http://mhstatic.duapp.com/static/js/jquery-1.8.3.min.js"></script>
+	<script src="http://mhstatic.duapp.com/static/js/jquery.ext.js"></script>
+	<script src="http://mhstatic.duapp.com/static/layer/layer.js"></script>
+</head>
+<body class="col1-layout">
+<div class="wrapper">
+<div class="page">
+	
+	<div class="header-container">
+		<div class="top-links">
+			<div class="links clearfix">
+								<ul class="quick-links">
+					<!-- <li id="message"><a href="#">消息</a><span></span></li> -->
+					<!-- <li><a href="#">设为首页</a></li>
+					<li class="last"><a href="#">加入收藏</a></li> -->
+				</ul>
+			<!-- /links -->
+			</div>
+		<!-- /top-links -->
+		</div>
+		<div class="header clearfix">
+			<a href="http://www.verydm.com" class="logo"><img src="http://mhstatic.duapp.com/static/vim/images/logo.png"/></a>
+			<!-- <div class="bd-search">
+				<script type="text/javascript">(function(){document.write(unescape('%3Cdiv id="bdcs"%3E%3C/div%3E'));var bdcs = document.createElement('script');bdcs.type = 'text/javascript';bdcs.async = true;bdcs.src = 'http://znsv.baidu.com/customer_search/api/js?sid=7531637643142589173' + '&plate_url=' + encodeURIComponent(window.location.href) + '&t=' + Math.ceil(new Date()/3600000);var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(bdcs, s);})();</script>
+			</div> -->
+			<div class="search-bar">
+				<form action="/index.php" method="get" name="search_form" id="search_form">
+					<input type="hidden" name="r" value="comic/search"/>
+					<div class="search-box">
+						<input type="text" name="keyword" id="keyword" class="keyword" placeholder="请输入漫画名称或者作者名称"/><button type="button" class="btn-search" id="btn_search">搜索</button>
+					</div>
+					<div class="keywords">
+																			<a href="/index.php?r=comic/search&keyword=%E8%AF%B1%E6%83%91">诱惑</a> 
+													<a href="/index.php?r=comic/search&keyword=%E7%BA%AF%E6%83%85">纯情</a> 
+													<a href="/index.php?r=comic/search&keyword=%E6%81%8B%E7%88%B1%E6%9A%B4%E5%90%9B">恋爱暴君</a> 
+													<a href="/index.php?r=comic/search&keyword=%E9%BB%91%E7%8C%AB">黑猫</a> 
+													<a href="/index.php?r=comic/search&keyword=%E5%93%A5%E5%93%A5">哥哥</a> 
+													<a href="/index.php?r=comic/search&keyword=%E5%8D%83%E4%B8%96">千世</a> 
+													<a href="/index.php?r=comic/search&keyword=%E6%9C%A8%E4%B8%8B%E3%81%91%E3%81%84%E5%AD%90">木下けい子</a> 
+													<a href="/index.php?r=comic/search&keyword=%E6%9C%A8%E5%8E%9F">木原</a> 
+													<a href="/index.php?r=comic/search&keyword=%E9%AC%BC%E7%95%9C">鬼畜</a> 
+													<a href="/index.php?r=comic/search&keyword=%E4%BE%A6%E6%8E%A2">侦探</a> 
+													<a href="/index.php?r=comic/search&keyword=%E4%BD%90%E8%97%A4">佐藤</a> 
+													<a href="/index.php?r=comic/search&keyword=%E8%85%B9%E9%BB%91">腹黑</a> 
+													<a href="/index.php?r=comic/search&keyword=%E6%AC%B2%E6%9C%9B">欲望</a> 
+													<a href="/index.php?r=comic/search&keyword=%E6%9A%B4%E5%90%9B">暴君</a> 
+													<a href="/index.php?r=comic/search&keyword=stage">stage</a> 
+													<a href="/index.php?r=comic/search&keyword=%E5%AE%9D%E4%BA%95%E7%90%86%E4%BA%BA">宝井理人</a> 
+											</div>
+				</form>
+			<!-- /search-bar -->
+			</div>
+		<!-- /header -->
+		</div>
+	<!-- /header-container -->
+	</div>
+	<div class="nav-container">
+		<div class="nav-main clearfix">
+			<ul id="nav" class="nav clearfix">
+				<li class="first comic-nav-box">
+					<a href="">漫画导航 <em>&gt;</em></a>
+					<div class="sub comic-nav">
+												<div class="filter-list">
+							<ul class="clearfix story">
+								<li class="label">分类：</li>
+								<li class="all"><a href="/index.php?r=comic/list" class="active">全部</a></li>
+																<li><a href="/index.php?r=comic/list&category_id=1" >少年漫画</a></li>
+																<li><a href="/index.php?r=comic/list&category_id=2" >青年漫画</a></li>
+																<li><a href="/index.php?r=comic/list&category_id=3" >少女漫画</a></li>
+															</ul>
+							<ul class="clearfix category">
+								<li class="label">题材：</li>
+								<li class="all"><a href="/index.php?r=comic/list" class="active">全部</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=22" >爱情</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=20" >奇幻</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=2" >冒险</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=10" >科幻</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=19" >魔法</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=3" >搞笑</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=41" >悬疑</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=7" >恐怖</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=4" >竞技</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=9" >耽美</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=24" >百合</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=5" >侦探</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=6" >武侠</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=25" >校园</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=8" >生活亲情</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=1" >格斗</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=32" >治愈</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=30" >萌系</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=33" >励志</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=34" >机战</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=35" >舞蹈</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=36" >性转换</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=37" >节操</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=38" >轻小说</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=39" >同人</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=40" >热血</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=31" >宅男腐女</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=29" >战争</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=28" >后宫</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=12" >动物</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=13" >美食</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=14" >传记</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=15" >学习</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=16" >职场</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=17" >音乐</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=18" >其他</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=21" >东方神鬼</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=23" >魔幻</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=26" >四格</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=27" >伪娘</a></li>
+																<li><a href="/index.php?r=comic/list&story_id=11" >历史</a></li>
+															</ul>
+							<ul class="clearfix letter">
+								<li class="label">字母：</li>
+								<li class="all"><a href="/index.php?r=comic/list" class="active">全部</a></li>
+																<li><a href="/index.php?r=comic/list&letter=a" >A</a></li>
+																<li><a href="/index.php?r=comic/list&letter=b" >B</a></li>
+																<li><a href="/index.php?r=comic/list&letter=c" >C</a></li>
+																<li><a href="/index.php?r=comic/list&letter=d" >D</a></li>
+																<li><a href="/index.php?r=comic/list&letter=e" >E</a></li>
+																<li><a href="/index.php?r=comic/list&letter=f" >F</a></li>
+																<li><a href="/index.php?r=comic/list&letter=g" >G</a></li>
+																<li><a href="/index.php?r=comic/list&letter=h" >H</a></li>
+																<li><a href="/index.php?r=comic/list&letter=i" >I</a></li>
+																<li><a href="/index.php?r=comic/list&letter=j" >J</a></li>
+																<li><a href="/index.php?r=comic/list&letter=k" >K</a></li>
+																<li><a href="/index.php?r=comic/list&letter=l" >L</a></li>
+																<li><a href="/index.php?r=comic/list&letter=m" >M</a></li>
+																<li><a href="/index.php?r=comic/list&letter=n" >N</a></li>
+																<li><a href="/index.php?r=comic/list&letter=o" >O</a></li>
+																<li><a href="/index.php?r=comic/list&letter=p" >P</a></li>
+																<li><a href="/index.php?r=comic/list&letter=q" >Q</a></li>
+																<li><a href="/index.php?r=comic/list&letter=r" >R</a></li>
+																<li><a href="/index.php?r=comic/list&letter=s" >S</a></li>
+																<li><a href="/index.php?r=comic/list&letter=t" >T</a></li>
+																<li><a href="/index.php?r=comic/list&letter=u" >U</a></li>
+																<li><a href="/index.php?r=comic/list&letter=v" >V</a></li>
+																<li><a href="/index.php?r=comic/list&letter=w" >W</a></li>
+																<li><a href="/index.php?r=comic/list&letter=x" >X</a></li>
+																<li><a href="/index.php?r=comic/list&letter=y" >Y</a></li>
+																<li><a href="/index.php?r=comic/list&letter=z" >Z</a></li>
+																<li><a href="/index.php?r=comic/list&letter=1" >其他</a></li>
+							</ul>
+							<ul class="clearfix status">
+								<li class="label">状态：</li>
+								<li class="all"><a href="/index.php?r=comic/list" class="active">全部</a></li>
+								<li><a href="/index.php?r=comic/list&status=0" >连载</a></li>
+								<li><a href="/index.php?r=comic/list&status=1" >完结</a></li>
+							</ul>
+						</div>
+					<!-- /comic-nav -->
+					</div>
+				</li>
+				<li><a href="/index.php">首页</a></li>
+				<li><a href="/index.php?r=comic/list&category_id=1">少年漫画</a></li>
+				<li><a href="/index.php?r=comic/list&category_id=2">青年漫画</a></li>
+				<li><a href="/index.php?r=comic/list&category_id=3">少女漫画</a></li>
+				<li><a href="/index.php?r=comic/list&status=0">连载漫画</a></li>
+				<li><a href="/index.php?r=comic/list&status=1">完结漫画</a></li>
+				<li><a href="http://www.verydm.com/authors">作者列表</a></li>
+				<li><a href="/index.php?r=topic/list">专题系列</a></li>
+			</ul>
+			<ul id="nav-link" class="nav nav-link clearfix">
+				<li class="first"><a href="/index.php?r=bulletin/list">公告通知</a></li>
+				<li><a href="/index.php?r=comic/go">随便看看</a></li>
+				<li class="show-history">
+					<a href="#">浏览记录</a>
+					<div class="sub browser-history">
+						<ul class="clearfix">
+															<li><a href="http://www.verydm.com/manhua/sangnv">丧女</a></li>
+													</ul>
+					</div>
+				</li>
+			</ul>
+			<!-- <ul id="nav-top" class="nav clearfix">
+				<li class="first"><a href="#">人气排行榜</a></li>
+			</ul> -->
+		<!-- /nav-main -->
+		</div>
+	<!-- /nav-container -->
+	</div>
+		<div class="main-container">
+				<div class="main clearfix">
+			<div class="col-main">
+				
+<div class="view-page">
+	<div class="comic-name">
+		<h1>丧女</h1> 
+		<span class="subtitle"></span>
+		<div class="action-bar"><a href="javascript:addfavorite();">收藏</a></div>
+		<div class="vote-bar">
+			<div class="score"><span>共有<b id="vote_count">111</b>人参与评价：</span><span id="vote_score" class="num">8.5</span><span>分</span></div> 
+			<div class="vote">
+				<div class="star">
+					<a href="javascript:void(0)" data-score="2"></a>
+					<a href="javascript:void(0)" data-score="4"></a>
+					<a href="javascript:void(0)" data-score="6"></a>
+					<a href="javascript:void(0)" data-score="8"></a>
+					<a href="javascript:void(0)" data-score="10"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="info">
+		<img src="http://imgn1.magentozh.com:8090/s/soagn/small.jpg" class="cover"/>
+		<ul class="detail">
+			<li>作者：
+																		<a href="http://www.verydm.com/author/谷川ニコ" title="查看 谷川ニコ 相关作品">谷川ニコ</a> 
+							</li>
+			<li>最新：第99话</li>
+			<li>状态：连载中</li>
+			<li>分类：<a href='/index.php?r=comic/list&category_id=1'>少年漫画</a> </li>
+						<li>题材：<a href='/index.php?r=comic/list&story_id=3'>搞笑</a> </li>
+						<li>热度：37℃</li>
+			<li>更新：2016-08-06 11:25</li>
+		</ul>
+		<div class="tabs-widget">
+			<div class="tabs">
+				<div class="head">热度排行榜</div>
+				<ul class="tabs-button related-button">
+					<li class="hover">周</li>
+					<li>月</li>
+					<li>总</li>
+				</ul>
+			</div>
+			<div class="tabs-content related-content">
+								<ul>
+											<li><a href="http://www.verydm.com/manhua/10count">10 COUNT</a></li>
+											<li><a href="http://www.verydm.com/manhua/shijiediyi">世界第一初恋</a></li>
+											<li><a href="http://www.verydm.com/manhua/heimaonytmf">黑猫男友的填满方法</a></li>
+											<li><a href="http://www.verydm.com/manhua/qingbietgf">请别太过分</a></li>
+											<li><a href="http://www.verydm.com/manhua/lianaibaojun">恋爱暴君</a></li>
+											<li><a href="http://www.verydm.com/manhua/tansuozhe">探索者系列</a></li>
+											<li><a href="http://www.verydm.com/manhua/aiyuyuwang">爱与欲望之学园</a></li>
+											<li><a href="http://www.verydm.com/manhua/heimaonanyoutengai">黑猫男友的疼爱方式</a></li>
+											<li><a href="http://www.verydm.com/manhua/chunqingluoman">纯情罗曼史</a></li>
+											<li><a href="http://www.verydm.com/manhua/superloves">super lovers</a></li>
+											<li><a href="http://www.verydm.com/manhua/beinanrenweixie">被想让他拥抱排行榜第一位的男人给威胁了</a></li>
+											<li><a href="http://www.verydm.com/manhua/heimaonanyoudewanfa">黑猫男友的玩法</a></li>
+											<li><a href="http://www.verydm.com/manhua/meiyouqian">没有钱</a></li>
+											<li><a href="http://www.verydm.com/manhua/duzhanwodeyingxiong">独占我的英雄</a></li>
+											<li><a href="http://www.verydm.com/manhua/lianaijinzhisj">恋爱禁止的世界</a></li>
+											<li><a href="http://www.verydm.com/manhua/mingniao">鸣鸟不飞</a></li>
+											<li><a href="http://www.verydm.com/manhua/lovestage">Love Stage</a></li>
+											<li><a href="http://www.verydm.com/manhua/huaniao">花鸟风月</a></li>
+											<li><a href="http://www.verydm.com/manhua/heimaonanyoudekqfa">黑猫男友的哭泣方法</a></li>
+											<li><a href="http://www.verydm.com/manhua/kuangyeqingren">狂野情人</a></li>
+									</ul>
+
+								<ul>
+											<li><a href="http://www.verydm.com/manhua/10count">10 COUNT</a></li>
+											<li><a href="http://www.verydm.com/manhua/shijiediyi">世界第一初恋</a></li>
+											<li><a href="http://www.verydm.com/manhua/heimaonytmf">黑猫男友的填满方法</a></li>
+											<li><a href="http://www.verydm.com/manhua/qingbietgf">请别太过分</a></li>
+											<li><a href="http://www.verydm.com/manhua/lianaibaojun">恋爱暴君</a></li>
+											<li><a href="http://www.verydm.com/manhua/tansuozhe">探索者系列</a></li>
+											<li><a href="http://www.verydm.com/manhua/aiyuyuwang">爱与欲望之学园</a></li>
+											<li><a href="http://www.verydm.com/manhua/heimaonanyoutengai">黑猫男友的疼爱方式</a></li>
+											<li><a href="http://www.verydm.com/manhua/chunqingluoman">纯情罗曼史</a></li>
+											<li><a href="http://www.verydm.com/manhua/superloves">super lovers</a></li>
+											<li><a href="http://www.verydm.com/manhua/beinanrenweixie">被想让他拥抱排行榜第一位的男人给威胁了</a></li>
+											<li><a href="http://www.verydm.com/manhua/heimaonanyoudewanfa">黑猫男友的玩法</a></li>
+											<li><a href="http://www.verydm.com/manhua/meiyouqian">没有钱</a></li>
+											<li><a href="http://www.verydm.com/manhua/duzhanwodeyingxiong">独占我的英雄</a></li>
+											<li><a href="http://www.verydm.com/manhua/lianaijinzhisj">恋爱禁止的世界</a></li>
+											<li><a href="http://www.verydm.com/manhua/mingniao">鸣鸟不飞</a></li>
+											<li><a href="http://www.verydm.com/manhua/lovestage">Love Stage</a></li>
+											<li><a href="http://www.verydm.com/manhua/huaniao">花鸟风月</a></li>
+											<li><a href="http://www.verydm.com/manhua/heimaonanyoudekqfa">黑猫男友的哭泣方法</a></li>
+											<li><a href="http://www.verydm.com/manhua/kuangyeqingren">狂野情人</a></li>
+									</ul>
+
+								<ul>
+											<li><a href="http://www.verydm.com/manhua/aiyuyuwang">爱与欲望之学园</a></li>
+											<li><a href="http://www.verydm.com/manhua/shijiediyi">世界第一初恋</a></li>
+											<li><a href="http://www.verydm.com/manhua/lianaibaojun">恋爱暴君</a></li>
+											<li><a href="http://www.verydm.com/manhua/chunqingluoman">纯情罗曼史</a></li>
+											<li><a href="http://www.verydm.com/manhua/tansuozhe">探索者系列</a></li>
+											<li><a href="http://www.verydm.com/manhua/feiseyouhuo">绯色诱惑</a></li>
+											<li><a href="http://www.verydm.com/manhua/qingbietgf">请别太过分</a></li>
+											<li><a href="http://www.verydm.com/manhua/huoyingrenzhe">火影忍者</a></li>
+											<li><a href="http://www.verydm.com/manhua/superloves">super lovers</a></li>
+											<li><a href="http://www.verydm.com/manhua/10count">10 COUNT</a></li>
+											<li><a href="http://www.verydm.com/manhua/OnePiece">海贼王</a></li>
+											<li><a href="http://www.verydm.com/manhua/meiyouqian">没有钱</a></li>
+											<li><a href="http://www.verydm.com/manhua/ezuojuxl1">恶作剧系列Ⅰ</a></li>
+											<li><a href="http://www.verydm.com/manhua/shiZE">是-ZE-</a></li>
+											<li><a href="http://www.verydm.com/manhua/guixuyanjing">鬼畜眼镜</a></li>
+											<li><a href="http://www.verydm.com/manhua/youyudzc">忧郁的早晨</a></li>
+											<li><a href="http://www.verydm.com/manhua/sishen">死神</a></li>
+											<li><a href="http://www.verydm.com/manhua/lovestage">Love Stage</a></li>
+											<li><a href="http://www.verydm.com/manhua/heimaonytmf">黑猫男友的填满方法</a></li>
+											<li><a href="http://www.verydm.com/manhua/xueshzqxx">学生会长请小心</a></li>
+									</ul>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".related-button").tabs({cntSelect:".related-content",tabEvent:"click"});
+		});
+	</script>
+	<div class="info-main">
+		<div class="row clearfix">
+			<div class="summary" id="summary">
+				<h3>丧女 漫画简介：</h3>
+				<div class="content"><div id="content_wrapper">    去了高中就自然能变得受欢迎，到那一刻都这么认为的黑木智子…  但是，残酷的现实袭来！这个状况怎么打破？女高中生的烦恼就此开始！又是很可爱的新生代女主角诞生！？</div></div>
+				<a href="javascript:void(0)" id="view_more_summary">查看全部</a>
+			</div>
+			<div class="ad250" style="display:none">
+				
+			</div>
+		</div>
+		<div class="">
+			<span>喜欢此漫画就和大家分享吧：</span>
+			<div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_tieba" data-cmd="tieba" title="分享到百度贴吧"></a><a href="#" class="bds_tqf" data-cmd="tqf" title="分享到腾讯朋友"></a><a href="#" class="bds_bdysc" data-cmd="bdysc" title="分享到百度云收藏"></a><a href="#" class="bds_kaixin001" data-cmd="kaixin001" title="分享到开心网"></a><a href="#" class="bds_mshare" data-cmd="mshare" title="分享到一键分享"></a><a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a><a href="#" class="bds_ty" data-cmd="ty" title="分享到天涯社区"></a></div>
+			<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+		</div>
+		<div class="chapters">
+			<div class="head">连载列表</div>
+																									<ul class="clearfix ">
+											<li>
+															<a href="/chapter.php?id=73018" target='_blank' title="第99话">第99话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=73017" target='_blank' title="第98话">第98话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=73016" target='_blank' title="第97话">第97话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=71505" target='_blank' title="第96话">第96话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=71007" target='_blank' title="第95话">第95话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=71006" target='_blank' title="第94话">第94话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=68897" target='_blank' title="第92话">第92话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=68356" target='_blank' title="第91话">第91话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=67565" target='_blank' title="第90话">第90话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=66315" target='_blank' title="第89话">第89话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=65529" target='_blank' title="第88话">第88话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=65052" target='_blank' title="第87话">第87话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=64914" target='_blank' title="第86话">第86话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=64469" target='_blank' title="第85话">第85话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=64202" target='_blank' title="第84话">第84话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=62739" target='_blank' title="第83话">第83话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=61550" target='_blank' title="第82话">第82话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=60852" target='_blank' title="第81话">第81话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=59523" target='_blank' title="第80话">第80话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=58133" target='_blank' title="第79话">第79话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=57782" target='_blank' title="第78话">第78话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=57159" target='_blank' title="第77话">第77话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=56198" target='_blank' title="第76话">第76话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=56197" target='_blank' title="第75话">第75话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=56196" target='_blank' title="第74话">第74话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=56195" target='_blank' title="第73话">第73话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=56194" target='_blank' title="第72话">第72话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=56193" target='_blank' title="第71话">第71话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=56192" target='_blank' title="第70话">第70话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=54270" target='_blank' title="第69话">第69话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=54269" target='_blank' title="第68话">第68话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=48436" target='_blank' title="第67话">第67话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=48435" target='_blank' title="第66话">第66话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=48434" target='_blank' title="第65话">第65话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=48433" target='_blank' title="第64话">第64话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=45320" target='_blank' title="第63话">第63话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=45319" target='_blank' title="第62话">第62话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=45318" target='_blank' title="第61话">第61话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=45124" target='_blank' title="第60话">第60话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=43118" target='_blank' title="第59话">第59话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=43117" target='_blank' title="第58话">第58话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=41588" target='_blank' title="第57话">第57话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=41436" target='_blank' title="第56话">第56话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=40278" target='_blank' title="第55话">第55话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=38079" target='_blank' title="第54话">第54话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=37356" target='_blank' title="第53话">第53话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=36237" target='_blank' title="第52话">第52话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=35586" target='_blank' title="第51话">第51话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=35057" target='_blank' title="第50话">第50话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=34575" target='_blank' title="第49话">第49话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=33715" target='_blank' title="第48话">第48话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=33369" target='_blank' title="第47话">第47话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=32508" target='_blank' title="第46话">第46话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=31990" target='_blank' title="第45话">第45话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=31989" target='_blank' title="第44话">第44话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=31377" target='_blank' title="第43话">第43话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=31178" target='_blank' title="第42话">第42话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=30612" target='_blank' title="第41话">第41话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=29809" target='_blank' title="第40话">第40话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=29613" target='_blank' title="第39话">第39话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=29318" target='_blank' title="第38话">第38话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=29317" target='_blank' title="第37话">第37话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=28609" target='_blank' title="第36话">第36话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=28314" target='_blank' title="第35话">第35话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=27835" target='_blank' title="第34话">第34话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=27648" target='_blank' title="第33话">第33话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=27494" target='_blank' title="第32话">第32话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=27186" target='_blank' title="第31话">第31话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=27076" target='_blank' title="第30话">第30话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=26359" target='_blank' title="第29话">第29话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=26321" target='_blank' title="第28话">第28话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=26300" target='_blank' title="第27话">第27话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=26067" target='_blank' title="第26话">第26话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=25201" target='_blank' title="第25话">第25话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=25200" target='_blank' title="第24话">第24话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=25199" target='_blank' title="第23话">第23话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=25198" target='_blank' title="第22话">第22话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=25197" target='_blank' title="第21话">第21话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=25196" target='_blank' title="第20话">第20话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=25195" target='_blank' title="第19话">第19话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=25194" target='_blank' title="第18话">第18话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=25193" target='_blank' title="第17话">第17话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=25192" target='_blank' title="第16话">第16话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=25191" target='_blank' title="第15话">第15话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=25190" target='_blank' title="第14话">第14话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=25189" target='_blank' title="第13话">第13话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=25188" target='_blank' title="第12话">第12话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=25187" target='_blank' title="第11话">第11话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=25186" target='_blank' title="第10话">第10话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=25185" target='_blank' title="第9话">第9话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=25184" target='_blank' title="第8话">第8话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=25183" target='_blank' title="第7话">第7话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=25182" target='_blank' title="第6话">第6话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=25181" target='_blank' title="第5话">第5话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=25180" target='_blank' title="第4话">第4话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=25179" target='_blank' title="第3话">第3话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=25178" target='_blank' title="第2话">第2话</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=25177" target='_blank' title="第1话">第1话</a>
+													</li>
+										</ul>
+																																																		<div class="chapter-type">其他</div>
+															<ul class="clearfix ">
+											<li>
+															<a href="/chapter.php?id=25176" target='_blank' title="特别篇3">特别篇3</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=25174" target='_blank' title="特别篇2">特别篇2</a>
+													</li>
+											<li>
+															<a href="/chapter.php?id=25173" target='_blank' title="特别篇1">特别篇1</a>
+													</li>
+										</ul>
+												</div>
+		<div class="related">
+			<div class="rel-1" style="padding:0 10px">
+				<!-- <div class="head">喜欢这部漫画的人还喜欢...</div> -->
+				
+			</div>
+		</div>
+		<div class="reviews">
+			<div class="head">评论列表</div>
+			<div class="post">
+				<div class="editor">
+					<form name="review_form" id="review_form" action="#" method="post" onsubmit="return false;">
+						<input type="hidden" name="comic_id" value="1420"/>
+						<div class="row">
+							用户名：<input type="text" name="username" id="username" value=""/>
+						</div>
+						<div class="row">
+							<textarea name="content" id="content"></textarea>
+						</div>
+						<div class="action">
+							<p></p><button id="btn_post">发表</button>
+						</div>
+					</form>
+				</div><br/>
+				
+			<div class="clearfix" ></div>
+			<ul class="list" style="margin-top:10px;" id="review_list" scrollpagination="disabled">
+								<li>
+					<dl>
+						<dt>
+							<span class="post-user">
+																	纸盒子															</span>
+							<span class="post-date"> @ 2017-08-25 13:41</span>
+						</dt>
+						<dd>
+							你们有没有发现93话不见了...						</dd>
+					</dl>
+					<div class="action">
+						<a href="javascript:void(0);" class="review-up" data-id="377716">支持(<span id='up_377716'>30</span>)</a>&nbsp;
+						<a href="javascript:void(0);" class="review-down" data-id="377716">反对(<span id='down_377716'>0</span>)</a>&nbsp;
+					</div>
+				</li>
+								<li>
+					<dl>
+						<dt>
+							<span class="post-user">
+																	撸啊撸															</span>
+							<span class="post-date"> @ 2017-07-18 23:26</span>
+						</dt>
+						<dd>
+							动画版笑到我眼泪都流下来了，可惜没第二季啊，这么搞笑的番为什么火不起来啊						</dd>
+					</dl>
+					<div class="action">
+						<a href="javascript:void(0);" class="review-up" data-id="375020">支持(<span id='up_375020'>7</span>)</a>&nbsp;
+						<a href="javascript:void(0);" class="review-down" data-id="375020">反对(<span id='down_375020'>0</span>)</a>&nbsp;
+					</div>
+				</li>
+								<li>
+					<dl>
+						<dt>
+							<span class="post-user">
+																	123.129.135.*															</span>
+							<span class="post-date"> @ 2016-12-24 11:48</span>
+						</dt>
+						<dd>
+							2016最新真人XXOO游戏，20级后进入真实场景，面对面摸B，摸奶子，地址【 www.avdh.org 】复制进入，保证 爽						</dd>
+					</dl>
+					<div class="action">
+						<a href="javascript:void(0);" class="review-up" data-id="362285">支持(<span id='up_362285'>2</span>)</a>&nbsp;
+						<a href="javascript:void(0);" class="review-down" data-id="362285">反对(<span id='down_362285'>111</span>)</a>&nbsp;
+					</div>
+				</li>
+								<li>
+					<dl>
+						<dt>
+							<span class="post-user">
+																	PLC															</span>
+							<span class="post-date"> @ 2016-08-29 15:59</span>
+						</dt>
+						<dd>
+							莫名的伤感						</dd>
+					</dl>
+					<div class="action">
+						<a href="javascript:void(0);" class="review-up" data-id="355613">支持(<span id='up_355613'>88</span>)</a>&nbsp;
+						<a href="javascript:void(0);" class="review-down" data-id="355613">反对(<span id='down_355613'>2</span>)</a>&nbsp;
+					</div>
+				</li>
+								<li>
+					<dl>
+						<dt>
+							<span class="post-user">
+																	li															</span>
+							<span class="post-date"> @ 2016-08-04 17:29</span>
+						</dt>
+						<dd>
+							漫画画风崩了啊						</dd>
+					</dl>
+					<div class="action">
+						<a href="javascript:void(0);" class="review-up" data-id="353289">支持(<span id='up_353289'>2</span>)</a>&nbsp;
+						<a href="javascript:void(0);" class="review-down" data-id="353289">反对(<span id='down_353289'>151</span>)</a>&nbsp;
+					</div>
+				</li>
+								<li>
+					<dl>
+						<dt>
+							<span class="post-user">
+																	mimo															</span>
+							<span class="post-date"> @ 2014-01-27 23:37</span>
+						</dt>
+						<dd>
+							漫画也很有趣啊！虽然和动画画风不一样！配角们都是大好人啊~！						</dd>
+					</dl>
+					<div class="action">
+						<a href="javascript:void(0);" class="review-up" data-id="294570">支持(<span id='up_294570'>23</span>)</a>&nbsp;
+						<a href="javascript:void(0);" class="review-down" data-id="294570">反对(<span id='down_294570'>0</span>)</a>&nbsp;
+					</div>
+				</li>
+								<li>
+					<dl>
+						<dt>
+							<span class="post-user">
+																	183.60.191.*															</span>
+							<span class="post-date"> @ 2013-07-17 18:26</span>
+						</dt>
+						<dd>
+							动画明明做得很好的！！！！						</dd>
+					</dl>
+					<div class="action">
+						<a href="javascript:void(0);" class="review-up" data-id="275391">支持(<span id='up_275391'>25</span>)</a>&nbsp;
+						<a href="javascript:void(0);" class="review-down" data-id="275391">反对(<span id='down_275391'>0</span>)</a>&nbsp;
+					</div>
+				</li>
+								<li>
+					<dl>
+						<dt>
+							<span class="post-user">
+																	118.26.250.*															</span>
+							<span class="post-date"> @ 2013-07-09 20:25</span>
+						</dt>
+						<dd>
+							唔唔~小纪好可爱~~我要是有这么可爱的妹妹就好了说，我家妹妹真是让我无比头疼QAQ~小纪小纪~快到姐姐碗里来~XDD~~~						</dd>
+					</dl>
+					<div class="action">
+						<a href="javascript:void(0);" class="review-up" data-id="274477">支持(<span id='up_274477'>2</span>)</a>&nbsp;
+						<a href="javascript:void(0);" class="review-down" data-id="274477">反对(<span id='down_274477'>0</span>)</a>&nbsp;
+					</div>
+				</li>
+								<li>
+					<dl>
+						<dt>
+							<span class="post-user">
+																	118.26.250.*															</span>
+							<span class="post-date"> @ 2013-07-09 19:57</span>
+						</dt>
+						<dd>
+							唔.......二十七话啦........						</dd>
+					</dl>
+					<div class="action">
+						<a href="javascript:void(0);" class="review-up" data-id="274475">支持(<span id='up_274475'>1</span>)</a>&nbsp;
+						<a href="javascript:void(0);" class="review-down" data-id="274475">反对(<span id='down_274475'>2</span>)</a>&nbsp;
+					</div>
+				</li>
+								<li>
+					<dl>
+						<dt>
+							<span class="post-user">
+																	118.26.250.*															</span>
+							<span class="post-date"> @ 2013-07-09 19:56</span>
+						</dt>
+						<dd>
+							第二是气话，小丧夹起来的娃娃不会是domo君吧？？有点像呢~不过嘴巴里的牙齿没画，超喜欢domo君> 						</dd>
+					</dl>
+					<div class="action">
+						<a href="javascript:void(0);" class="review-up" data-id="274474">支持(<span id='up_274474'>3</span>)</a>&nbsp;
+						<a href="javascript:void(0);" class="review-down" data-id="274474">反对(<span id='down_274474'>0</span>)</a>&nbsp;
+					</div>
+				</li>
+								<li>
+					<dl>
+						<dt>
+							<span class="post-user">
+																	爱神下凡															</span>
+							<span class="post-date"> @ 2013-05-20 06:26</span>
+						</dt>
+						<dd>
+													</dd>
+					</dl>
+					<div class="action">
+						<a href="javascript:void(0);" class="review-up" data-id="269012">支持(<span id='up_269012'>0</span>)</a>&nbsp;
+						<a href="javascript:void(0);" class="review-down" data-id="269012">反对(<span id='down_269012'>2</span>)</a>&nbsp;
+					</div>
+				</li>
+								<li>
+					<dl>
+						<dt>
+							<span class="post-user">
+																	则那															</span>
+							<span class="post-date"> @ 2013-01-24 22:00</span>
+						</dt>
+						<dd>
+							笑死我了						</dd>
+					</dl>
+					<div class="action">
+						<a href="javascript:void(0);" class="review-up" data-id="258607">支持(<span id='up_258607'>6</span>)</a>&nbsp;
+						<a href="javascript:void(0);" class="review-down" data-id="258607">反对(<span id='down_258607'>2</span>)</a>&nbsp;
+					</div>
+				</li>
+								<li>
+					<dl>
+						<dt>
+							<span class="post-user">
+																	我是2楼啊？															</span>
+							<span class="post-date"> @ 2013-01-23 01:50</span>
+						</dt>
+						<dd>
+							那个。。。看不下去。。。						</dd>
+					</dl>
+					<div class="action">
+						<a href="javascript:void(0);" class="review-up" data-id="258414">支持(<span id='up_258414'>3</span>)</a>&nbsp;
+						<a href="javascript:void(0);" class="review-down" data-id="258414">反对(<span id='down_258414'>7</span>)</a>&nbsp;
+					</div>
+				</li>
+								<li>
+					<dl>
+						<dt>
+							<span class="post-user">
+																	58.47.158.*															</span>
+							<span class="post-date"> @ 2012-10-25 22:46</span>
+						</dt>
+						<dd>
+							额》。》》》。。没有一点改变...看多了 就觉得傻逼了啊						</dd>
+					</dl>
+					<div class="action">
+						<a href="javascript:void(0);" class="review-up" data-id="250315">支持(<span id='up_250315'>2</span>)</a>&nbsp;
+						<a href="javascript:void(0);" class="review-down" data-id="250315">反对(<span id='down_250315'>146</span>)</a>&nbsp;
+					</div>
+				</li>
+							</ul>
+			<div class="more" style="display:none" id="review_loading"><span>正在加载请稍等！</span></div>
+			<div class="more" id="review_more"><a href="/index.php?r=review/list&comic_id=1420">查看全部(14)</a></div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="/static/js/jquery.tabs.js"></script>
+<script type="text/javascript" src="/static/js/jquery.scrollpagination.js"></script>
+<script type="text/javascript">
+	// code for fade in element by element
+	$.fn.fadeInWithDelay = function(){
+		var delay = 0;
+		return this.each(function(){
+			$(this).delay(delay).animate({opacity:1}, 200);
+			delay += 100;
+		});
+	};
+
+	function bindUpDownEvent()
+	{
+		$('.review-up').unbind('click');
+		$('.review-down').unbind('click');
+		$('.review-up').click(function(){
+			if(!$(this).hasClass('disabled'))
+			{
+				var _this = this;
+				$.get('/index.php?r=review/up&id='+$(this).attr('data-id'),function(rs){
+					$("#up_"+$(_this).attr('data-id')).html(rs);
+				})
+			}
+		});
+		$('.review-down').click(function(){
+			if(!$(this).hasClass('disabled'))
+			{
+				var _this = this;
+				$.get('/index.php?r=review/down&id='+$(this).attr('data-id'),function(rs){
+					$("#down_"+$(_this).attr('data-id')).html(rs);
+				})
+			}
+		});
+	}
+
+
+	$(document).ready(function(){
+		bindUpDownEvent();
+		//查看更多评论信息
+		if($('#content_wrapper').height()>160)
+		{
+			$('#view_more_summary').css('display','block').click(function(){
+				$('#content_wrapper').parent().height('auto');
+				$('#summary').height('auto');
+				$(this).hide();
+			});
+		}
+
+		//评分
+		$('.star a').mouseenter(function(){
+			var _parent = $(this).parent();
+			if(_parent.hasClass('clicked')) return;
+			_parent.removeClass('star2').removeClass('star4').removeClass('star6').removeClass('star8').removeClass('star10');
+			_parent.addClass('star'+$(this).attr('data-score'));
+		});
+		$('.star').mouseout(function(){
+			if($(this).hasClass('clicked')) return;
+			$(this).removeClass('star2').removeClass('star4').removeClass('star6').removeClass('star8').removeClass('star10');
+		});
+		$('.star a').click(function(){
+			if($(this).parent().hasClass('clicked')) return;
+			$(this).parent().addClass('clicked');
+			var vote = $(this).attr('data-score');
+			$.get('/index.php?r=comic/vote&id=1420&vote='+vote,function(rs){
+				if(rs!='')
+				{
+					obj = JSON.parse(rs);
+					$('#vote_score').html(obj.data.score);
+					$('#vote_count').html(obj.data.vote_count);
+				}
+			});
+
+		});
+
+		//加入收藏夹
+		$("#add_to_favorite").click(function(){
+			if(!$(this).hasClass('disabled'))
+			{
+				$(this).addClass('disabled');
+
+			}
+		});
+
+		//自动加载评论
+		var loadding = false;
+		$('#review_list').scrollPagination({
+			'contentPage': '/index.php?r=review/load',
+			'contentData': {'comic_id':1420,'size':$('#review_list').children().size()},
+			'scrollTarget': $(window),
+			'heightOffset': 10,
+			'beforeLoad': function(){
+
+				if(14<20)
+				{
+					$('#review_list').stopScrollPagination();
+					return;
+				}
+				$('#review_more').hide();
+				$('#review_loading').fadeIn();	
+			},
+			'afterLoad': function(elementsLoaded){
+				this.contentData.size = $('#review_list').children().size();
+				bindUpDownEvent();
+				$('#review_loading').fadeOut();
+				$(elementsLoaded).fadeInWithDelay();
+				if ($('#review_list').children().size() >= 100){ 
+					$('#review_more').fadeIn();
+					$('#review_list').stopScrollPagination();
+				}
+			}
+		});
+
+		//发表评论
+		$("#btn_post").click(function(){
+			var formdata = $('#review_form').serialize();
+			if($.trim($('#content').val())=='')
+			{
+				layer.msg('内容不能为空！');
+			}
+			$.post("/index.php?r=review/save",formdata, function(data){
+				data = JSON.parse(data);
+				if(data.code==0)
+				{
+                	$("#content").val('');
+                	//alert(data.message);
+                	$.post('/index.php?r=review/load',{'comic_id':1420,'size':0},function(data){
+                		$('#review_list').html('').append(data);
+                		layer.msg('发表成功，谢谢参与！', {icon:9});
+                		bindUpDownEvent();
+                	});
+            	}
+			});
+		});
+
+
+		$.get('http://www.verydm.com/stat.php?id=1420',function(r){});
+
+	});
+</script>
+<script> 
+function addfavorite() 
+{ 
+	if (document.all) 
+	{ 
+		window.external.addFavorite('http://www.verydm.com/manhua/sangnv','丧女 - 非常爱漫'); 
+	} 
+	else if (window.sidebar) 
+	{ 
+		window.sidebar.addPanel('丧女 - 非常爱漫', 'http://www.verydm.com/manhua/sangnv', ""); 
+	} 
+} 
+</script> 
+<script>
+var _hmt = [];
+_hmt.push(['_setCustomVar', 1, 'comic', '丧女', 3]);
+</script>
+
+			<!-- /col-main -->
+			</div>
+		</div>
+	<!-- /main-container -->
+	</div>
+	<div class="footer-container">
+		<div class="footer">
+			<div class="footer-links">
+				<address class="copyright">&copy;2014 非常爱漫 本站漫画来源自网友上传和分享，仅供漫画爱好者学习研究。
+				</address>
+				<ul>
+					<!-- <li><a href="#">关于我们</a></li>
+					<li><a href="#">联系我们</a></li> -->
+					<li><a href="http://www.verydm.com/sitemap" title="站点地图">站点地图</a></li>
+					<li><a href="//m.kuaidi100.com" target="_blank">快递查询</a></li>
+					<li class="last"></li>
+				</ul>
+			</div>
+		</div>
+	<!-- /footer-container -->
+	</div>
+<!-- /page -->
+</div>
+<!-- /wrapper -->
+</div>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.comic-nav-box').mouseenter(function(){
+			$(this).addClass('show-sub');
+		});
+		$('.comic-nav-box').mouseleave(function(){
+			$(this).removeClass('show-sub');
+		});
+
+		$('.show-history').mouseenter(function(){
+			$(this).addClass('show-sub');
+		});
+		$('.show-history').mouseleave(function(){
+			$(this).removeClass('show-sub');
+		});
+		$('#btn_search').click(function(){
+			$('#search_form').submit();
+		});
+	});
+</script>
+<div class="hidden">
+<script src="http://s11.cnzz.com/z_stat.php?id=1255345200&web_id=1255345200" language="JavaScript"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?c068a9e5ce9cfaf3ba4767b16c22dc33";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</div>
+
+
+</body>
+</html>

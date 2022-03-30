@@ -1,0 +1,193 @@
+			<div class="place">
+
+					<p>当前位置</p>
+
+					<img src="__PUBLIC__img/icon_place.png" />
+
+					<p><a href="product.html">产品中心</a></p>
+
+				</div>
+				
+				<div class="product">
+
+					<div class="row">
+
+						<div class="col-md-9">
+							
+							<div class="subnav">
+
+								<ul class="akali">
+
+									{foreach name="categoryNav" item="cateValue"}
+									
+									<li {if condition="! empty($delai_cate_id) && $cateValue.id == $delai_cate_id"} class="default_styel" {/if} >
+									
+										<a date-cate_id="{$cateValue.id}" href="javascript:;">{$cateValue.cate_name}</a>
+										<input type="hidden" value="{$cateValue.id}">
+										
+									</li>
+									
+									{/foreach}
+
+								</ul>
+
+							</div>
+				
+							<script></script>
+							
+							<style>
+								.dropdown > ul > li{
+									position:relative;
+								}
+								
+								.dropdown > ul > li ul > li{
+									position:relative;
+								}
+								
+								.dropdown-menu li a{
+									display: block;
+									padding: 3px 20px;
+									clear: both;
+									font-weight: normal;
+									line-height: 1.42857143;
+									color: #333;
+									white-space: nowrap;
+								}
+								
+								.dropdown > ul > li ul{
+									position:absolute;
+									left:172px;
+									top:0;
+									display: none;
+								}
+								
+								.product .xs_nav li a{
+									background:#ccc;
+								}
+
+							</style>
+
+							<div class="xs_nav input-group">
+
+								<span class="input-group-btn dropdown ruiwen">
+								
+									<button class="btn btn-default dropdown-toggle" data-toggle="dropdown" type="button">服装类型</button>
+									
+									{$headerNavHtml}
+									
+								</span>
+
+							</div>
+
+							<div class="swiper-container">
+
+	  							<div class="swiper-wrapper">
+								
+									<div class="swiper-slide"><a href="{:url('wed/goods/product_center')}"><img src="__PUBLIC__img/product_pic_05.png" alt="product_pic_05.png" /></a></div>
+
+								    <div class="swiper-slide"><a href="{:url('wed/goods/product_center')}"><img src="__PUBLIC__img/product_pic_03.png" alt="product_pic_03.png" /></a></div>
+
+								    <div class="swiper-slide"><a href="{:url('wed/goods/product_center')}"><img src="__PUBLIC__img/product_pic_02.png" alt="product_pic_02.png" /></a></div>
+
+							  	</div>
+
+							</div>
+
+							<div class="show_image">
+
+								<ul>
+								
+									{foreach name="data" item="goodsValue"}
+									
+									<li>
+
+										<a href="{:url('wed/goods/product_center', ['id' => $goodsValue.id])}">
+
+										<img class="img-responsive" src="/{$goodsValue.image}" alt="{$goodsValue.image}" />
+
+										</a>
+										
+									</li>
+									
+									{/foreach}
+
+								</ul>
+
+								<a class="pre_show" href="###"><img src="__PUBLIC__img/icon_pre.png" alt="icon_pre" /></a>
+
+								<a class="next_show" href="###"><img src="__PUBLIC__img/icon_next.png" alt="icon_next" /></a>
+
+							</div>
+
+							<a class="add" href="{:url('wed/goods/cart')}">加入购物车</a>
+
+						</div>
+
+						<div class="col-md-3">
+
+							<img src="__PUBLIC__img/product_pic_01.png" alt="profuct_pic_01" />
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>	
+
+		<!--content end-->
+		
+		<script>
+		
+		$('.akali a').click(function(){
+			
+			var cate_id = $(this).next().val();
+			
+			//alert(cate_id);
+		
+			$.post('{:url("ajaxgoodsimge")}', {cate_id : cate_id}, function(data){
+				$('.show_image ul').html(data);
+			}, 'html');
+			
+		});
+		
+		$('.dropdown a').click(function(){
+			
+			var cate_id = $(this).next().val();
+			
+			//alert(cate_id);
+		
+			$.post('{:url("ajaxgoodsimge")}', {cate_id : cate_id}, function(data){
+				$('.show_image ul').html(data);
+			}, 'html');
+			
+		});
+		
+		</script>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

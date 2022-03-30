@@ -1,0 +1,43 @@
+
+				<div class="place">
+					<p>当前位置</p>
+					<img src="__PUBLIC__img/icon_place.png" />
+					<p><a href="{:url('wed/about/index')}">品牌介绍</a></p>
+				</div>
+				<div class="company">
+					<div class="row">
+						<div class="company_left col-lg-6 col-md-6 col-xs-12">
+							<div class="top">
+								<h3>加入JHV</h3>
+								<ul>
+									<li>
+										<a href="{:url('wed/contact/index')}">
+											<span>授权期限</span><br />
+											<i>1~3年</i>
+										</a>
+									</li>
+									<li>
+										<a href="{:url('wed/contact/index')}">
+											<span>店铺面积</span><br />
+											<i>30-200m</i>
+										</a>
+									</li>
+									<li>
+										<a href="{:url('wed/contact/index')}">
+											<span>合作区域</span><br />
+											<i>2、3线城市</i>
+										</a>
+									</li>
+								</ul>
+							</div>
+							{eq name=":file_exists($about.image)" value="true"}							<img class="img-responsive" src="/{$about.image}" alt="company" style="width:556px;height:352px;"/>							{/eq}
+						</div>
+						<div class="company_right col-lg-6 col-md-6 col-xs-12">
+							<h3>{$about.title}</h3>														{:html_dcode($about.content)}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--content end-->
+		

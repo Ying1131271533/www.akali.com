@@ -1,0 +1,104 @@
+
+	<div class="text">
+
+		<div class="row">
+
+			<div class="text-left col-sm-3">
+
+				<ul class="nav">
+
+					<li><a href="{:url('wed/goods/index')}" style="background-color: rgb(192, 180, 162);">产品推介</a></li>
+
+					<li class="default" style="background-color: rgb(58, 109, 132);"><a href="{:url('wed/about/index')}">关于JHV</a></li>
+
+					<li><a href="{:url('wed/article/index')}" style="background-color: rgb(58, 109, 132);">旗下品牌</a></li>
+
+					<li><a href="{:url('wed/message/index')}" style="background-color: rgb(115, 55, 55);">招商加盟</a></li>
+
+					<li><a href="{:url('wed/about/index')}" style="background-color: rgb(115, 55, 55);">社会责任</a></li>
+
+					<li><a href="{:url('wed/user/index')}" style="background-color: rgb(192, 180, 162);">个人中心</a></li>
+
+				</ul>
+
+			</div>
+
+			<div class="col-sm-9 col-xs-12">
+
+				<a href="{:url('wed/goods/index')}"><img class="img-responsive" src="__PUBLIC__img/banner.png" alt="banner"></a>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+
+<div class="search">
+
+	<form name="form" action="{:url('wed/goods/index')}" method="get">
+
+		<div class="search_text input-group">
+
+			<span class="input-group-btn dropup">
+
+				<button class="btn btn-default dropdown-toggle btn-md" data-toggle="dropdown" type="button">搜品牌</button>
+
+				<ul class="dropdown-menu akali" role="menu">
+
+					{foreach name="brand_name" item="value"}
+					
+					<li><a href="javascript:;" onclick="brand(this)">{$value}</a></li>
+					
+					{/foreach}
+
+				</ul>
+
+			</span>
+
+			<input type="text" class="form-control input-md" name="keywords"/>
+
+			<span class="input-group-btn">
+
+				<button class="btn btn-default btn-md search_button" type="sbumit" style="color:#fff;">搜索</button>
+
+			</span>
+
+		</div>
+
+	</form>
+
+</div>
+
+</div>
+
+<!--content end-->
+
+<script>
+	
+	function brand(obj)
+	{
+		var brand_name = $(obj).html();
+		
+		$('input[name="keywords"]').val(brand_name);
+	}
+	
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

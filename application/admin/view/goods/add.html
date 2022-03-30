@@ -1,0 +1,308 @@
+
+	<div class="container-fluid" style="padding:15px;">
+		<form class="form-horizontal" role="form" action="" method="post" enctype="multipart/form-data">
+		<div class="panel panel-danger">
+			<div class="panel-heading">{if condition="input('?id')"}编辑{else/}添加{/if}商品</div>
+				<div class="panel-body">					
+					<div class="bs-example bs-example-tabs" data-example-id="togglable-tabs">
+						<ul id="myTabs" class="nav nav-tabs" role="tablist">
+							<li role="presentation" class="active">
+								<a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">通用信息</a>
+							</li>
+							<li role="presentation">
+								<a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile">相册</a>
+							</li>
+							<li role="presentation">
+								<a href="#dropdown1" role="tab" id="dropdown1-tab" data-toggle="tab" aria-controls="dropdown1">商品模型</a>
+							</li>
+						</ul>
+						<div id="myTabContent" class="tab-content" style="margin-top:25px;">
+							<div role="tabpanel" class="tab-pane fade in active" id="home" aria-labelledby="home-tab">
+								<div class="form-group">
+									<label for="inputEmail3" class="col-sm-2 control-label">商品名称</label>
+									<div class="col-sm-10">
+										<input type="text" class="form-control" id="tit" placeholder="请输入商品名称" name="goods_name" value="{$goods.goods_name|default=''}">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="author" class="col-sm-2 control-label">分类</label>
+									<div class="col-sm-10">
+										<select class="form-control" name="category_id">
+											<option value="0">请选择分类</option>
+											{$cateInputHtml}
+										</select>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="author" class="col-sm-2 control-label">品牌</label>
+									<div class="col-sm-10">
+										<select class="form-control" name="brand_id">
+											<option value="0">请选择品牌</option>
+											{foreach name="brand" item="brandValue"}
+												<option value="{$brandValue.id}" {if condition="! empty($goods) && $goods.brand_id == $brandValue.id"}selected{/if} >{$brandValue.brand_name}</option>
+											{/foreach}
+										</select>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="author" class="col-sm-2 control-label">市场价</label>
+									<div class="col-sm-10">
+										<input name="market_price" type="text" class="form-control" id="author" placeholder="请输入市场价" value="{$goods.market_price|default=0}">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="url" class="col-sm-2 control-label">本店价格</label>
+									<div class="col-sm-10">
+										<input name="shop_price" type="text" class="form-control" id="url" placeholder="请输入本店价格" value="{$goods.shop_price|default=0}">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="upload" class="col-sm-2 control-label">上传图片</label>
+									<div class="col-sm-10">
+										<!-- <div class="btns">
+											<div id="picker" style="float:left;margin-right:10px;">选择文件</div>
+											<span id="ctlBtn" class="btn btn-default" style="float:left;margin-right:10px;">开始上传</span>
+											<div id="thelist" class="uploader-list"></div>
+										</div> -->
+										<span id="ctlBtn" class="btn btn-default" onclick="uploader({id : 'image', type : 'input'})" style="float:left;margin-right:10px;">开始上传</span>
+										<div class="col-sm-5" style="position:relative;">
+											<input type="text" name="image" id="image" class="form-control" value="{$goods.image|default=''}" />
+											<div id="show" style="position:absolute;top:-40px;right:-100px;border:#f2a5a5  solid 1px;z-index:999;display:none;"></div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="form-group">
+									<label for="author" class="col-sm-2 control-label">内容</label>
+									<div class="col-sm-10">
+										<!-- <textarea name="content" id="content" class="form-control " style="height:80px;"></textarea> -->
+										<!-- 加载编辑器的容器 -->
+										<script id="container" name="content" type="text/plain" style="height:150px;">
+										{if condition="! empty($goods)"}{:htmlspecialchars_decode($goods.desc.content)}{/if}
+										</script>
+										<!-- 配置文件 -->
+										<script type="text/javascript" src="__PUBLIC__ueditor/ueditor.config.js"></script>
+										<!-- 编辑器源码文件 -->
+										<script type="text/javascript" src="__PUBLIC__ueditor/ueditor.all.js"></script>
+										<!-- 实例化编辑器 -->
+										<script type="text/javascript">
+											var ue = UE.getEditor('container');
+										</script>
+									</div>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane fade row " id="profile" aria-labelledby="profile-tab">
+								{if condition="! empty($goods.imgs)"}
+								{foreach name="$goods.imgs" item="imgValue"}
+								<div class="col-sm-3">
+									<div class="thumbnail">
+										<img style="width:100px;height:100px;" src="/{$imgValue.path}" width="100px" height="100px"/>
+										<input type="hidden" name="photo[]" value="{$imgValue.path}" />
+										<div class="caption">
+											<p style="text-align:center;">
+												<a href="javascript:;" onclick="delimg(this)" class="btn btn-primary" role="button">删除</a>
+											</p>
+										</div>
+									</div>
+								</div>
+								{/foreach}
+								{/if}
+								<div class="col-sm-3 photo-list-btn">
+									<p>
+										<a href="javasrcipt:;" onclick="uploader({callback:'addphoto'})" class="btn btn-primary" role="button">添加</a>
+									</p>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="dropdown1" aria-labelledby="dropdown1-tab">
+								<div class="form-group">
+									<label for="author" class="col-sm-2 control-label"></label>
+									<div class="col-sm-12">
+										<select class="form-control" name="type_id">
+											<option value="0">请选择商品模型</option>
+											{foreach name="goodsType" item="typeValue"}
+											<option value="{$typeValue.type_id}" {if condition="! empty($goods) && $goods.type_id == $typeValue.type_id"}selected{/if} >{$typeValue.type_name}</option>
+											{/foreach}
+										</select>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>					
+				</div>
+			</div>
+		</div>
+		<div class="form-group">
+			<button type="submit" class="btn btn-default pull-left" style="margin:20px;">保存</button>
+		</div>
+		</form>
+	</div>
+	<script>
+	
+		function addphoto(params)
+		{
+			//alert(params);
+			var html = '';
+			
+			for(var i = 0; i < params.src.length; i++)
+			{
+				html += '<div class="col-sm-3">'+
+							'<div class="thumbnail">'+
+								'<img style="width:100px;height:100px;" src="/'+ params.src[i] +'" width="100px" height="100px"/>'+
+								'<input type="hidden" name="photo[]" value="'+ params.src[i] +'" />'+
+								'<div class="caption">'+
+									'<p style="text-align:center;">'+
+										'<a href="javascript:;" onclick="delimg(this)" class="btn btn-primary" role="button">删除</a>'+
+									'</p>'+
+								'</div>'+
+							'</div>'+
+						'</div>';
+			}
+			
+			$('.photo-list-btn').before(html);
+		}
+		
+		function delimg(obj)
+		{
+			$(obj).parents('.col-sm-3').remove();
+		}
+		
+		var items = [];
+		
+		$(function(){
+			$('select[name="type_id"]').change(function(){
+				getSpec();
+			});
+			
+			{if condition="! empty($goods)"}
+				getSpec({$goods.id});
+			{/if}
+			
+			$('#image').hover(function(){				
+				var src = $(this).val();
+				if(src.length > 0)
+				{
+					$('#show').css({display:'block'}).html('<img src="/'+ src +'" width="100px" height="100px" />');
+				}
+				
+			},function(){
+				$('#show').css({display:'none'});
+			});
+			
+		});
+		
+		function getSpec(goods_id)
+		{
+			var _that = $('select[name="type_id"]');
+			var type_id = _that.val();
+			var _this = _that;
+			items = [];
+			_this.parents('.tab-pane').find('.panel').remove();
+			
+			$.post("{:url('ajaxgetgoodstype')}", {type_id : type_id, id:goods_id ? goods_id : 0}, function(data){
+				//console.log(data);
+				_this.parents('.form-group').after(data);
+				
+				{if condition="! empty($itemId)"}
+					var temp = [];
+					{foreach name="itemId" item="itValue"}
+						temp.push({$itValue});
+					{/foreach}
+					
+					$('.spec-item-btn').each(function(){
+						
+						for(var i = 0; i < temp.length; i++)
+						{
+							if(temp[i] == $(this).attr('data-item_id'))
+							{
+								var spec_id = $(this).attr('data-spec_id');
+								var item_id = $(this).attr('data-item_id');			
+								var itemStr = spec_id + '_' + item_id;
+								items.push(itemStr);				
+								$(this).addClass('btn-success').removeClass('btn-default');
+							}
+						}
+						
+					});
+					
+					ajaxGetSpecItem('.spec-item-btn', {$goods.id|default=0})
+					
+				{/if}
+				
+				$('.spec-item-btn').click(function(){
+					// 点击规格选项
+					spec_item($(this));
+				});
+				
+			}, 'html');
+		}
+		
+		// 点击规格选项
+		function spec_item(obj)
+		{
+			var spec_id = $(obj).attr('data-spec_id');
+			var item_id = $(obj).attr('data-item_id');			
+			var itemStr = spec_id + '_' + item_id;
+			
+			if(! $(obj).hasClass('btn-success'))
+			{
+				items.push(itemStr);				
+				$(obj).addClass('btn-success').removeClass('btn-default');
+			}else
+			{
+				$(obj).addClass('btn-default').removeClass('btn-success');
+				
+				items.splice($.inArray(itemStr, items), 1);
+			}
+			
+			ajaxGetSpecItem(obj, {$goods.id|default=0})
+			
+			<!-- console.log(items); -->
+		}
+		
+		function ajaxGetSpecItem(obj, goods_id)
+		{
+			// ajax 获取规格套餐
+			$.post("{:url('ajaxgetspecgroup')}", {item : items, id : goods_id ? goods_id : 0}, function(data){
+				$(obj).parents('.spec-table').find('.table').remove();
+				$(obj).parents('.spec-table').find('.panel-body').after(data.html);
+				
+				var len = $('.spec-table .form-group').length;
+				for(var i =0; i < len; i++)
+				{
+					$(".table").rowspan(i);
+				}
+				
+			}, 'json');
+		}
+		
+	</script>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

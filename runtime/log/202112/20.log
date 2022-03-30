@@ -1,0 +1,3294 @@
+[ 2021-12-20T10:33:09+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.akali.com/admin [运行时间：1.524036s][吞吐率：0.66req/s] [内存消耗：371.03kb] [文件加载：45]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'wed'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'admin',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cart=think%3A%5B%5D; seen=think%3A%7B%2216%22%3A%2216%22%2C%2213%22%3A%2213%22%2C%2220%22%3A%2220%22%2C%2212%22%3A%2212%22%2C%2221%22%3A%2221%22%7D; like=think%3A%7B%2216%22%3A%221%22%2C%2213%22%3A%221%22%2C%2220%22%3A%221%22%2C%2212%22%3A%221%22%2C%2221%22%3A%221%22%7D',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2021-12-20T10:33:31+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/home
+[ log ] www.akali.com/admin/home [运行时间：0.858698s][吞吐率：1.16req/s] [内存消耗：301.84kb] [文件加载：45]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'wed'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'admin',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cart=think%3A%5B%5D; seen=think%3A%7B%2216%22%3A%2216%22%2C%2213%22%3A%2213%22%2C%2220%22%3A%2220%22%2C%2212%22%3A%2212%22%2C%2221%22%3A%2221%22%7D; like=think%3A%7B%2216%22%3A%221%22%2C%2213%22%3A%221%22%2C%2220%22%3A%221%22%2C%2212%22%3A%221%22%2C%2221%22%3A%221%22%7D; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2021-12-20T10:43:44+08:00 ] 127.0.0.1 127.0.0.1 GET /home
+[ log ] www.akali.com/home [运行时间：0.757419s][吞吐率：1.32req/s] [内存消耗：600.16kb] [文件加载：61]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'wed'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'home',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cart=think%3A%5B%5D; seen=think%3A%7B%2216%22%3A%2216%22%2C%2213%22%3A%2213%22%2C%2220%22%3A%2220%22%2C%2212%22%3A%2212%22%2C%2221%22%3A%2221%22%7D; like=think%3A%7B%2216%22%3A%221%22%2C%2213%22%3A%221%22%2C%2220%22%3A%221%22%2C%2212%22%3A%221%22%2C%2221%22%3A%221%22%7D; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Home->index[ D:\Web\www.akali.com\application\wed\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2021-12-20T10:43:45+08:00 ] 127.0.0.1 127.0.0.1 POST /cart/ajaxgetcount.html
+[ log ] www.akali.com/cart/ajaxgetcount.html [运行时间：0.502038s][吞吐率：1.99req/s] [内存消耗：523.05kb] [文件加载：62]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'wed'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wed',
+    1 => 'cart',
+    2 => 'ajaxgetcount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.akali.com',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.akali.com',
+  'referer' => 'http://www.akali.com/home',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cart=think%3A%5B%5D; seen=think%3A%7B%2216%22%3A%2216%22%2C%2213%22%3A%2213%22%2C%2220%22%3A%2220%22%2C%2212%22%3A%2212%22%2C%2221%22%3A%2221%22%7D; like=think%3A%7B%2216%22%3A%221%22%2C%2213%22%3A%221%22%2C%2220%22%3A%221%22%2C%2212%22%3A%221%22%2C%2221%22%3A%221%22%7D; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\wed\controller\Cart->ajaxGetCount[ D:\Web\www.akali.com\application\wed\controller\Cart.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2021-12-20T10:43:50+08:00 ] 127.0.0.1 127.0.0.1 GET /home
+[ log ] admin.akali.com/home [运行时间：0.952532s][吞吐率：1.05req/s] [内存消耗：464.26kb] [文件加载：61]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Home->index[ D:\Web\www.akali.com\application\admin\controller\Home.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001163s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `node` [ RunTime:0.009157s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'show' in 'where clause'[D:\Web\www.akali.com\thinkphp\library\think\db\Connection.php:383]
+
+---------------------------------------------------------------
+[ 2021-12-20T10:43:55+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] admin.akali.com/ [运行时间：0.845616s][吞吐率：1.18req/s] [内存消耗：462.77kb] [文件加载：61]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Home->index[ D:\Web\www.akali.com\application\admin\controller\Home.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000923s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `node` [ RunTime:0.004652s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'show' in 'where clause'[D:\Web\www.akali.com\thinkphp\library\think\db\Connection.php:383]
+
+---------------------------------------------------------------
+[ 2021-12-20T10:43:58+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] admin.akali.com/ [运行时间：0.869891s][吞吐率：1.15req/s] [内存消耗：463.16kb] [文件加载：61]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Home->index[ D:\Web\www.akali.com\application\admin\controller\Home.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001133s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `node` [ RunTime:0.005242s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'show' in 'where clause'[D:\Web\www.akali.com\thinkphp\library\think\db\Connection.php:383]
+
+---------------------------------------------------------------
+[ 2021-12-20T10:52:38+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] admin.akali.com/ [运行时间：0.873430s][吞吐率：1.14req/s] [内存消耗：464.01kb] [文件加载：61]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Home->index[ D:\Web\www.akali.com\application\admin\controller\Home.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000548s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `node` [ RunTime:0.002515s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'local' in 'order clause'[D:\Web\www.akali.com\thinkphp\library\think\db\Connection.php:383]
+
+---------------------------------------------------------------
+[ 2021-12-20T10:55:30+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] admin.akali.com/ [运行时间：0.597827s][吞吐率：1.67req/s] [内存消耗：903.54kb] [文件加载：60]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Home->index[ D:\Web\www.akali.com\application\admin\controller\Home.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\home\index_auth.html [ array (
+  0 => 'showNode',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001546s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `node` [ RunTime:0.006953s ]
+[ sql ] [ SQL ] SELECT * FROM `node` WHERE  `show` = 1 ORDER BY `local` [ RunTime:0.001222s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T10:55:32+08:00 ] 127.0.0.1 127.0.0.1 GET /home/welcome.html
+[ log ] admin.akali.com/home/welcome.html [运行时间：0.476622s][吞吐率：2.10req/s] [内存消耗：346.62kb] [文件加载：51]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Home->welcome[ D:\Web\www.akali.com\application\admin\controller\Home.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\home\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2021-12-20T10:55:37+08:00 ] 127.0.0.1 127.0.0.1 GET /goods/index.html
+[ log ] admin.akali.com/goods/index.html [运行时间：0.715610s][吞吐率：1.40req/s] [内存消耗：1,226.49kb] [文件加载：74]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->index[ D:\Web\www.akali.com\application\admin\controller\Goods.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\goods\index.html [ array (
+  0 => 'data',
+  1 => 'cateInputHtml',
+  2 => 'brand',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000548s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1 [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` ORDER BY `id`  desc LIMIT 0,5 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.000645s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `brand` [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_type` [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 1 LIMIT 1 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 29 LIMIT 1 [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 28 LIMIT 1 [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000155s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000155s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 1 LIMIT 1 [ RunTime:0.000183s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T10:55:45+08:00 ] 127.0.0.1 127.0.0.1 GET /goods/add.html
+[ log ] admin.akali.com/goods/add.html [运行时间：0.619878s][吞吐率：1.61req/s] [内存消耗：1,101.53kb] [文件加载：68]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\Web\www.akali.com\application\admin\controller\Goods.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\goods\add.html [ array (
+  0 => 'goodsType',
+  1 => 'brand',
+  2 => 'cateInputHtml',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001423s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_type` [ RunTime:0.009405s ]
+[ sql ] [ SQL ] SELECT `type_id`,`type_name` FROM `goods_type` [ RunTime:0.000685s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `brand` [ RunTime:0.006233s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.005589s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000469s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T10:55:58+08:00 ] 127.0.0.1 127.0.0.1 POST /goods/ajaxgetgoodstype.html
+[ log ] admin.akali.com/goods/ajaxgetgoodstype.html [运行时间：0.109102s][吞吐率：9.17req/s] [内存消耗：603.09kb] [文件加载：58]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'ajaxgetgoodstype',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'content-length' => '14',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://admin.akali.com',
+  'referer' => 'http://admin.akali.com/goods/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '1',
+  'id' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->ajaxGetGoodsType[ D:\Web\www.akali.com\application\admin\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001073s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `spec` [ RunTime:0.005333s ]
+[ sql ] [ SQL ] SELECT * FROM `spec` WHERE  `type_id` = 1 [ RunTime:0.002871s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `spec_item` [ RunTime:0.002368s ]
+[ sql ] [ SQL ] SELECT * FROM `spec_item` WHERE  `spec_id` = 8 [ RunTime:0.001909s ]
+[ sql ] [ SQL ] SELECT * FROM `spec_item` WHERE  `spec_id` = 9 [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `attribute` [ RunTime:0.002527s ]
+[ sql ] [ SQL ] SELECT * FROM `attribute` WHERE  `type_id` = 1 [ RunTime:0.001821s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T10:56:06+08:00 ] 127.0.0.1 127.0.0.1 POST /goods/ajaxgetgoodstype.html
+[ log ] admin.akali.com/goods/ajaxgetgoodstype.html [运行时间：0.056958s][吞吐率：17.56req/s] [内存消耗：601.25kb] [文件加载：58]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'ajaxgetgoodstype',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'content-length' => '14',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://admin.akali.com',
+  'referer' => 'http://admin.akali.com/goods/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '2',
+  'id' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->ajaxGetGoodsType[ D:\Web\www.akali.com\application\admin\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001841s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `spec` [ RunTime:0.007805s ]
+[ sql ] [ SQL ] SELECT * FROM `spec` WHERE  `type_id` = 2 [ RunTime:0.000616s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `spec_item` [ RunTime:0.005265s ]
+[ sql ] [ SQL ] SELECT * FROM `spec_item` WHERE  `spec_id` = 6 [ RunTime:0.000579s ]
+[ sql ] [ SQL ] SELECT * FROM `spec_item` WHERE  `spec_id` = 7 [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SELECT * FROM `spec_item` WHERE  `spec_id` = 10 [ RunTime:0.000445s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `attribute` [ RunTime:0.005477s ]
+[ sql ] [ SQL ] SELECT * FROM `attribute` WHERE  `type_id` = 2 [ RunTime:0.000495s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T10:56:16+08:00 ] 127.0.0.1 127.0.0.1 POST /goods/ajaxgetspecgroup.html
+[ log ] admin.akali.com/goods/ajaxgetspecgroup.html [运行时间：0.492507s][吞吐率：2.03req/s] [内存消耗：581.69kb] [文件加载：62]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'ajaxgetspecgroup',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'content-length' => '20',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://admin.akali.com',
+  'referer' => 'http://admin.akali.com/goods/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'item' => 
+  array (
+    0 => '6_22',
+  ),
+  'id' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->ajaxGetSpecGroup[ D:\Web\www.akali.com\application\admin\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024366s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `spec_item` [ RunTime:0.011018s ]
+[ sql ] [ SQL ] SELECT * FROM `spec_item` WHERE  `item_id` IN (22) ORDER BY `spec_id` [ RunTime:0.000949s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `spec` [ RunTime:0.010800s ]
+[ sql ] [ SQL ] SELECT * FROM `spec` WHERE  `spec_id` = 6 LIMIT 1 [ RunTime:0.000863s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T10:56:18+08:00 ] 127.0.0.1 127.0.0.1 POST /goods/ajaxgetspecgroup.html
+[ log ] admin.akali.com/goods/ajaxgetspecgroup.html [运行时间：0.458138s][吞吐率：2.18req/s] [内存消耗：582.21kb] [文件加载：62]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'ajaxgetspecgroup',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'content-length' => '36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://admin.akali.com',
+  'referer' => 'http://admin.akali.com/goods/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'item' => 
+  array (
+    0 => '6_22',
+    1 => '6_24',
+  ),
+  'id' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->ajaxGetSpecGroup[ D:\Web\www.akali.com\application\admin\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001249s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `spec_item` [ RunTime:0.007186s ]
+[ sql ] [ SQL ] SELECT * FROM `spec_item` WHERE  `item_id` IN (22) ORDER BY `spec_id` [ RunTime:0.000718s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `spec` [ RunTime:0.006537s ]
+[ sql ] [ SQL ] SELECT * FROM `spec` WHERE  `spec_id` = 6 LIMIT 1 [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SELECT * FROM `spec_item` WHERE  `item_id` IN (24) ORDER BY `spec_id` [ RunTime:0.000560s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T10:56:21+08:00 ] 127.0.0.1 127.0.0.1 POST /goods/ajaxgetspecgroup.html
+[ log ] admin.akali.com/goods/ajaxgetspecgroup.html [运行时间：0.494697s][吞吐率：2.02req/s] [内存消耗：583.20kb] [文件加载：62]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'ajaxgetspecgroup',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'content-length' => '51',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://admin.akali.com',
+  'referer' => 'http://admin.akali.com/goods/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'item' => 
+  array (
+    0 => '6_22',
+    1 => '6_24',
+    2 => '7_3',
+  ),
+  'id' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->ajaxGetSpecGroup[ D:\Web\www.akali.com\application\admin\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025956s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `spec_item` [ RunTime:0.007537s ]
+[ sql ] [ SQL ] SELECT * FROM `spec_item` WHERE  `item_id` IN (22,3) ORDER BY `spec_id` [ RunTime:0.001293s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `spec` [ RunTime:0.007269s ]
+[ sql ] [ SQL ] SELECT * FROM `spec` WHERE  `spec_id` = 6 LIMIT 1 [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT * FROM `spec` WHERE  `spec_id` = 7 LIMIT 1 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SELECT * FROM `spec_item` WHERE  `item_id` IN (24,3) ORDER BY `spec_id` [ RunTime:0.000666s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T10:56:27+08:00 ] 127.0.0.1 127.0.0.1 POST /goods/ajaxgetspecgroup.html
+[ log ] admin.akali.com/goods/ajaxgetspecgroup.html [运行时间：0.472970s][吞吐率：2.11req/s] [内存消耗：584.13kb] [文件加载：62]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'ajaxgetspecgroup',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'content-length' => '68',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://admin.akali.com',
+  'referer' => 'http://admin.akali.com/goods/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'item' => 
+  array (
+    0 => '6_22',
+    1 => '6_24',
+    2 => '7_3',
+    3 => '10_33',
+  ),
+  'id' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->ajaxGetSpecGroup[ D:\Web\www.akali.com\application\admin\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011846s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `spec_item` [ RunTime:0.006635s ]
+[ sql ] [ SQL ] SELECT * FROM `spec_item` WHERE  `item_id` IN (22,3,33) ORDER BY `spec_id` [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `spec` [ RunTime:0.006250s ]
+[ sql ] [ SQL ] SELECT * FROM `spec` WHERE  `spec_id` = 6 LIMIT 1 [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SELECT * FROM `spec` WHERE  `spec_id` = 7 LIMIT 1 [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SELECT * FROM `spec` WHERE  `spec_id` = 10 LIMIT 1 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SELECT * FROM `spec_item` WHERE  `item_id` IN (24,3,33) ORDER BY `spec_id` [ RunTime:0.000630s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T10:56:41+08:00 ] 127.0.0.1 127.0.0.1 POST /goods/ajaxgetspecgroup.html
+[ log ] admin.akali.com/goods/ajaxgetspecgroup.html [运行时间：0.455134s][吞吐率：2.20req/s] [内存消耗：585.71kb] [文件加载：62]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'ajaxgetspecgroup',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'content-length' => '83',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://admin.akali.com',
+  'referer' => 'http://admin.akali.com/goods/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'item' => 
+  array (
+    0 => '6_22',
+    1 => '6_24',
+    2 => '7_3',
+    3 => '10_33',
+    4 => '7_4',
+  ),
+  'id' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->ajaxGetSpecGroup[ D:\Web\www.akali.com\application\admin\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001307s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `spec_item` [ RunTime:0.001692s ]
+[ sql ] [ SQL ] SELECT * FROM `spec_item` WHERE  `item_id` IN (22,3,33) ORDER BY `spec_id` [ RunTime:0.000764s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `spec` [ RunTime:0.001621s ]
+[ sql ] [ SQL ] SELECT * FROM `spec` WHERE  `spec_id` = 6 LIMIT 1 [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SELECT * FROM `spec` WHERE  `spec_id` = 7 LIMIT 1 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SELECT * FROM `spec` WHERE  `spec_id` = 10 LIMIT 1 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT * FROM `spec_item` WHERE  `item_id` IN (22,4,33) ORDER BY `spec_id` [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SELECT * FROM `spec_item` WHERE  `item_id` IN (24,3,33) ORDER BY `spec_id` [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SELECT * FROM `spec_item` WHERE  `item_id` IN (24,4,33) ORDER BY `spec_id` [ RunTime:0.000259s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T10:57:29+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/api/upload/callback/addphoto
+[ log ] admin.akali.com/admin/api/upload/callback/addphoto [运行时间：0.852491s][吞吐率：1.17req/s] [内存消耗：301.83kb] [文件加载：45]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'api',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/goods/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'upload' => 'callback',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2021-12-20T10:57:45+08:00 ] 127.0.0.1 127.0.0.1 GET /goods/index.html
+[ log ] admin.akali.com/goods/index.html [运行时间：0.550872s][吞吐率：1.82req/s] [内存消耗：917.43kb] [文件加载：72]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->index[ D:\Web\www.akali.com\application\admin\controller\Goods.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\goods\index.html [ array (
+  0 => 'data',
+  1 => 'cateInputHtml',
+  2 => 'brand',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001258s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.007285s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1 [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` ORDER BY `id`  desc LIMIT 0,5 [ RunTime:0.000704s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.007146s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `brand` [ RunTime:0.002474s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_type` [ RunTime:0.002174s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 1 LIMIT 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 29 LIMIT 1 [ RunTime:0.000166s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 28 LIMIT 1 [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 1 LIMIT 1 [ RunTime:0.000160s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T10:57:50+08:00 ] 127.0.0.1 127.0.0.1 GET /goods/index.html?page=2
+[ log ] admin.akali.com/goods/index.html?page=2 [运行时间：0.525384s][吞吐率：1.90req/s] [内存消耗：916.77kb] [文件加载：72]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/goods/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->index[ D:\Web\www.akali.com\application\admin\controller\Goods.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\goods\index.html [ array (
+  0 => 'data',
+  1 => 'cateInputHtml',
+  2 => 'brand',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001375s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.007009s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` ORDER BY `id`  desc LIMIT 5,5 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.003747s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `brand` [ RunTime:0.002401s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_type` [ RunTime:0.002187s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 1 LIMIT 1 [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000151s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 1 LIMIT 1 [ RunTime:0.000169s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T10:57:57+08:00 ] 127.0.0.1 127.0.0.1 GET /goods/add.html
+[ log ] admin.akali.com/goods/add.html [运行时间：0.540326s][吞吐率：1.85req/s] [内存消耗：781.38kb] [文件加载：66]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\Web\www.akali.com\application\admin\controller\Goods.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\goods\add.html [ array (
+  0 => 'goodsType',
+  1 => 'brand',
+  2 => 'cateInputHtml',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000936s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_type` [ RunTime:0.005719s ]
+[ sql ] [ SQL ] SELECT `type_id`,`type_name` FROM `goods_type` [ RunTime:0.000444s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `brand` [ RunTime:0.005155s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.005181s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000437s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T10:58:00+08:00 ] 127.0.0.1 127.0.0.1 GET /goods/index.html
+[ log ] admin.akali.com/goods/index.html [运行时间：0.553768s][吞吐率：1.81req/s] [内存消耗：916.34kb] [文件加载：72]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->index[ D:\Web\www.akali.com\application\admin\controller\Goods.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\goods\index.html [ array (
+  0 => 'data',
+  1 => 'cateInputHtml',
+  2 => 'brand',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001166s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.005842s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1 [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` ORDER BY `id`  desc LIMIT 0,5 [ RunTime:0.000461s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.006332s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `brand` [ RunTime:0.003572s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000167s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_type` [ RunTime:0.002214s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 1 LIMIT 1 [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 29 LIMIT 1 [ RunTime:0.000175s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000611s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 28 LIMIT 1 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000164s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000151s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000172s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000159s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 1 LIMIT 1 [ RunTime:0.000159s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T10:58:07+08:00 ] 127.0.0.1 127.0.0.1 POST /goods/index.html
+[ log ] admin.akali.com/goods/index.html [运行时间：0.556490s][吞吐率：1.80req/s] [内存消耗：916.75kb] [文件加载：72]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'content-length' => '34',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://admin.akali.com',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/goods/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'category_id' => '0',
+  'brand_id' => '3',
+  'keywords' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->index[ D:\Web\www.akali.com\application\admin\controller\Goods.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\goods\index.html [ array (
+  0 => 'data',
+  1 => 'cateInputHtml',
+  2 => 'brand',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001614s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.002248s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `goods` WHERE  `brand_id` = 3 LIMIT 1 [ RunTime:0.000888s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `brand_id` = 3 ORDER BY `id`  desc LIMIT 0,5 [ RunTime:0.002893s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.001093s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `brand` [ RunTime:0.001037s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_type` [ RunTime:0.000796s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 1 LIMIT 1 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 28 LIMIT 1 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000453s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000155s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 1 LIMIT 1 [ RunTime:0.000190s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T10:58:17+08:00 ] 127.0.0.1 127.0.0.1 GET /goods/index.html
+[ log ] admin.akali.com/goods/index.html [运行时间：0.524523s][吞吐率：1.91req/s] [内存消耗：916.34kb] [文件加载：72]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->index[ D:\Web\www.akali.com\application\admin\controller\Goods.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\goods\index.html [ array (
+  0 => 'data',
+  1 => 'cateInputHtml',
+  2 => 'brand',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023279s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.004331s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1 [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` ORDER BY `id`  desc LIMIT 0,5 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.003764s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `brand` [ RunTime:0.002393s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` [ RunTime:0.000172s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_type` [ RunTime:0.002158s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 1 LIMIT 1 [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 29 LIMIT 1 [ RunTime:0.000606s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000166s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 28 LIMIT 1 [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000164s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000159s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 1 LIMIT 1 [ RunTime:0.000152s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T10:59:15+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] admin.akali.com/ [运行时间：0.520583s][吞吐率：1.92req/s] [内存消耗：388.26kb] [文件加载：54]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Home->index[ D:\Web\www.akali.com\application\admin\controller\Home.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\home\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2021-12-20T10:59:16+08:00 ] 127.0.0.1 127.0.0.1 GET /home/welcome.html
+[ log ] admin.akali.com/home/welcome.html [运行时间：0.429109s][吞吐率：2.33req/s] [内存消耗：346.63kb] [文件加载：51]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Home->welcome[ D:\Web\www.akali.com\application\admin\controller\Home.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\home\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2021-12-20T10:59:19+08:00 ] 127.0.0.1 127.0.0.1 GET /rbac/index.html
+[ log ] admin.akali.com/rbac/index.html [运行时间：0.560367s][吞吐率：1.78req/s] [内存消耗：1,034.75kb] [文件加载：68]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rbac',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rbac->index[ D:\Web\www.akali.com\application\admin\controller\Rbac.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\rbac\index.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000542s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000193s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T10:59:24+08:00 ] 127.0.0.1 127.0.0.1 GET /rbac/role.html
+[ log ] admin.akali.com/rbac/role.html [运行时间：0.508076s][吞吐率：1.97req/s] [内存消耗：971.13kb] [文件加载：68]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rbac',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rbac->role[ D:\Web\www.akali.com\application\admin\controller\Rbac.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\rbac\role.html [ array (
+  0 => 'role',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018587s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.001426s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.000309s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T10:59:33+08:00 ] 127.0.0.1 127.0.0.1 GET /rbac/role_edit/id/5.html
+[ log ] admin.akali.com/rbac/role_edit/id/5.html [运行时间：0.884639s][吞吐率：1.13req/s] [内存消耗：626.99kb] [文件加载：66]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rbac',
+    2 => 'role_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/rbac/role.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rbac->role_edit[ D:\Web\www.akali.com\application\admin\controller\Rbac.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024780s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.003034s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `node` [ RunTime:0.002398s ]
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'www_akali_com.role_node' doesn't exist[D:\Web\www.akali.com\thinkphp\library\think\db\connector\Mysql.php:63]
+
+---------------------------------------------------------------
+[ 2021-12-20T11:00:20+08:00 ] 127.0.0.1 127.0.0.1 GET /goods/edit.html
+[ log ] admin.akali.com/goods/edit.html [运行时间：0.678205s][吞吐率：1.47req/s] [内存消耗：1,101.44kb] [文件加载：68]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->edit[ D:\Web\www.akali.com\application\admin\controller\Goods.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\goods\edit.html [ array (
+  0 => 'goodsType',
+  1 => 'brand',
+  2 => 'cateInputHtml',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014775s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_type` [ RunTime:0.007589s ]
+[ sql ] [ SQL ] SELECT `type_id`,`type_name` FROM `goods_type` [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `brand` [ RunTime:0.006858s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` [ RunTime:0.000793s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.007163s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000641s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T11:00:24+08:00 ] 127.0.0.1 127.0.0.1 GET /goods_type/add.html
+[ log ] admin.akali.com/goods_type/add.html [运行时间：0.538787s][吞吐率：1.86req/s] [内存消耗：1,015.06kb] [文件加载：53]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods_type',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\GoodsType->add[ D:\Web\www.akali.com\application\admin\controller\GoodsType.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\goods_type\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2021-12-20T11:00:27+08:00 ] 127.0.0.1 127.0.0.1 GET /goods/index.html
+[ log ] admin.akali.com/goods/index.html [运行时间：0.553923s][吞吐率：1.81req/s] [内存消耗：916.34kb] [文件加载：72]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->index[ D:\Web\www.akali.com\application\admin\controller\Goods.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\goods\index.html [ array (
+  0 => 'data',
+  1 => 'cateInputHtml',
+  2 => 'brand',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001351s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.007992s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1 [ RunTime:0.000795s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` ORDER BY `id`  desc LIMIT 0,5 [ RunTime:0.000581s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.007112s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000564s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `brand` [ RunTime:0.002386s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_type` [ RunTime:0.002251s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 1 LIMIT 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 29 LIMIT 1 [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 28 LIMIT 1 [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000155s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 1 LIMIT 1 [ RunTime:0.000177s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T11:00:30+08:00 ] 127.0.0.1 127.0.0.1 GET /goods_type/index.html
+[ log ] admin.akali.com/goods_type/index.html [运行时间：0.494688s][吞吐率：2.02req/s] [内存消耗：879.42kb] [文件加载：59]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods_type',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\GoodsType->index[ D:\Web\www.akali.com\application\admin\controller\GoodsType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\goods_type\index.html [ array (
+  0 => 'cateData',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001068s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_type` [ RunTime:0.004349s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` ORDER BY `type_id`  desc [ RunTime:0.000290s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T11:00:36+08:00 ] 127.0.0.1 127.0.0.1 GET /goods_attr/index/type_id/3.html
+[ log ] admin.akali.com/goods_attr/index/type_id/3.html [运行时间：0.630307s][吞吐率：1.59req/s] [内存消耗：1,016.41kb] [文件加载：66]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods_attr',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/goods_type/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\GoodsAttr->index[ D:\Web\www.akali.com\application\admin\controller\GoodsAttr.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\goods_attr\index.html [ array (
+  0 => 'listData',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021905s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `attribute` [ RunTime:0.008400s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `attribute` LIMIT 1 [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SELECT * FROM `attribute` LIMIT 0,15 [ RunTime:0.000886s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_type` [ RunTime:0.002535s ]
+[ sql ] [ SQL ] SELECT `type_name` FROM `goods_type` WHERE  `type_id` = 1 LIMIT 1 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SELECT `type_name` FROM `goods_type` WHERE  `type_id` = 1 LIMIT 1 [ RunTime:0.000101s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T11:00:52+08:00 ] 127.0.0.1 127.0.0.1 GET /goods_attr/add/attr_id/2.html
+[ log ] admin.akali.com/goods_attr/add/attr_id/2.html [运行时间：0.568153s][吞吐率：1.76req/s] [内存消耗：1,271.39kb] [文件加载：64]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods_attr',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/goods_attr/index/type_id/3.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'attr_id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\GoodsAttr->add[ D:\Web\www.akali.com\application\admin\controller\GoodsAttr.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\goods_attr\add.html [ array (
+  0 => 'attrData',
+  1 => 'typeData',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025725s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `attribute` [ RunTime:0.005479s ]
+[ sql ] [ SQL ] SELECT * FROM `attribute` WHERE  `attr_id` = 2 LIMIT 1 [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_type` [ RunTime:0.004894s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` [ RunTime:0.000378s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T11:01:05+08:00 ] 127.0.0.1 127.0.0.1 GET /goods/index.html
+[ log ] admin.akali.com/goods/index.html [运行时间：0.536882s][吞吐率：1.86req/s] [内存消耗：916.34kb] [文件加载：72]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->index[ D:\Web\www.akali.com\application\admin\controller\Goods.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\goods\index.html [ array (
+  0 => 'data',
+  1 => 'cateInputHtml',
+  2 => 'brand',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001228s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.006714s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1 [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` ORDER BY `id`  desc LIMIT 0,5 [ RunTime:0.000506s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.006188s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `brand` [ RunTime:0.003959s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_type` [ RunTime:0.002247s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 1 LIMIT 1 [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 29 LIMIT 1 [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 28 LIMIT 1 [ RunTime:0.000172s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000166s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000175s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 1 LIMIT 1 [ RunTime:0.000157s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T11:17:27+08:00 ] 127.0.0.1 127.0.0.1 GET /goods/edit.html
+[ log ] admin.akali.com/goods/edit.html [运行时间：0.521881s][吞吐率：1.92req/s] [内存消耗：781.38kb] [文件加载：66]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->edit[ D:\Web\www.akali.com\application\admin\controller\Goods.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\goods\edit.html [ array (
+  0 => 'goodsType',
+  1 => 'brand',
+  2 => 'cateInputHtml',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001472s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_type` [ RunTime:0.001445s ]
+[ sql ] [ SQL ] SELECT `type_id`,`type_name` FROM `goods_type` [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `brand` [ RunTime:0.000779s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.001116s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000355s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T11:17:30+08:00 ] 127.0.0.1 127.0.0.1 GET /goods/index.html
+[ log ] admin.akali.com/goods/index.html [运行时间：0.539267s][吞吐率：1.85req/s] [内存消耗：916.34kb] [文件加载：72]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->index[ D:\Web\www.akali.com\application\admin\controller\Goods.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\goods\index.html [ array (
+  0 => 'data',
+  1 => 'cateInputHtml',
+  2 => 'brand',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001714s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.007981s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1 [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` ORDER BY `id`  desc LIMIT 0,5 [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.001530s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000578s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `brand` [ RunTime:0.000633s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_type` [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 1 LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 29 LIMIT 1 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 28 LIMIT 1 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000159s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` WHERE  `type_id` = 1 LIMIT 1 [ RunTime:0.000174s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T11:17:35+08:00 ] 127.0.0.1 127.0.0.1 GET /goods_type/add.html
+[ log ] admin.akali.com/goods_type/add.html [运行时间：0.446754s][吞吐率：2.24req/s] [内存消耗：558.70kb] [文件加载：51]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods_type',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\GoodsType->add[ D:\Web\www.akali.com\application\admin\controller\GoodsType.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\goods_type\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2021-12-20T11:17:37+08:00 ] 127.0.0.1 127.0.0.1 GET /goods_type/index.html
+[ log ] admin.akali.com/goods_type/index.html [运行时间：0.463312s][吞吐率：2.16req/s] [内存消耗：642.36kb] [文件加载：57]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods_type',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\GoodsType->index[ D:\Web\www.akali.com\application\admin\controller\GoodsType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\goods_type\index.html [ array (
+  0 => 'cateData',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001568s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_type` [ RunTime:0.001980s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` ORDER BY `type_id`  desc [ RunTime:0.000654s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T11:17:38+08:00 ] 127.0.0.1 127.0.0.1 GET /goods_type/add.html
+[ log ] admin.akali.com/goods_type/add.html [运行时间：0.476759s][吞吐率：2.10req/s] [内存消耗：558.29kb] [文件加载：51]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods_type',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\GoodsType->add[ D:\Web\www.akali.com\application\admin\controller\GoodsType.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\goods_type\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2021-12-20T11:17:50+08:00 ] 127.0.0.1 127.0.0.1 GET /goods_type/index.html
+[ log ] admin.akali.com/goods_type/index.html [运行时间：0.458897s][吞吐率：2.18req/s] [内存消耗：641.27kb] [文件加载：57]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods_type',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\GoodsType->index[ D:\Web\www.akali.com\application\admin\controller\GoodsType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\goods_type\index.html [ array (
+  0 => 'cateData',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017465s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_type` [ RunTime:0.000952s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` ORDER BY `type_id`  desc [ RunTime:0.000315s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T11:17:52+08:00 ] 127.0.0.1 127.0.0.1 GET /goods_spec/index/type_id/3.html
+[ log ] admin.akali.com/goods_spec/index/type_id/3.html [运行时间：0.582998s][吞吐率：1.72req/s] [内存消耗：956.98kb] [文件加载：64]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods_spec',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/goods_type/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\GoodsSpec->index[ D:\Web\www.akali.com\application\admin\controller\GoodsSpec.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\goods_spec\index.html [ array (
+  0 => 'listData',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020153s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `spec` [ RunTime:0.001045s ]
+[ sql ] [ SQL ] SELECT * FROM `spec` [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_type` [ RunTime:0.000592s ]
+[ sql ] [ SQL ] SELECT `type_name` FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `spec_item` [ RunTime:0.002253s ]
+[ sql ] [ SQL ] SELECT `item_name` FROM `spec_item` WHERE  `spec_id` = 6 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT `type_name` FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT `item_name` FROM `spec_item` WHERE  `spec_id` = 7 [ RunTime:0.000175s ]
+[ sql ] [ SQL ] SELECT `type_name` FROM `goods_type` WHERE  `type_id` = 1 LIMIT 1 [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT `item_name` FROM `spec_item` WHERE  `spec_id` = 8 [ RunTime:0.000561s ]
+[ sql ] [ SQL ] SELECT `type_name` FROM `goods_type` WHERE  `type_id` = 1 LIMIT 1 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT `item_name` FROM `spec_item` WHERE  `spec_id` = 9 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT `type_name` FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SELECT `item_name` FROM `spec_item` WHERE  `spec_id` = 10 [ RunTime:0.000170s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T11:17:57+08:00 ] 127.0.0.1 127.0.0.1 GET /goods_spec/add/spec_id/6.html
+[ log ] admin.akali.com/goods_spec/add/spec_id/6.html [运行时间：0.510093s][吞吐率：1.96req/s] [内存消耗：956.15kb] [文件加载：65]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods_spec',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/goods_spec/index/type_id/3.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'spec_id' => '6',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\GoodsSpec->add[ D:\Web\www.akali.com\application\admin\controller\GoodsSpec.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\goods_spec\add.html [ array (
+  0 => 'specData',
+  1 => 'typeData',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001715s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `spec` [ RunTime:0.002227s ]
+[ sql ] [ SQL ] SELECT * FROM `spec` WHERE  `spec_id` = 6 LIMIT 1 [ RunTime:0.001240s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_type` [ RunTime:0.001499s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `spec_item` [ RunTime:0.003065s ]
+[ sql ] [ SQL ] SELECT `item_name` FROM `spec_item` WHERE  `spec_id` = 6 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT `item_name` FROM `spec_item` WHERE  `spec_id` = 6 [ RunTime:0.000159s ]
+[ sql ] [ SQL ] SELECT `item_name` FROM `spec_item` WHERE  `spec_id` = 6 [ RunTime:0.000149s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T11:18:01+08:00 ] 127.0.0.1 127.0.0.1 GET /goods_attr/index/type_id/3.html
+[ log ] admin.akali.com/goods_attr/index/type_id/3.html [运行时间：0.522943s][吞吐率：1.91req/s] [内存消耗：705.44kb] [文件加载：64]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods_attr',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/goods_type/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\GoodsAttr->index[ D:\Web\www.akali.com\application\admin\controller\GoodsAttr.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\goods_attr\index.html [ array (
+  0 => 'listData',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022139s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `attribute` [ RunTime:0.002760s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `attribute` LIMIT 1 [ RunTime:0.000848s ]
+[ sql ] [ SQL ] SELECT * FROM `attribute` LIMIT 0,15 [ RunTime:0.001137s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_type` [ RunTime:0.002037s ]
+[ sql ] [ SQL ] SELECT `type_name` FROM `goods_type` WHERE  `type_id` = 1 LIMIT 1 [ RunTime:0.000933s ]
+[ sql ] [ SQL ] SELECT `type_name` FROM `goods_type` WHERE  `type_id` = 1 LIMIT 1 [ RunTime:0.000551s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T11:18:05+08:00 ] 127.0.0.1 127.0.0.1 GET /goods_attr/add/attr_id/2.html
+[ log ] admin.akali.com/goods_attr/add/attr_id/2.html [运行时间：0.477071s][吞吐率：2.10req/s] [内存消耗：808.98kb] [文件加载：62]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods_attr',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/goods_attr/index/type_id/3.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'attr_id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\GoodsAttr->add[ D:\Web\www.akali.com\application\admin\controller\GoodsAttr.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\goods_attr\add.html [ array (
+  0 => 'attrData',
+  1 => 'typeData',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001779s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `attribute` [ RunTime:0.008428s ]
+[ sql ] [ SQL ] SELECT * FROM `attribute` WHERE  `attr_id` = 2 LIMIT 1 [ RunTime:0.000723s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_type` [ RunTime:0.001642s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` [ RunTime:0.000630s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T11:18:11+08:00 ] 127.0.0.1 127.0.0.1 GET /goods_spec/index/type_id/3.html
+[ log ] admin.akali.com/goods_spec/index/type_id/3.html [运行时间：0.477099s][吞吐率：2.10req/s] [内存消耗：715.72kb] [文件加载：62]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods_spec',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/goods_type/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\GoodsSpec->index[ D:\Web\www.akali.com\application\admin\controller\GoodsSpec.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\goods_spec\index.html [ array (
+  0 => 'listData',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015329s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `spec` [ RunTime:0.001542s ]
+[ sql ] [ SQL ] SELECT * FROM `spec` [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_type` [ RunTime:0.000803s ]
+[ sql ] [ SQL ] SELECT `type_name` FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `spec_item` [ RunTime:0.004047s ]
+[ sql ] [ SQL ] SELECT `item_name` FROM `spec_item` WHERE  `spec_id` = 6 [ RunTime:0.000749s ]
+[ sql ] [ SQL ] SELECT `type_name` FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SELECT `item_name` FROM `spec_item` WHERE  `spec_id` = 7 [ RunTime:0.000416s ]
+[ sql ] [ SQL ] SELECT `type_name` FROM `goods_type` WHERE  `type_id` = 1 LIMIT 1 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SELECT `item_name` FROM `spec_item` WHERE  `spec_id` = 8 [ RunTime:0.000444s ]
+[ sql ] [ SQL ] SELECT `type_name` FROM `goods_type` WHERE  `type_id` = 1 LIMIT 1 [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SELECT `item_name` FROM `spec_item` WHERE  `spec_id` = 9 [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SELECT `type_name` FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT `item_name` FROM `spec_item` WHERE  `spec_id` = 10 [ RunTime:0.000307s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T11:18:14+08:00 ] 127.0.0.1 127.0.0.1 GET /goods_spec/add/spec_id/6.html
+[ log ] admin.akali.com/goods_spec/add/spec_id/6.html [运行时间：0.461153s][吞吐率：2.17req/s] [内存消耗：712.34kb] [文件加载：63]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods_spec',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/goods_spec/index/type_id/3.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'spec_id' => '6',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\GoodsSpec->add[ D:\Web\www.akali.com\application\admin\controller\GoodsSpec.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\goods_spec\add.html [ array (
+  0 => 'specData',
+  1 => 'typeData',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001092s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `spec` [ RunTime:0.007247s ]
+[ sql ] [ SQL ] SELECT * FROM `spec` WHERE  `spec_id` = 6 LIMIT 1 [ RunTime:0.000613s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_type` [ RunTime:0.001182s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `spec_item` [ RunTime:0.003432s ]
+[ sql ] [ SQL ] SELECT `item_name` FROM `spec_item` WHERE  `spec_id` = 6 [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SELECT `item_name` FROM `spec_item` WHERE  `spec_id` = 6 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SELECT `item_name` FROM `spec_item` WHERE  `spec_id` = 6 [ RunTime:0.000382s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T11:18:15+08:00 ] 127.0.0.1 127.0.0.1 GET /goods_spec/add/spec_id/6.html
+[ log ] admin.akali.com/goods_spec/add/spec_id/6.html [运行时间：0.477776s][吞吐率：2.09req/s] [内存消耗：711.24kb] [文件加载：63]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods_spec',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/goods_spec/index/type_id/3.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'spec_id' => '6',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\GoodsSpec->add[ D:\Web\www.akali.com\application\admin\controller\GoodsSpec.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\goods_spec\add.html [ array (
+  0 => 'specData',
+  1 => 'typeData',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001025s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `spec` [ RunTime:0.001180s ]
+[ sql ] [ SQL ] SELECT * FROM `spec` WHERE  `spec_id` = 6 LIMIT 1 [ RunTime:0.000513s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_type` [ RunTime:0.001173s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `spec_item` [ RunTime:0.005306s ]
+[ sql ] [ SQL ] SELECT `item_name` FROM `spec_item` WHERE  `spec_id` = 6 [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SELECT `item_name` FROM `spec_item` WHERE  `spec_id` = 6 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SELECT `item_name` FROM `spec_item` WHERE  `spec_id` = 6 [ RunTime:0.000173s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T11:30:19+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] admin.akali.com/ [运行时间：0.457812s][吞吐率：2.18req/s] [内存消耗：352.30kb] [文件加载：52]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Home->index[ D:\Web\www.akali.com\application\admin\controller\Home.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\home\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2021-12-20T11:30:20+08:00 ] 127.0.0.1 127.0.0.1 GET /home/welcome.html
+[ log ] admin.akali.com/home/welcome.html [运行时间：0.425848s][吞吐率：2.35req/s] [内存消耗：346.25kb] [文件加载：51]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Home->welcome[ D:\Web\www.akali.com\application\admin\controller\Home.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\home\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2021-12-20T11:30:22+08:00 ] 127.0.0.1 127.0.0.1 GET /rbac/role_add.html
+[ log ] admin.akali.com/rbac/role_add.html [运行时间：0.537955s][吞吐率：1.86req/s] [内存消耗：1,004.21kb] [文件加载：68]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rbac',
+    2 => 'role_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rbac->role_add[ D:\Web\www.akali.com\application\admin\controller\Rbac.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\rbac\role_add.html [ array (
+  0 => 'node',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001101s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `node` [ RunTime:0.001164s ]
+[ sql ] [ SQL ] SELECT * FROM `node` [ RunTime:0.000449s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T11:30:25+08:00 ] 127.0.0.1 127.0.0.1 GET /rbac/node_add.html
+[ log ] admin.akali.com/rbac/node_add.html [运行时间：0.503065s][吞吐率：1.99req/s] [内存消耗：871.21kb] [文件加载：65]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rbac',
+    2 => 'node_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rbac->node_add[ D:\Web\www.akali.com\application\admin\controller\Rbac.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\rbac\node_add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2021-12-20T11:30:28+08:00 ] 127.0.0.1 127.0.0.1 GET /rbac/node.html
+[ log ] admin.akali.com/rbac/node.html [运行时间：0.524576s][吞吐率：1.91req/s] [内存消耗：992.20kb] [文件加载：68]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rbac',
+    2 => 'node',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rbac->node[ D:\Web\www.akali.com\application\admin\controller\Rbac.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\rbac\node.html [ array (
+  0 => 'node',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013611s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `node` [ RunTime:0.008116s ]
+[ sql ] [ SQL ] SELECT * FROM `node` ORDER BY `local` [ RunTime:0.000743s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T11:30:48+08:00 ] 127.0.0.1 127.0.0.1 GET /rbac/node_edit/id/6.html
+[ log ] admin.akali.com/rbac/node_edit/id/6.html [运行时间：0.523622s][吞吐率：1.91req/s] [内存消耗：968.90kb] [文件加载：65]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rbac',
+    2 => 'node_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/rbac/node.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rbac->node_edit[ D:\Web\www.akali.com\application\admin\controller\Rbac.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\rbac\node_edit.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023857s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `node` [ RunTime:0.001627s ]
+[ sql ] [ SQL ] SELECT * FROM `node` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000613s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T11:30:56+08:00 ] 127.0.0.1 127.0.0.1 GET /goods_type/add.html
+[ log ] admin.akali.com/goods_type/add.html [运行时间：0.463317s][吞吐率：2.16req/s] [内存消耗：558.29kb] [文件加载：51]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods_type',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\GoodsType->add[ D:\Web\www.akali.com\application\admin\controller\GoodsType.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\goods_type\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2021-12-20T11:30:58+08:00 ] 127.0.0.1 127.0.0.1 GET /goods_type/index.html
+[ log ] admin.akali.com/goods_type/index.html [运行时间：0.469914s][吞吐率：2.13req/s] [内存消耗：641.27kb] [文件加载：57]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods_type',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\GoodsType->index[ D:\Web\www.akali.com\application\admin\controller\GoodsType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\goods_type\index.html [ array (
+  0 => 'cateData',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011757s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_type` [ RunTime:0.002785s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` ORDER BY `type_id`  desc [ RunTime:0.000796s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T11:31:01+08:00 ] 127.0.0.1 127.0.0.1 GET /goods_spec/index/type_id/3.html
+[ log ] admin.akali.com/goods_spec/index/type_id/3.html [运行时间：0.497343s][吞吐率：2.01req/s] [内存消耗：714.63kb] [文件加载：62]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods_spec',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/goods_type/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\GoodsSpec->index[ D:\Web\www.akali.com\application\admin\controller\GoodsSpec.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\goods_spec\index.html [ array (
+  0 => 'listData',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017230s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `spec` [ RunTime:0.006228s ]
+[ sql ] [ SQL ] SELECT * FROM `spec` [ RunTime:0.000774s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_type` [ RunTime:0.001293s ]
+[ sql ] [ SQL ] SELECT `type_name` FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `spec_item` [ RunTime:0.006424s ]
+[ sql ] [ SQL ] SELECT `item_name` FROM `spec_item` WHERE  `spec_id` = 6 [ RunTime:0.000811s ]
+[ sql ] [ SQL ] SELECT `type_name` FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SELECT `item_name` FROM `spec_item` WHERE  `spec_id` = 7 [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SELECT `type_name` FROM `goods_type` WHERE  `type_id` = 1 LIMIT 1 [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SELECT `item_name` FROM `spec_item` WHERE  `spec_id` = 8 [ RunTime:0.000542s ]
+[ sql ] [ SQL ] SELECT `type_name` FROM `goods_type` WHERE  `type_id` = 1 LIMIT 1 [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT `item_name` FROM `spec_item` WHERE  `spec_id` = 9 [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SELECT `type_name` FROM `goods_type` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SELECT `item_name` FROM `spec_item` WHERE  `spec_id` = 10 [ RunTime:0.000461s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T11:35:35+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] admin.akali.com/ [运行时间：0.459828s][吞吐率：2.17req/s] [内存消耗：351.50kb] [文件加载：52]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Home->index[ D:\Web\www.akali.com\application\admin\controller\Home.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\home\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2021-12-20T11:35:38+08:00 ] 127.0.0.1 127.0.0.1 GET /rbac/node.html
+[ log ] admin.akali.com/rbac/node.html [运行时间：0.538300s][吞吐率：1.86req/s] [内存消耗：820.14kb] [文件加载：66]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rbac',
+    2 => 'node',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rbac->node[ D:\Web\www.akali.com\application\admin\controller\Rbac.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\rbac\node.html [ array (
+  0 => 'node',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001282s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `node` [ RunTime:0.007272s ]
+[ sql ] [ SQL ] SELECT * FROM `node` ORDER BY `local` [ RunTime:0.000848s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T11:35:42+08:00 ] 127.0.0.1 127.0.0.1 GET /rbac/node_add.html
+[ log ] admin.akali.com/rbac/node_add.html [运行时间：0.459234s][吞吐率：2.18req/s] [内存消耗：627.76kb] [文件加载：63]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rbac',
+    2 => 'node_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rbac->node_add[ D:\Web\www.akali.com\application\admin\controller\Rbac.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\rbac\node_add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2021-12-20T11:36:07+08:00 ] 127.0.0.1 127.0.0.1 GET /goods_type/index.html
+[ log ] admin.akali.com/goods_type/index.html [运行时间：0.455763s][吞吐率：2.19req/s] [内存消耗：641.27kb] [文件加载：57]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods_type',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\GoodsType->index[ D:\Web\www.akali.com\application\admin\controller\GoodsType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\goods_type\index.html [ array (
+  0 => 'cateData',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000950s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_type` [ RunTime:0.005981s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_type` ORDER BY `type_id`  desc [ RunTime:0.000417s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T11:36:10+08:00 ] 127.0.0.1 127.0.0.1 GET /goods_type/add.html
+[ log ] admin.akali.com/goods_type/add.html [运行时间：0.461829s][吞吐率：2.17req/s] [内存消耗：558.29kb] [文件加载：51]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods_type',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\GoodsType->add[ D:\Web\www.akali.com\application\admin\controller\GoodsType.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\goods_type\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2021-12-20T11:36:25+08:00 ] 127.0.0.1 127.0.0.1 GET /rbac/index.html
+[ log ] admin.akali.com/rbac/index.html [运行时间：0.898314s][吞吐率：1.11req/s] [内存消耗：603.37kb] [文件加载：67]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rbac',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rbac->index[ D:\Web\www.akali.com\application\admin\controller\Rbac.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\rbac\index.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001573s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.008418s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000405s ]
+[ error ] [0]类的属性不存在:app\admin\model\Admin->username[D:\Web\www.akali.com\thinkphp\library\think\Model.php:461]
+
+---------------------------------------------------------------
+[ 2021-12-20T11:37:11+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] admin.akali.com/ [运行时间：0.446791s][吞吐率：2.24req/s] [内存消耗：351.89kb] [文件加载：52]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Home->index[ D:\Web\www.akali.com\application\admin\controller\Home.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\home\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2021-12-20T11:37:12+08:00 ] 127.0.0.1 127.0.0.1 GET /home/welcome.html
+[ log ] admin.akali.com/home/welcome.html [运行时间：0.424506s][吞吐率：2.36req/s] [内存消耗：346.25kb] [文件加载：51]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Home->welcome[ D:\Web\www.akali.com\application\admin\controller\Home.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\home\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2021-12-20T11:37:14+08:00 ] 127.0.0.1 127.0.0.1 GET /rbac/index.html
+[ log ] admin.akali.com/rbac/index.html [运行时间：0.494640s][吞吐率：2.02req/s] [内存消耗：736.88kb] [文件加载：66]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rbac',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rbac->index[ D:\Web\www.akali.com\application\admin\controller\Rbac.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\rbac\index.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024784s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.006814s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000555s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T11:37:17+08:00 ] 127.0.0.1 127.0.0.1 GET /rbac/admin_status/id/15/status/1.html
+[ log ] admin.akali.com/rbac/admin_status/id/15/status/1.html [运行时间：0.524204s][吞吐率：1.91req/s] [内存消耗：595.06kb] [文件加载：66]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rbac',
+    2 => 'admin_status',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/rbac/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'id' => '15',
+  'status' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rbac->admin_status[ D:\Web\www.akali.com\application\admin\controller\Rbac.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\Web\www.akali.com\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001325s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.007814s ]
+[ sql ] [ SQL ] UPDATE `admin`  SET `status`=1  WHERE  `id` = 15 [ RunTime:0.007013s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T11:37:20+08:00 ] 127.0.0.1 127.0.0.1 GET /rbac/index.html
+[ log ] admin.akali.com/rbac/index.html [运行时间：0.446278s][吞吐率：2.24req/s] [内存消耗：737.05kb] [文件加载：66]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rbac',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/rbac/admin_status/id/15/status/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rbac->index[ D:\Web\www.akali.com\application\admin\controller\Rbac.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\rbac\index.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000807s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.004535s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000346s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T11:37:24+08:00 ] 127.0.0.1 127.0.0.1 GET /rbac/admin_status/id/15/status/2.html
+[ log ] admin.akali.com/rbac/admin_status/id/15/status/2.html [运行时间：0.460745s][吞吐率：2.17req/s] [内存消耗：593.89kb] [文件加载：66]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rbac',
+    2 => 'admin_status',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/rbac/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'id' => '15',
+  'status' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rbac->admin_status[ D:\Web\www.akali.com\application\admin\controller\Rbac.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\Web\www.akali.com\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001728s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.011626s ]
+[ sql ] [ SQL ] UPDATE `admin`  SET `status`=2  WHERE  `id` = 15 [ RunTime:0.002055s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T11:37:26+08:00 ] 127.0.0.1 127.0.0.1 GET /rbac/index.html
+[ log ] admin.akali.com/rbac/index.html [运行时间：0.457775s][吞吐率：2.18req/s] [内存消耗：737.05kb] [文件加载：66]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rbac',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/rbac/admin_status/id/15/status/2.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rbac->index[ D:\Web\www.akali.com\application\admin\controller\Rbac.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\rbac\index.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001442s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.011032s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000880s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T11:37:33+08:00 ] 127.0.0.1 127.0.0.1 GET /rbac/node.html
+[ log ] admin.akali.com/rbac/node.html [运行时间：0.526513s][吞吐率：1.90req/s] [内存消耗：819.05kb] [文件加载：66]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rbac',
+    2 => 'node',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rbac->node[ D:\Web\www.akali.com\application\admin\controller\Rbac.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\rbac\node.html [ array (
+  0 => 'node',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023476s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `node` [ RunTime:0.006087s ]
+[ sql ] [ SQL ] SELECT * FROM `node` ORDER BY `local` [ RunTime:0.000701s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T11:37:41+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] admin.akali.com/ [运行时间：0.457960s][吞吐率：2.18req/s] [内存消耗：679.06kb] [文件加载：58]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Home->index[ D:\Web\www.akali.com\application\admin\controller\Home.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\home\index_auth.html [ array (
+  0 => 'showNode',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001058s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `node` [ RunTime:0.002805s ]
+[ sql ] [ SQL ] SELECT * FROM `node` WHERE  `show` = 1 ORDER BY `local` [ RunTime:0.000297s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T11:37:43+08:00 ] 127.0.0.1 127.0.0.1 GET /home/welcome.html
+[ log ] admin.akali.com/home/welcome.html [运行时间：0.441071s][吞吐率：2.27req/s] [内存消耗：346.63kb] [文件加载：51]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Home->welcome[ D:\Web\www.akali.com\application\admin\controller\Home.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\home\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2021-12-20T11:37:45+08:00 ] 127.0.0.1 127.0.0.1 GET /rbac/node.html
+[ log ] admin.akali.com/rbac/node.html [运行时间：0.507865s][吞吐率：1.97req/s] [内存消耗：819.05kb] [文件加载：66]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rbac',
+    2 => 'node',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rbac->node[ D:\Web\www.akali.com\application\admin\controller\Rbac.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\rbac\node.html [ array (
+  0 => 'node',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001954s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `node` [ RunTime:0.005508s ]
+[ sql ] [ SQL ] SELECT * FROM `node` ORDER BY `local` [ RunTime:0.000608s ]
+
+---------------------------------------------------------------
+[ 2021-12-20T11:37:48+08:00 ] 127.0.0.1 127.0.0.1 GET /rbac/node_add.html
+[ log ] admin.akali.com/rbac/node_add.html [运行时间：0.455093s][吞吐率：2.20req/s] [内存消耗：627.35kb] [文件加载：63]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rbac',
+    2 => 'node_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rbac->node_add[ D:\Web\www.akali.com\application\admin\controller\Rbac.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\rbac\node_add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2021-12-20T11:37:58+08:00 ] 127.0.0.1 127.0.0.1 GET /goods/add.html
+[ log ] admin.akali.com/goods/add.html [运行时间：0.516934s][吞吐率：1.93req/s] [内存消耗：780.28kb] [文件加载：66]
+[ info ] [ LANG ] D:\Web\www.akali.com\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.akali.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.akali.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\Web\www.akali.com\application\admin\controller\Goods.php ]
+[ info ] [ VIEW ] D:\Web\www.akali.com\public/../application/admin\view\goods\add.html [ array (
+  0 => 'goodsType',
+  1 => 'brand',
+  2 => 'cateInputHtml',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018997s ] mysql:dbname=www_akali_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_type` [ RunTime:0.005774s ]
+[ sql ] [ SQL ] SELECT `type_id`,`type_name` FROM `goods_type` [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `brand` [ RunTime:0.004976s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.005048s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000458s ]
+
+---------------------------------------------------------------
