@@ -134,7 +134,17 @@ function akali_cache($data = '')
  */	
 }
 
-// 递归
+/**
+ * @description:  オラ!オラ!オラ!オラ!⎛⎝≥⏝⏝≤⎛⎝
+ * @author: 神织知更
+ * @time: 2022/03/31 21:56
+ *
+ * 递归找子级数据
+ *
+ * @param  array    $data		二维数组
+ * @param  int      $pid		父级id
+ * @return array				返回处理好的数组
+ */
 function get_child($array, $pid = 0)
 {
 	$temp = [];
